@@ -4,35 +4,39 @@
    ========================================================================== */
 
 :root {
-  /* Trustworthy Royal Blue Theme System (suatakif.vercel.app) */
-  --primary: #1D4ED8;          /* Trustworthy Royal Blue */
-  --primary-hover: #1E40AF;    /* Deep Royal Blue Hover */
-  --primary-light: #EFF6FF;    /* Ice Blue Light Surface */
+  /* High-Contrast Trustworthy Royal Blue Theme System */
+  --primary: #1D4ED8;          /* Vibrant Royal Blue */
+  --primary-hover: #1E40AF;    /* Deep Royal Blue */
+  --primary-light: #EFF6FF;    /* Soft Ice Blue Surface */
   
-  --gold: #F59E0B;             /* Golden Amber Accent */
-  --gold-hover: #D97706;       /* Deep Gold Accent */
-  --gold-light: #FEF3C7;       /* Warm Gold Light */
+  --dark-bg: #0F172A;          /* Deep Slate Navy (Top bar, Footer, Dark UI) */
+  --dark-surface: #1E293B;     /* Alt Navy Surface */
+
+  --gold: #2563EB;             /* Replaced Yellow with Crisp Royal Blue */
+  --gold-hover: #1D4ED8;       
+  --gold-light: #DBEAFE;       
 
   --bg-main: #F8FAFC;          /* Clean Modern Slate Light Background */
   --surface: #FFFFFF;          /* Pure White Surface */
   --surface-alt: #F1F5F9;      /* Alt Surface Slate */
   
-  --text-main: #0F172A;        /* Deep Slate Dark Text */
-  --text-muted: #64748B;       /* Slate Muted Subtitles */
-  --text-light: #94A3B8;       /* Light Slate Text */
+  --text-main: #0F172A;        /* Deep Slate Dark Text (Maximum Contrast) */
+  --text-muted: #475569;       /* Slate Medium Subtitles */
+  --text-light: #64748B;       /* Secondary Muted Text */
   
   --border-light: #E2E8F0;     /* Crisp Slate Border */
   --border-accent: #BFDBFE;    /* Royal Blue Light Border */
+  --border-subtle: #334155;    /* Dark Navy Border */
 
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-full: 9999px;
 
-  --shadow-sm: 0 4px 12px rgba(15, 23, 42, 0.05);
-  --shadow-md: 0 10px 25px rgba(29, 78, 216, 0.10);
-  --shadow-lg: 0 20px 40px rgba(15, 23, 42, 0.15);
-  --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --shadow-sm: 0 4px 12px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 10px 25px rgba(29, 78, 216, 0.12);
+  --shadow-lg: 0 20px 40px rgba(15, 23, 42, 0.18);
+  --transition: all 0.2s ease-in-out;
 }
 
 /* Reset & Strict Responsive Base Styles */
@@ -98,13 +102,23 @@ img {
 
 /* Top Bar - GrandBazaarist Velvet & Gold */
 .top-bar {
-  background: linear-gradient(135deg, var(--dark-bg), #381223);
-  color: #FDE68A;
+  background: #0F172A;
+  color: #FFFFFF;
   padding: 10px 0;
   font-size: 0.88rem;
   font-weight: 600;
-  border-bottom: 1px solid var(--border-subtle);
+  border-bottom: 1px solid #1E293B;
   width: 100%;
+}
+
+.top-bar a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.top-bar a:hover {
+  color: #93C5FD;
 }
 
 .top-bar-inner {
@@ -155,11 +169,9 @@ img {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.97);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-bottom: 2px solid var(--gold-border);
-  box-shadow: var(--shadow-sm);
+  background: #FFFFFF;
+  border-bottom: 2px solid #E2E8F0;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08);
   width: 100%;
 }
 
@@ -296,9 +308,29 @@ img {
 .hero-section {
   position: relative;
   padding: 60px 0 70px;
-  background: radial-gradient(circle at 85% 15%, rgba(197, 160, 89, 0.18) 0%, transparent 55%),
-              radial-gradient(circle at 10% 85%, rgba(97, 27, 63, 0.08) 0%, transparent 55%);
+  background: linear-gradient(180deg, #EFF6FF 0%, #F8FAFC 100%);
   width: 100%;
+}
+
+.hero-subtitle {
+  color: #475569;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.hero-badge, .badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #DBEAFE;
+  color: #1D4ED8;
+  border: 1px solid #BFDBFE;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .hero-grid {
@@ -680,23 +712,9 @@ img {
   flex-wrap: wrap;
 }
 
-.weight-btn-chip {
-  padding: 4px 10px;
-  border-radius: var(--radius-full);
-  border: 1px solid var(--gold-border);
-  background: #FFFBEB;
-  font-size: 0.75rem;
-  font-weight: 800;
-  color: #8B6219;
-  transition: var(--transition);
-}
 
-.weight-btn-chip.active {
-  background: linear-gradient(135deg, var(--gold), var(--gold-hover));
-  border-color: var(--gold);
-  color: var(--dark-bg);
-  box-shadow: 0 2px 8px rgba(197, 160, 89, 0.35);
-}
+
+
 
 .product-footer {
   display: flex;
@@ -831,24 +849,9 @@ img {
   flex-wrap: wrap;
 }
 
-.modal-weight-chip {
-  padding: 8px 18px;
-  border-radius: var(--radius-full);
-  border: 2px solid var(--gold-border);
-  background: #FFFBEB;
-  font-weight: 800;
-  font-size: 0.9rem;
-  color: #8B6219;
-  cursor: pointer;
-  transition: var(--transition);
-}
 
-.modal-weight-chip.active {
-  background: linear-gradient(135deg, var(--gold), var(--gold-hover));
-  border-color: var(--gold);
-  color: var(--dark-bg);
-  box-shadow: 0 4px 14px rgba(197, 160, 89, 0.35);
-}
+
+
 
 /* Cart Drawer */
 .cart-drawer-backdrop {
@@ -1134,11 +1137,35 @@ img {
 
 /* Footer */
 .site-footer {
-  background: var(--dark-bg);
-  color: rgba(255, 255, 255, 0.85);
+  background: #0F172A;
+  color: #94A3B8;
   padding: 60px 0 24px;
-  border-top: 4px solid var(--gold);
+  border-top: 4px solid #1D4ED8;
   width: 100%;
+}
+
+.site-footer h3, .site-footer h4, .footer-title {
+  color: #FFFFFF !important;
+  font-weight: 800;
+}
+
+.footer-links a, .site-footer a {
+  color: #CBD5E1;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.footer-links a:hover, .site-footer a:hover {
+  color: #FFFFFF;
+}
+
+.footer-bottom {
+  border-top: 1px solid #1E293B;
+  padding-top: 24px;
+  margin-top: 40px;
+  text-align: center;
+  color: #64748B;
+  font-size: 0.88rem;
 }
 
 .footer-grid {
@@ -1268,8 +1295,32 @@ img {
   }
 
   .hero-section {
-    padding: 30px 0 40px;
-  }
+  position: relative;
+  padding: 60px 0 70px;
+  background: linear-gradient(180deg, #EFF6FF 0%, #F8FAFC 100%);
+  width: 100%;
+}
+
+.hero-subtitle {
+  color: #475569;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.hero-badge, .badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #DBEAFE;
+  color: #1D4ED8;
+  border: 1px solid #BFDBFE;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 
   .hero-title {
     font-size: 2.1rem;
@@ -1384,10 +1435,7 @@ img {
     gap: 8px;
   }
 
-  .weight-btn-chip {
-    padding: 3px 6px;
-    font-size: 0.7rem;
-  }
+  
 }
 
 
@@ -1503,4 +1551,48 @@ img {
 
 .delivery-legal-text p strong {
   color: #0F172A;
+}
+
+.weight-btn-chip {
+  background: #FFFFFF;
+  border: 1.5px solid #CBD5E1;
+  color: #0F172A;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.weight-btn-chip:hover {
+  border-color: #1D4ED8;
+  color: #1D4ED8;
+  background: #EFF6FF;
+}
+
+.weight-btn-chip.active {
+  background: #1D4ED8;
+  border-color: #1D4ED8;
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.25);
+}
+
+.modal-weight-chip {
+  background: #FFFFFF;
+  border: 1.5px solid #CBD5E1;
+  color: #0F172A;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.modal-weight-chip.active {
+  background: #1D4ED8;
+  border-color: #1D4ED8;
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.25);
 }
