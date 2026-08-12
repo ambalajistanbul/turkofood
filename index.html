@@ -247,28 +247,31 @@
     </div>
   </aside>
 
-  <!-- Quick View / Product Detail Modal -->
+    <!-- Quick View / Product Detail Modal -->
   <div id="modal-backdrop" class="modal-backdrop">
     <div class="modal-content">
       <button id="modal-close-btn" class="modal-close-btn">&times;</button>
-      <div class="modal-img-wrapper">
-        <img id="modal-img" src="" alt="Product image">
-      </div>
-      <div class="modal-body">
-        <h2 id="modal-title" class="modal-title"></h2>
-        <div id="modal-price" class="modal-price"></div>
-        <p id="modal-desc" class="modal-desc"></p>
-        
-        <div>
-          <label data-i18n="selectWeightPrompt" style="display: block; font-size: 0.85rem; font-weight: 700; margin-bottom: 8px;">Выберите Вес / Упаковку:</label>
-          <div id="modal-weight-options" class="modal-weight-selector"></div>
+      <div class="modal-grid">
+        <div class="modal-img-col">
+          <img id="modal-img" src="" alt="Product Image">
         </div>
-
-        <div style="margin-top: 16px;">
-          <button id="modal-add-cart-btn" class="btn-primary" style="width: 100%; justify-content: center;">
-            <span data-i18n="addToCart">В корзину</span>
-            <span>🛒</span>
-          </button>
+        <div class="modal-info-col">
+          <div>
+            <span class="modal-badge-tag">TURKOFOOD PREMIUM</span>
+            <h2 id="modal-title" class="modal-title"></h2>
+            <div id="modal-price" class="modal-price"></div>
+            <p id="modal-description" class="modal-description"></p>
+            <div class="modal-weight-section">
+              <label class="modal-section-label" data-i18n="clickSelectWeight">Выберите вес / gramaj:</label>
+              <div id="modal-weight-chips" class="modal-weight-chips"></div>
+            </div>
+          </div>
+          <div class="modal-actions">
+            <button id="modal-add-btn" class="btn btn-primary btn-lg modal-add-btn">
+              <span>🛒</span>
+              <span data-i18n="addToCart">В корзину</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

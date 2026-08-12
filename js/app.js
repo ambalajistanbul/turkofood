@@ -483,39 +483,46 @@
     const selWeightObj = prod.weights[state.activeModalWeightIdx] || prod.weights[0];
     const formattedLabel = formatWeightLabel(selWeightObj.label);
 
-    document.getElementById('modal-img').src = prod.image;
-    document.getElementById('modal-img').onerror = function() { this.src = 'images/product_fallback.jpg'; };
-    document.getElementById('modal-title').textContent = title;
-    document.getElementById('modal-price').textContent = `${selWeightObj.price.toFixed(2)} MDL`;
-    document.getElementById('modal-desc').textContent = desc;
+    const imgEl = document.getElementById('modal-img');
+    if (imgEl) {
+      imgEl.src = prod.image;
+      imgEl.onerror = function() { this.src = 'images/product_fallback.jpg'; };
+    }
+    
+    const titleEl = document.getElementById('modal-title');
+    if (titleEl) titleEl.textContent = title;
+    
+    const priceEl = document.getElementById('modal-price');
+    if (priceEl) priceEl.textContent = `${selWeightObj.price.toFixed(2)} MDL`;
+    
+    const descEl = document.getElementById('modal-description') || document.getElementById('modal-desc');
+    if (descEl) descEl.textContent = desc;
 
-    const weightContainer = document.getElementById('modal-weight-options');
+    const weightContainer = document.getElementById('modal-weight-chips') || document.getElementById('modal-weight-options');
     if (weightContainer) {
       if (prod.weights.length > 1) {
         weightContainer.innerHTML = prod.weights.map((w, idx) => `
-          <button class="modal-weight-chip ${idx === state.activeModalWeightIdx ? 'active' : ''}" 
-                  onclick="TurkofoodApp.setModalWeight(${idx})">
+          <button class="modal-weight-chip ${idx === state.activeModalWeightIdx ? 'active' : ''}" onclick="TurkofoodApp.setModalWeight(${idx})">
             ${formatWeightLabel(w.label)} (${w.price.toFixed(2)} MDL)
           </button>
         `).join('');
       } else {
-        weightContainer.innerHTML = `<span class="modal-weight-chip active">${formattedLabel} (${selWeightObj.price.toFixed(2)} MDL)</span>`;
+        weightContainer.innerHTML = `
+          <button class="modal-weight-chip active">
+            ${formatWeightLabel(selWeightObj.label)} (${selWeightObj.price.toFixed(2)} MDL)
+          </button>
+        `;
       }
     }
 
-    document.getElementById('modal-add-cart-btn').onclick = function() {
-      addToCartWithWeight(prod.id, state.activeModalWeightIdx);
-      closeModal();
-    };
-  }
-
-  function setModalWeight(weightIdx) {
-    state.activeModalWeightIdx = weightIdx;
-    if (state.activeModalProduct) {
-      state.selectedWeights[state.activeModalProduct.id] = weightIdx;
+    const addBtn = document.getElementById('modal-add-btn') || document.getElementById('modal-add-cart-btn');
+    if (addBtn) {
+      addBtn.onclick = function() {
+        addToCartWithWeight(prod.id, state.activeModalWeightIdx);
+        closeModal();
+        openCartDrawer();
+      };
     }
-    updateModalUI();
-    renderProducts();
   }
 
   function closeModal() {
