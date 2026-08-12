@@ -84,6 +84,18 @@ const TRANSLATIONS = {
 
   ru: {
 
+    Greutate: "Вес",
+    Preț: "Цена",
+    livrare: "Доставка",
+    Calitate: "Качество",
+    Sortare: "Сортировка",
+    Origine: "Происхождение",
+    Total: "Итого",
+    Ambalaj: "Упаковка",
+    greutatea: "вес",
+    Ambalajul: "Упаковку",
+
+
     // Delivery Section Keys
     deliverySectionTitle: "🚚 Условия Доставки",
     fullDeliveryRulesBtn: "Подробные правила доставки",
@@ -202,6 +214,19 @@ const TRANSLATIONS = {
     copyright: "© 2026 Turkofood (turkofood.vercel.app). Все права защищены."
   },
   ro: {
+
+    Вес: "Greutate",
+    Сортировка: "Sortare",
+    доставки: "livrare",
+    Цена: "Preț",
+    Происхождение: "Origine",
+    Упаковка: "Ambalaj",
+    Качество: "Calitate",
+    веса: "greutatea",
+    Итого: "Total",
+    Упаковку: "Ambalaj",
+    Доставка: "Livrare",
+
 
     // Delivery Section Keys
     deliverySectionTitle: "🚚 Condiții de Livrare",
