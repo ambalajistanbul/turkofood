@@ -1,5 +1,87 @@
 // Turkofood Bilingual Translation Dictionary (RU / RO)
 const TRANSLATIONS = {
+    // Delivery Terms & Calculation Translations
+    deliverySectionTitle: {
+      ru: '🚚 Условия Доставки',
+      ro: '🚚 Condiții de Livrare',
+      en: '🚚 Delivery Terms'
+    },
+    deliveryChisinauTitle: {
+      ru: 'Доставка по муниципию Кишинёв',
+      ro: 'Livrare în municipiul Chișinău',
+      en: 'Chisinau Municipality Delivery'
+    },
+    deliveryChisinauDesc: {
+      ru: 'Осуществляется в течение 3 часов с 9:00 до 17:00. БЕСПЛАТНО от 700 MDL. При заказе на меньшую сумму — 80 MDL.',
+      ro: 'Efectuată în 3 ore, între 09:00 - 17:00. GRATUIT de la 700 MDL. La comenzi mai mici — 80 MDL.',
+      en: 'Delivered within 3 hours (9:00 - 17:00). FREE for orders over 700 MDL. Under 700 MDL — 80 MDL fee.'
+    },
+    deliveryMoldovaTitle: {
+      ru: 'Доставка по Республике Молдова',
+      ro: 'Livrare pe teritoriul Republicii Moldova',
+      en: 'Republic of Moldova Delivery'
+    },
+    deliveryMoldovaDesc: {
+      ru: 'Осуществляется в течение 8-12 часов с 9:00 до 16:00. БЕСПЛАТНО от 1200 MDL. При заказе на меньшую сумму — 120 MDL.',
+      ro: 'Efectuată în 8-12 ore, între 09:00 - 16:00. GRATUIT de la 1200 MDL. La comenzi mai mici — 120 MDL.',
+      en: 'Delivered within 8-12 hours (9:00 - 16:00). FREE for orders over 1200 MDL. Under 1200 MDL — 120 MDL fee.'
+    },
+    deliveryDaysNotice: {
+      ru: 'В воскресные дни и в дни государственных праздников доставка не осуществляется.',
+      ro: 'În zilele de duminică și sărbători legale nu se efectuează livrări.',
+      en: 'No deliveries on Sundays and official public holidays.'
+    },
+    deliveryAddressNotice: {
+      ru: 'Вы можете выбрать любой адрес — домой или в офис. 1 адрес на заказ.',
+      ro: 'Puteți alege orice adresă — acasă sau la birou. O singură adresă per comandă.',
+      en: 'Choose any address — home or office. One address per order.'
+    },
+    deliveryInspectionNotice: {
+      ru: 'При получении проверьте целостность упаковки и кассовый чек в присутствии курьера.',
+      ro: 'La primire, verificați integritatea ambalajului și bonul fiscal în prezența curierului.',
+      en: 'Please check package integrity and receipt upon arrival in presence of courier.'
+    },
+    freeShippingProgress: {
+      ru: 'Добавьте еще {amount} MDL для бесплатной доставки по {zone}!',
+      ro: 'Mai adăugați {amount} MDL pentru livrare gratuită în {zone}!',
+      en: 'Add {amount} MDL more for free delivery to {zone}!'
+    },
+    freeShippingUnlocked: {
+      ru: '🎉 Поздравляем! У вас бесплатная доставка!',
+      ro: '🎉 Felicitări! Aveți livrare gratuită!',
+      en: '🎉 Congratulations! You have unlocked free delivery!'
+    },
+    selectDeliveryZone: {
+      ru: 'Выберите зону доставки:',
+      ro: 'Selectați zona de livrare:',
+      en: 'Select delivery zone:'
+    },
+    zoneChisinau: {
+      ru: 'Кишинёв (Бесплатно от 700 MDL)',
+      ro: 'Chișinău (Gratuit de la 700 MDL)',
+      en: 'Chisinau (Free over 700 MDL)'
+    },
+    zoneMoldova: {
+      ru: 'Республика Молдова (Бесплатно от 1200 MDL)',
+      ro: 'Republica Moldova (Gratuit de la 1200 MDL)',
+      en: 'Republic of Moldova (Free over 1200 MDL)'
+    },
+    deliveryFeeLabel: {
+      ru: 'Доставка:',
+      ro: 'Cost livrare:',
+      en: 'Delivery Fee:'
+    },
+    freeDeliveryText: {
+      ru: 'БЕСПЛАТНО',
+      ro: 'GRATUIT',
+      en: 'FREE'
+    },
+    fullDeliveryRulesBtn: {
+      ru: 'Подробные правила доставки',
+      ro: 'Reguli detaliate de livrare',
+      en: 'Full Delivery Policy'
+    },
+
   ru: {
     // Header & Navigation
     storeName: "TURKOFOOD",

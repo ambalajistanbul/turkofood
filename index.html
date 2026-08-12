@@ -334,7 +334,40 @@
   </div>
 
   <!-- Footer -->
-  <footer class="site-footer">
+  
+  <!-- Dedicated Delivery Terms Section -->
+  <section class="delivery-terms-section container" id="delivery-section">
+    <div class="delivery-terms-card">
+      <div class="delivery-header">
+        <h2 data-i18n="deliverySectionTitle">🚚 Условия Доставки</h2>
+        <button class="btn btn-outline btn-sm" onclick="TurkofoodApp.openDeliveryModal()" data-i18n="fullDeliveryRulesBtn">Подробные правила доставки</button>
+      </div>
+      
+      <div class="delivery-grid">
+        <div class="delivery-card-item">
+          <div class="delivery-icon">🏙️</div>
+          <h3 data-i18n="deliveryChisinauTitle">Доставка по муниципию Кишинёв</h3>
+          <p data-i18n="deliveryChisinauDesc">Осуществляется в течение 3 часов с 9:00 до 17:00. БЕСПЛАТНО от 700 MDL. При заказе на меньшую сумму — 80 MDL.</p>
+          <span class="delivery-badge free">FREE ≥ 700 MDL</span>
+        </div>
+        
+        <div class="delivery-card-item">
+          <div class="delivery-icon">🇲🇩</div>
+          <h3 data-i18n="deliveryMoldovaTitle">Доставка по Республике Молдова</h3>
+          <p data-i18n="deliveryMoldovaDesc">Осуществляется в течение 8-12 часов с 9:00 до 16:00. БЕСПЛАТНО от 1200 MDL. При заказе на меньшую сумму — 120 MDL.</p>
+          <span class="delivery-badge free">FREE ≥ 1200 MDL</span>
+        </div>
+      </div>
+      
+      <div class="delivery-footer-notices">
+        <p>🗓️ <span data-i18n="deliveryDaysNotice">В воскресные дни и в дни государственных праздников доставка не осуществляется.</span></p>
+        <p>📍 <span data-i18n="deliveryAddressNotice">Вы можете выбрать любой адрес — домой или в офис. 1 адрес на заказ.</span></p>
+        <p>🔍 <span data-i18n="deliveryInspectionNotice">При получении проверьте целостность упаковки и кассовый чек в присутствии курьера.</span></p>
+      </div>
+    </div>
+  </section>
+
+<footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div>
@@ -380,5 +413,20 @@
   <script src="js/products.js"></script>
   <script src="js/translations.js"></script>
   <script src="js/app.js"></script>
+
+  <!-- Full Delivery Rules Modal -->
+  <div class="modal-overlay" id="delivery-modal">
+    <div class="modal-content delivery-modal-content">
+      <button class="modal-close" onclick="TurkofoodApp.closeDeliveryModal()">&times;</button>
+      <h2 data-i18n="deliverySectionTitle">🚚 Условия и Правила Доставки</h2>
+      <div class="delivery-modal-body" id="delivery-modal-body-content">
+        <!-- Injected dynamically by i18n -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="TurkofoodApp.closeDeliveryModal()">Понятно / Am înțeles</button>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
