@@ -4,40 +4,35 @@
    ========================================================================== */
 
 :root {
-  /* GrandBazaarist Authentic Color Palette */
-  --primary: #611B3F;          /* Imperial Ottoman Burgundy Maroon (#611B3F) */
-  --primary-hover: #4A132F;    /* Deep Pomegranate Wine */
-  --primary-light: #FDF2F8;    /* Soft Rose Cream Light */
+  /* Trustworthy Royal Blue Theme System (suatakif.vercel.app) */
+  --primary: #1D4ED8;          /* Trustworthy Royal Blue */
+  --primary-hover: #1E40AF;    /* Deep Royal Blue Hover */
+  --primary-light: #EFF6FF;    /* Ice Blue Light Surface */
   
-  --gold: #C5A059;             /* Imperial Grand Bazaar Filigree Gold (#C5A059) */
-  --gold-hover: #A3803C;       /* Deep Antique Gold */
-  --gold-light: #FFFBEB;       /* Soft Gold Cream */
-  --gold-border: #F3E5AB;      /* Fine Gold Filigree Border */
+  --gold: #F59E0B;             /* Golden Amber Accent */
+  --gold-hover: #D97706;       /* Deep Gold Accent */
+  --gold-light: #FEF3C7;       /* Warm Gold Light */
+
+  --bg-main: #F8FAFC;          /* Clean Modern Slate Light Background */
+  --surface: #FFFFFF;          /* Pure White Surface */
+  --surface-alt: #F1F5F9;      /* Alt Surface Slate */
   
-  --dark-bg: #2A0E1A;          /* Grand Bazaar Night Espresso Velvet */
-  --dark-surface: #3B1626;
+  --text-main: #0F172A;        /* Deep Slate Dark Text */
+  --text-muted: #64748B;       /* Slate Muted Subtitles */
+  --text-light: #94A3B8;       /* Light Slate Text */
   
-  --light-bg: #FAF7F2;         /* Warm Ottoman Ivory Linen Background */
-  --light-surface: #FFFFFF;    /* Pure Card Surface */
-  
-  --text-main: #2A131F;        /* Deep Burgundy Dark Text */
-  --text-muted: #7A5B6A;       /* Soft Muted Rose Brown Text */
-  --text-light: #FAF7F2;
-  
-  --border-subtle: rgba(197, 160, 89, 0.3);
-  --border-light: #F4ECE1;
-  
-  --shadow-sm: 0 4px 14px rgba(97, 27, 63, 0.05);
-  --shadow-md: 0 10px 30px rgba(97, 27, 63, 0.1);
-  --shadow-lg: 0 20px 50px rgba(97, 27, 63, 0.18);
-  --shadow-gold: 0 8px 25px rgba(197, 160, 89, 0.35);
-  
-  --radius-sm: 10px;
-  --radius-md: 16px;
-  --radius-lg: 28px;
+  --border-light: #E2E8F0;     /* Crisp Slate Border */
+  --border-accent: #BFDBFE;    /* Royal Blue Light Border */
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
   --radius-full: 9999px;
-  
-  --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+
+  --shadow-sm: 0 4px 12px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 10px 25px rgba(29, 78, 216, 0.10);
+  --shadow-lg: 0 20px 40px rgba(15, 23, 42, 0.15);
+  --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Reset & Strict Responsive Base Styles */
@@ -187,7 +182,7 @@ img {
 .logo-badge {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, var(--primary), #4A132F);
+  background: linear-gradient(135deg, var(--primary), #1E40AF);
   border-radius: 14px;
   display: flex;
   align-items: center;
@@ -359,7 +354,7 @@ img {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--primary), #4A132F);
+  background: linear-gradient(135deg, var(--primary), #1E40AF);
   color: white;
   padding: 16px 32px;
   border-radius: var(--radius-full);
@@ -518,7 +513,7 @@ img {
 }
 
 .sidebar-cat-btn.active {
-  background: linear-gradient(135deg, var(--primary), #4A132F);
+  background: linear-gradient(135deg, var(--primary), #1E40AF);
   color: white;
   box-shadow: 0 6px 18px rgba(97, 27, 63, 0.28);
 }
@@ -628,7 +623,7 @@ img {
   text-transform: uppercase;
 }
 
-.badge-popular { background: #C5A059; color: var(--dark-bg); }
+.badge-popular { background: #1D4ED8; color: var(--dark-bg); }
 .badge-new { background: var(--primary); color: white; }
 .badge-bestseller { background: #8B1A4B; color: white; }
 .badge-sale { background: #DC2626; color: white; }
@@ -644,7 +639,7 @@ img {
   align-items: center;
   justify-content: center;
   padding: 0;
-  border-bottom: 1px solid #F4ECE1;
+  border-bottom: 1px solid #E2E8F0;
 }
 
 .product-image-container img {
@@ -1404,7 +1399,7 @@ img {
 
 .delivery-terms-card {
   background: linear-gradient(135deg, #ffffff 0%, #FAF6EF 100%);
-  border: 1.5px solid #E8DFD1;
+  border: 1.5px solid #CBD5E1;
   border-radius: 20px;
   padding: 32px;
   box-shadow: 0 10px 30px rgba(74, 21, 38, 0.05);
@@ -1416,14 +1411,14 @@ img {
   justify-content: space-between;
   margin-bottom: 24px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #E8DFD1;
+  border-bottom: 1px solid #CBD5E1;
 }
 
 .delivery-header h2 {
   font-family: 'Outfit', sans-serif;
   font-size: 1.6rem;
   font-weight: 800;
-  color: #4A1526;
+  color: #0F172A;
   margin: 0;
 }
 
@@ -1436,7 +1431,7 @@ img {
 
 .delivery-card-item {
   background: #ffffff;
-  border: 1px solid #EAE0D5;
+  border: 1px solid #E2E8F0;
   border-radius: 14px;
   padding: 20px;
   display: flex;
@@ -1452,7 +1447,7 @@ img {
 .delivery-card-item h3 {
   font-size: 1.15rem;
   font-weight: 700;
-  color: #4A1526;
+  color: #0F172A;
   margin-bottom: 8px;
 }
 
@@ -1475,7 +1470,7 @@ img {
 }
 
 .delivery-footer-notices {
-  background: #FDFBF7;
+  background: #F8FAFC;
   border: 1px dashed #D6C8B4;
   border-radius: 12px;
   padding: 16px 20px;
@@ -1507,5 +1502,5 @@ img {
 }
 
 .delivery-legal-text p strong {
-  color: #4A1526;
+  color: #0F172A;
 }

@@ -83,6 +83,23 @@ const TRANSLATIONS = {
     },
 
   ru: {
+
+    // Delivery Section Keys
+    deliverySectionTitle: "🚚 Условия Доставки",
+    fullDeliveryRulesBtn: "Подробные правила доставки",
+    deliveryChisinauTitle: "Доставка по муниципию Кишинёв",
+    deliveryChisinauDesc: "Осуществляется в течение 3 часов с 9:00 до 17:00. БЕСПЛАТНО от 700 MDL. При заказе до 700 MDL — стоимость доставки 80 MDL.",
+    deliveryMoldovaTitle: "Доставка по Республике Молдова",
+    deliveryMoldovaDesc: "Осуществляется в течение 8-12 часов с 9:00 до 16:00. БЕСПЛАТНО от 1200 MDL. При заказе до 1200 MDL — стоимость доставки 120 MDL.",
+    deliveryDaysNotice: "В воскресные дни и в дни государственных праздников доставка не осуществляется.",
+    deliveryAddressNotice: "Вы можете выбрать любой адрес — домой или в офис. 1 адрес на заказ.",
+    deliveryInspectionNotice: "При получении проверьте целостность упаковки и кассовый чек в присутствии курьера.",
+    selectDeliveryZone: "Выберите зону доставки:",
+    zoneChisinau: "Кишинёв (Бесплатно от 700 MDL)",
+    zoneMoldova: "Республика Молдова (Бесплатно от 1200 MDL)",
+    deliveryFeeLabel: "Доставка:",
+    freeDeliveryText: "БЕСПЛАТНО",
+
     // Header & Navigation
     storeName: "TURKOFOOD",
     tagline: "Натуральные турецкие продукты в Молдове",
@@ -185,6 +202,23 @@ const TRANSLATIONS = {
     copyright: "© 2026 Turkofood (turkofood.vercel.app). Все права защищены."
   },
   ro: {
+
+    // Delivery Section Keys
+    deliverySectionTitle: "🚚 Condiții de Livrare",
+    fullDeliveryRulesBtn: "Reguli detaliate de livrare",
+    deliveryChisinauTitle: "Livrare în municipiul Chișinău",
+    deliveryChisinauDesc: "Efectuată în 3 ore, între 09:00 - 17:00. GRATUIT de la 700 MDL. La comenzi mai mici de 700 MDL — cost livrare 80 MDL.",
+    deliveryMoldovaTitle: "Livrare pe teritoriul Republicii Moldova",
+    deliveryMoldovaDesc: "Efectuată în 8-12 ore, între 09:00 - 16:00. GRATUIT de la 1200 MDL. La comenzi mai mici de 1200 MDL — cost livrare 120 MDL.",
+    deliveryDaysNotice: "În zilele de duminică și sărbători legale nu se efectuează livrări.",
+    deliveryAddressNotice: "Puteți alege orice adresă — acasă sau la birou. O singură adresă per comandă.",
+    deliveryInspectionNotice: "La primire, verificați integritatea ambalajului și bonul fiscal în prezența curierului.",
+    selectDeliveryZone: "Selectați zona de livrare:",
+    zoneChisinau: "Chișinău (Gratuit de la 700 MDL)",
+    zoneMoldova: "Republica Moldova (Gratuit de la 1200 MDL)",
+    deliveryFeeLabel: "Cost livrare:",
+    freeDeliveryText: "GRATUIT",
+
     // Header & Navigation
     storeName: "TURKOFOOD",
     tagline: "Produse turcești naturale în Moldova",
