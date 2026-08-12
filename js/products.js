@@ -1,4 +1,4 @@
-// Turkofood 100% Authentic Product Catalog Dataset (Bilingual RU/RO)
+// Turkofood 100% Authentic Product Catalog (126 Products)
 const PRODUCTS_DATA = [
   {
     "id": "prod_1",
@@ -204,7 +204,7 @@ const PRODUCTS_DATA = [
     "price": 225.0,
     "currency": "MDL",
     "category": "dragees",
-    "image": "images/product_5.jpg",
+    "image": "images/real_prod_84.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -875,8 +875,8 @@ const PRODUCTS_DATA = [
     ],
     "price": 125.0,
     "currency": "MDL",
-    "category": "nuts",
-    "image": "images/product_5.jpg",
+    "category": "dragees",
+    "image": "images/real_prod_31.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -2939,7 +2939,7 @@ const PRODUCTS_DATA = [
     ],
     "price": 125.0,
     "currency": "MDL",
-    "category": "nuts",
+    "category": "dragees",
     "image": "images/product_7.jpg",
     "badge": null,
     "inStock": true
@@ -3547,7 +3547,7 @@ const PRODUCTS_DATA = [
     ],
     "price": 125.0,
     "currency": "MDL",
-    "category": "nuts",
+    "category": "dragees",
     "image": "images/real_prod_112.jpg",
     "badge": null,
     "inStock": true
