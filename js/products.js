@@ -1,7 +1,8 @@
-// Turkofood 100% Authentic Product Catalog (126 Verified Products)
+// Turkofood 100% Verified WooCommerce Product Catalog (126 Products)
 const PRODUCTS_DATA = [
   {
     "id": "prod_1",
+    "category": "halva",
     "title": {
       "ru": "Батончик Koska с фундуком",
       "ro": "Batoana Koska cu alune de pădure"
@@ -10,22 +11,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Батончик Koska с фундуком.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Batoana Koska cu alune de pădure."
     },
-    "unitType": "unit",
+    "price": 30.0,
+    "image": "images/istanbul_title_item_1.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 30.0
       }
-    ],
-    "price": 30.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_real_item_1.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_2",
+    "category": "halva",
     "title": {
       "ru": "Батончик Koska с арахисом",
       "ro": "Batoana Koska cu arahide"
@@ -34,22 +31,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Батончик Koska с арахисом.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Batoana Koska cu arahide."
     },
-    "unitType": "unit",
+    "price": 20.0,
+    "image": "images/istanbul_title_item_2.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 20.0
       }
-    ],
-    "price": 20.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_real_item_2.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_3",
+    "category": "halva",
     "title": {
       "ru": "Батончик Koska с миндалем",
       "ro": "Batoana Koska cu migdale"
@@ -58,22 +51,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Батончик Koska с миндалем.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Batoana Koska cu migdale."
     },
-    "unitType": "unit",
+    "price": 30.0,
+    "image": "images/istanbul_title_item_3.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 30.0
       }
-    ],
-    "price": 30.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_real_item_3.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_4",
+    "category": "halva",
     "title": {
       "ru": "Батончик Koska с морковью и орехами",
       "ro": "Batoana Koska cu morcov și nuci (Cezerye)"
@@ -82,22 +71,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Батончик Koska с морковью и орехами.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Batoana Koska cu morcov și nuci (Cezerye)."
     },
-    "unitType": "unit",
+    "price": 20.0,
+    "image": "images/istanbul_title_item_4.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 20.0
       }
-    ],
-    "price": 20.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_real_item_4.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_5",
+    "category": "dragees",
     "title": {
       "ru": "Сублимированная клубника в шоколаде с лаймом",
       "ro": "Căpșuni liofilizate în ciocolată cu lămâie verde"
@@ -106,7 +91,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Сублимированная клубника в шоколаде с лаймом.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Căpșuni liofilizate în ciocolată cu lămâie verde."
     },
-    "unitType": "weighted",
+    "price": 225.0,
+    "image": "images/istanbul_title_item_5.png",
     "weights": [
       {
         "label": "250g",
@@ -120,16 +106,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 900.0
       }
-    ],
-    "price": 225.0,
-    "currency": "MDL",
-    "category": "dragees",
-    "image": "images/istanbul_title_item_84.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_6",
+    "category": "spices-oils",
     "title": {
       "ru": "Турецкий чай Filiz 200г",
       "ro": "Ceai turcesc Filiz 200g"
@@ -138,22 +119,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Турецкий чай Filiz 200г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Filiz 200g."
     },
-    "unitType": "unit",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_6.jpg",
     "weights": [
       {
         "label": "200 GR",
         "price": 100.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_real_item_6.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_7",
+    "category": "pastes-jams",
     "title": {
       "ru": "Тахини (кунжутная паста) Koska",
       "ro": "Tahini (pastă de susan) Koska"
@@ -162,22 +139,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Тахини (кунжутная паста) Koska.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Tahini (pastă de susan) Koska."
     },
-    "unitType": "unit",
+    "price": 190.0,
+    "image": "images/istanbul_title_item_7.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 190.0
       }
-    ],
-    "price": 190.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_real_item_7.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_8",
+    "category": "dragees",
     "title": {
       "ru": "Сублимированная малина в белом шоколаде",
       "ro": "Zmeură liofilizată în ciocolată albă"
@@ -186,7 +159,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Сублимированная малина в белом шоколаде.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Zmeură liofilizată în ciocolată albă."
     },
-    "unitType": "weighted",
+    "price": 225.0,
+    "image": "images/istanbul_title_item_8.jpg",
     "weights": [
       {
         "label": "250g",
@@ -200,16 +174,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 900.0
       }
-    ],
-    "price": 225.0,
-    "currency": "MDL",
-    "category": "dragees",
-    "image": "images/istanbul_real_item_8.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_9",
+    "category": "dried-fruits",
     "title": {
       "ru": "Ананас сушеный (цукаты)",
       "ro": "Ananas uscat (fructe confiate)"
@@ -218,7 +187,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Ананас сушеный (цукаты).",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ananas uscat (fructe confiate)."
     },
-    "unitType": "weighted",
+    "price": 75.0,
+    "image": "images/istanbul_title_item_9.jpg",
     "weights": [
       {
         "label": "250g",
@@ -232,16 +202,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 300.0
       }
-    ],
-    "price": 75.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_real_item_9.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_10",
+    "category": "nuts",
     "title": {
       "ru": "Арахис в кунжуте с медом",
       "ro": "Arahide în susan cu miere"
@@ -250,7 +215,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Арахис в кунжуте с медом.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Arahide în susan cu miere."
     },
-    "unitType": "weighted",
+    "price": 62.5,
+    "image": "images/istanbul_title_item_10.png",
     "weights": [
       {
         "label": "250g",
@@ -264,16 +230,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 250.0
       }
-    ],
-    "price": 62.5,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_7.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_11",
+    "category": "nuts",
     "title": {
       "ru": "Арахис хрустящий в панировке",
       "ro": "Arahide crocante pane"
@@ -282,7 +243,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Арахис хрустящий в панировке.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Arahide crocante pane."
     },
-    "unitType": "weighted",
+    "price": 62.5,
+    "image": "images/istanbul_title_item_11.jpg",
     "weights": [
       {
         "label": "250g",
@@ -296,16 +258,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 250.0
       }
-    ],
-    "price": 62.5,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_real_item_11.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_12",
+    "category": "nuts",
     "title": {
       "ru": "Арахис жареный соленый",
       "ro": "Arahide prăjite sărate"
@@ -314,7 +271,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Арахис жареный соленый.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Arahide prăjite sărate."
     },
-    "unitType": "weighted",
+    "price": 55.0,
+    "image": "images/istanbul_title_item_12.png",
     "weights": [
       {
         "label": "250g",
@@ -328,16 +286,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 220.0
       }
-    ],
-    "price": 55.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_9.jpg",
-    "badge": "new",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_13",
+    "category": "baklava",
     "title": {
       "ru": "Баклава с грецким орехом",
       "ro": "Baclava cu nucă"
@@ -346,7 +299,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Баклава с грецким орехом.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Baclava cu nucă."
     },
-    "unitType": "weighted",
+    "price": 112.5,
+    "image": "images/istanbul_title_item_13.jpg",
     "weights": [
       {
         "label": "250g",
@@ -360,16 +314,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 450.0
       }
-    ],
-    "price": 112.5,
-    "currency": "MDL",
-    "category": "baklava",
-    "image": "images/istanbul_real_item_13.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_14",
+    "category": "baklava",
     "title": {
       "ru": "Баклава с премиум фисташками",
       "ro": "Baclava cu fistic premium"
@@ -378,7 +327,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Баклава с премиум фисташками.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Baclava cu fistic premium."
     },
-    "unitType": "weighted",
+    "price": 162.5,
+    "image": "images/istanbul_title_item_14.png",
     "weights": [
       {
         "label": "250g",
@@ -392,16 +342,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 650.0
       }
-    ],
-    "price": 162.5,
-    "currency": "MDL",
-    "category": "baklava",
-    "image": "images/istanbul_real_item_14.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_15",
+    "category": "nuts",
     "title": {
       "ru": "Бразильский орех отборный",
       "ro": "Nuci braziliene selecte"
@@ -410,7 +355,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Бразильский орех отборный.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Nuci braziliene selecte."
     },
-    "unitType": "weighted",
+    "price": 225.0,
+    "image": "images/istanbul_title_item_15.png",
     "weights": [
       {
         "label": "250g",
@@ -424,16 +370,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 900.0
       }
-    ],
-    "price": 225.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_real_item_15.png",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_16",
+    "category": "dried-fruits",
     "title": {
       "ru": "Сушеные бананы премиум",
       "ro": "Banane uscate premium"
@@ -442,7 +383,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Сушеные бананы премиум.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Banane uscate premium."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_16.png",
     "weights": [
       {
         "label": "250g",
@@ -456,16 +398,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_real_item_16.png",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_17",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Гранатовый лукум с фисташками и барбарисом",
       "ro": "Rahat lokum de rodie cu fistic și dracilă"
@@ -474,7 +411,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Гранатовый лукум с фисташками и барбарисом.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat lokum de rodie cu fistic și dracilă."
     },
-    "unitType": "weighted",
+    "price": 125.0,
+    "image": "images/istanbul_title_item_17.jpg",
     "weights": [
       {
         "label": "250g",
@@ -488,16 +426,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 500.0
       }
-    ],
-    "price": 125.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_14.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_18",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Гранатовый лукум с фисташками и воздушным рисом",
       "ro": "Rahat lokum de rodie cu fistic și orez expandat"
@@ -506,7 +439,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Гранатовый лукум с фисташками и воздушным рисом.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat lokum de rodie cu fistic și orez expandat."
     },
-    "unitType": "weighted",
+    "price": 125.0,
+    "image": "images/istanbul_title_item_18.jpg",
     "weights": [
       {
         "label": "250g",
@@ -520,16 +454,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 500.0
       }
-    ],
-    "price": 125.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_15.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_19",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Гранатовый лукум с фисташками и лепестками роз",
       "ro": "Rahat lokum de rodie cu fistic și petale de trandafir"
@@ -538,7 +467,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Гранатовый лукум с фисташками и лепестками роз.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat lokum de rodie cu fistic și petale de trandafir."
     },
-    "unitType": "weighted",
+    "price": 125.0,
+    "image": "images/istanbul_title_item_19.jpg",
     "weights": [
       {
         "label": "250g",
@@ -552,16 +482,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 500.0
       }
-    ],
-    "price": 125.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_16.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_20",
+    "category": "nuts",
     "title": {
       "ru": "Грецкие орехи",
       "ro": "Nuci grecești"
@@ -570,7 +495,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Грецкие орехи.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Nuci grecești."
     },
-    "unitType": "weighted",
+    "price": 87.5,
+    "image": "images/istanbul_title_item_20.jpg",
     "weights": [
       {
         "label": "250g",
@@ -584,16 +510,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 350.0
       }
-    ],
-    "price": 87.5,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_17.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_21",
+    "category": "pastes-jams",
     "title": {
       "ru": "Джем из Абрикоса Koska 300гр",
       "ro": "Gem de caise Koska 300g"
@@ -602,22 +523,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Джем из Абрикоса Koska 300гр.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de caise Koska 300g."
     },
-    "unitType": "unit",
+    "price": 60.0,
+    "image": "images/istanbul_title_item_21.jpg",
     "weights": [
       {
         "label": "300ГР",
         "price": 60.0
       }
-    ],
-    "price": 60.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_18.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_22",
+    "category": "pastes-jams",
     "title": {
       "ru": "Джем из Айвы Koska 300г",
       "ro": "Gem de gutui Koska 300g"
@@ -626,22 +543,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Джем из Айвы Koska 300г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de gutui Koska 300g."
     },
-    "unitType": "unit",
+    "price": 60.0,
+    "image": "images/istanbul_title_item_22.jpg",
     "weights": [
       {
         "label": "300Г",
         "price": 60.0
       }
-    ],
-    "price": 60.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_19.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_23",
+    "category": "pastes-jams",
     "title": {
       "ru": "Джем из Апельсина Koska 300гр",
       "ro": "Gem de portocale Koska 300g"
@@ -650,22 +563,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Джем из Апельсина Koska 300гр.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de portocale Koska 300g."
     },
-    "unitType": "unit",
+    "price": 70.0,
+    "image": "images/istanbul_title_item_23.png",
     "weights": [
       {
         "label": "300ГР",
         "price": 70.0
       }
-    ],
-    "price": 70.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_real_item_23.png",
-    "badge": "new",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_24",
+    "category": "pastes-jams",
     "title": {
       "ru": "Джем из Вишни Koska 300гр",
       "ro": "Gem de vișine Koska 300g"
@@ -674,22 +583,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Джем из Вишни Koska 300гр.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de vișine Koska 300g."
     },
-    "unitType": "unit",
+    "price": 70.0,
+    "image": "images/istanbul_title_item_24.jpg",
     "weights": [
       {
         "label": "300ГР",
         "price": 70.0
       }
-    ],
-    "price": 70.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_20.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_25",
+    "category": "pastes-jams",
     "title": {
       "ru": "Джем из ежевики Koska 300гр",
       "ro": "Gem de mure Koska 300g"
@@ -698,22 +603,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Джем из ежевики Koska 300гр.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de mure Koska 300g."
     },
-    "unitType": "unit",
+    "price": 80.0,
+    "image": "images/istanbul_title_item_25.png",
     "weights": [
       {
         "label": "300ГР",
         "price": 80.0
       }
-    ],
-    "price": 80.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_21.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_26",
+    "category": "pastes-jams",
     "title": {
       "ru": "Джем из Инжира Koska 300гр",
       "ro": "Gem de smochine Koska 300g"
@@ -722,22 +623,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Джем из Инжира Koska 300гр.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de smochine Koska 300g."
     },
-    "unitType": "unit",
+    "price": 60.0,
+    "image": "images/istanbul_title_item_26.jpg",
     "weights": [
       {
         "label": "300ГР",
         "price": 60.0
       }
-    ],
-    "price": 60.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_22.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_27",
+    "category": "pastes-jams",
     "title": {
       "ru": "Джем из Клубники Koska 300гр",
       "ro": "Gem de căpșuni Koska 300g"
@@ -746,22 +643,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Джем из Клубники Koska 300гр.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de căpșuni Koska 300g."
     },
-    "unitType": "unit",
+    "price": 70.0,
+    "image": "images/istanbul_title_item_27.jpg",
     "weights": [
       {
         "label": "300ГР",
         "price": 70.0
       }
-    ],
-    "price": 70.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_23.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_28",
+    "category": "pastes-jams",
     "title": {
       "ru": "Джем из Розы Koska 300гр",
       "ro": "Gem de trandafir Koska 300g"
@@ -770,22 +663,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Джем из Розы Koska 300гр.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de trandafir Koska 300g."
     },
-    "unitType": "unit",
+    "price": 60.0,
+    "image": "images/istanbul_title_item_28.jpg",
     "weights": [
       {
         "label": "300ГР",
         "price": 60.0
       }
-    ],
-    "price": 60.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_24.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_29",
+    "category": "dragees",
     "title": {
       "ru": "Драже Бонибон",
       "ro": "Drajeuri Bonibon"
@@ -794,7 +683,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Драже Бонибон.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Drajeuri Bonibon."
     },
-    "unitType": "weighted",
+    "price": 62.5,
+    "image": "images/istanbul_title_item_29.png",
     "weights": [
       {
         "label": "250g",
@@ -808,16 +698,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 250.0
       }
-    ],
-    "price": 62.5,
-    "currency": "MDL",
-    "category": "dragees",
-    "image": "images/istanbul_title_item_25.png",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_30",
+    "category": "dragees",
     "title": {
       "ru": "Драже камушки",
       "ro": "Drajeuri pietricile de ciocolată"
@@ -826,7 +711,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Драже камушки.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Drajeuri pietricile de ciocolată."
     },
-    "unitType": "weighted",
+    "price": 62.5,
+    "image": "images/istanbul_title_item_30.jpg",
     "weights": [
       {
         "label": "250g",
@@ -840,16 +726,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 250.0
       }
-    ],
-    "price": 62.5,
-    "currency": "MDL",
-    "category": "dragees",
-    "image": "images/istanbul_title_item_26.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_31",
+    "category": "dragees",
     "title": {
       "ru": "Драже с лесным орехом в белом шоколаде",
       "ro": "Drajeuri cu alune de pădure în ciocolată albă"
@@ -858,7 +739,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Драже с лесным орехом в белом шоколаде.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Drajeuri cu alune de pădure în ciocolată albă."
     },
-    "unitType": "weighted",
+    "price": 125.0,
+    "image": "images/istanbul_title_item_31.png",
     "weights": [
       {
         "label": "250g",
@@ -872,16 +754,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 500.0
       }
-    ],
-    "price": 125.0,
-    "currency": "MDL",
-    "category": "dragees",
-    "image": "images/istanbul_real_item_31.png",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_32",
+    "category": "nuts",
     "title": {
       "ru": "Жаренная кукуруза",
       "ro": "Porumb prăjit"
@@ -890,22 +767,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Жаренная кукуруза.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Porumb prăjit."
     },
-    "unitType": "unit",
+    "price": 50.0,
+    "image": "images/istanbul_title_item_32.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 50.0
       }
-    ],
-    "price": 50.0,
-    "currency": "MDL",
-    "category": "sweets",
-    "image": "images/istanbul_title_item_27.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_33",
+    "category": "tea",
     "title": {
       "ru": "Зелёный чай 100г",
       "ro": "Ceai verde 100g"
@@ -914,22 +787,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Зелёный чай 100г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai verde 100g."
     },
-    "unitType": "unit",
+    "price": 95.0,
+    "image": "images/istanbul_title_item_33.jpg",
     "weights": [
       {
         "label": "100Г",
         "price": 95.0
       }
-    ],
-    "price": 95.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_real_item_33.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_34",
+    "category": "tea",
     "title": {
       "ru": "Зимний чай",
       "ro": "Ceai de iarnă"
@@ -938,22 +807,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Зимний чай.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai de iarnă."
     },
-    "unitType": "unit",
+    "price": 150.0,
+    "image": "images/istanbul_title_item_34.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 150.0
       }
-    ],
-    "price": 150.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_28.jpg",
-    "badge": "new",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_35",
+    "category": "tea",
     "title": {
       "ru": "Зимний чай 100г",
       "ro": "Ceai de iarnă 100g"
@@ -962,22 +827,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Зимний чай 100г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai de iarnă 100g."
     },
-    "unitType": "unit",
+    "price": 80.0,
+    "image": "images/istanbul_title_item_35.png",
     "weights": [
       {
         "label": "100Г",
         "price": 80.0
       }
-    ],
-    "price": 80.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_28.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_36",
+    "category": "dried-fruits",
     "title": {
       "ru": "Изум голден",
       "ro": "Stafide aurii Golden"
@@ -986,22 +847,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Изум голден.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Stafide aurii Golden."
     },
-    "unitType": "unit",
+    "price": 75.0,
+    "image": "images/istanbul_title_item_36.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 75.0
       }
-    ],
-    "price": 75.0,
-    "currency": "MDL",
-    "category": "sweets",
-    "image": "images/istanbul_title_item_29.png",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_37",
+    "category": "dried-fruits",
     "title": {
       "ru": "Имбирь сушеный",
       "ro": "Smochine uscate premium"
@@ -1010,7 +867,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Имбирь сушеный.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Smochine uscate premium."
     },
-    "unitType": "weighted",
+    "price": 75.0,
+    "image": "images/istanbul_title_item_37.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1024,16 +882,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 300.0
       }
-    ],
-    "price": 75.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_30.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_38",
+    "category": "baklava",
     "title": {
       "ru": "Кадаиф с фисташками",
       "ro": "Ghimbir confiat"
@@ -1042,7 +895,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кадаиф с фисташками.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ghimbir confiat."
     },
-    "unitType": "weighted",
+    "price": 162.5,
+    "image": "images/istanbul_title_item_38.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1056,16 +910,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 650.0
       }
-    ],
-    "price": 162.5,
-    "currency": "MDL",
-    "category": "baklava",
-    "image": "images/istanbul_title_item_31.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_39",
+    "category": "coffee",
     "title": {
       "ru": "Какао Nuri Toplar",
       "ro": "Cacao Nuri Toplar"
@@ -1074,22 +923,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Какао Nuri Toplar.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cacao Nuri Toplar."
     },
-    "unitType": "unit",
+    "price": 240.0,
+    "image": "images/istanbul_title_item_39.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 240.0
       }
-    ],
-    "price": 240.0,
-    "currency": "MDL",
-    "category": "sweets",
-    "image": "images/istanbul_title_item_32.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_40",
+    "category": "nuts",
     "title": {
       "ru": "Кешью жареный соленый",
       "ro": "Caju crud premium"
@@ -1098,7 +943,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кешью жареный соленый.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Caju crud premium."
     },
-    "unitType": "weighted",
+    "price": 137.5,
+    "image": "images/istanbul_title_item_40.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1112,16 +958,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 550.0
       }
-    ],
-    "price": 137.5,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_33.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_41",
+    "category": "nuts",
     "title": {
       "ru": "Кешью сушеный",
       "ro": "Caju prăjit sărat"
@@ -1130,7 +971,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кешью сушеный.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Caju prăjit sărat."
     },
-    "unitType": "weighted",
+    "price": 137.5,
+    "image": "images/istanbul_title_item_41.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1144,16 +986,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 550.0
       }
-    ],
-    "price": 137.5,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_34.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_42",
+    "category": "dried-fruits",
     "title": {
       "ru": "Киви сушеный",
       "ro": "Kiwi uscat (fructe confiate)"
@@ -1162,7 +999,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Киви сушеный.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Kiwi uscat (fructe confiate)."
     },
-    "unitType": "weighted",
+    "price": 75.0,
+    "image": "images/istanbul_title_item_42.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1176,16 +1014,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 300.0
       }
-    ],
-    "price": 75.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_35.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_43",
+    "category": "coffee",
     "title": {
       "ru": "Кофе Nuri Toplar Осман 250г",
       "ro": "Cafea Nuri Toplar Osman 250g"
@@ -1194,22 +1027,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кофе Nuri Toplar Осман 250г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea Nuri Toplar Osman 250g."
     },
-    "unitType": "unit",
+    "price": 150.0,
+    "image": "images/istanbul_title_item_43.png",
     "weights": [
       {
         "label": "250Г",
         "price": 150.0
       }
-    ],
-    "price": 150.0,
-    "currency": "MDL",
-    "category": "coffee",
-    "image": "images/istanbul_real_item_43.png",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_44",
+    "category": "coffee",
     "title": {
       "ru": "Кофе Nuri Toplar с лесным орехом 250г",
       "ro": "Cafea Nuri Toplar cu damasc"
@@ -1218,22 +1047,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кофе Nuri Toplar с лесным орехом 250г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea Nuri Toplar cu damasc."
     },
-    "unitType": "unit",
+    "price": 210.0,
+    "image": "images/istanbul_title_item_44.png",
     "weights": [
       {
         "label": "250Г",
         "price": 210.0
       }
-    ],
-    "price": 210.0,
-    "currency": "MDL",
-    "category": "coffee",
-    "image": "images/istanbul_title_item_36.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_45",
+    "category": "coffee",
     "title": {
       "ru": "Кофе Nuri Toplar с мастикой 250г",
       "ro": "Cafea Nuri Toplar 250g"
@@ -1242,22 +1067,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кофе Nuri Toplar с мастикой 250г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea Nuri Toplar 250g."
     },
-    "unitType": "unit",
+    "price": 210.0,
+    "image": "images/istanbul_title_item_45.png",
     "weights": [
       {
         "label": "250Г",
         "price": 210.0
       }
-    ],
-    "price": 210.0,
-    "currency": "MDL",
-    "category": "coffee",
-    "image": "images/istanbul_title_item_37.jpg",
-    "badge": "new",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_46",
+    "category": "coffee",
     "title": {
       "ru": "Кофе по-турецки Kurukahveci Mehmet efendi 100gr",
       "ro": "Ulei de cocos 250ml"
@@ -1266,22 +1087,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кофе по-турецки Kurukahveci Mehmet efendi 100gr.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ulei de cocos 250ml."
     },
-    "unitType": "unit",
+    "price": 70.0,
+    "image": "images/istanbul_title_item_46.jpg",
     "weights": [
       {
         "label": "100GR",
         "price": 70.0
       }
-    ],
-    "price": 70.0,
-    "currency": "MDL",
-    "category": "coffee",
-    "image": "images/istanbul_title_item_38.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_47",
+    "category": "coffee",
     "title": {
       "ru": "Кофе по-турецки Kurukahveci Mehmet efendi 250gr",
       "ro": "Bomboane turcești asortate"
@@ -1290,22 +1107,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кофе по-турецки Kurukahveci Mehmet efendi 250gr.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Bomboane turcești asortate."
     },
-    "unitType": "unit",
+    "price": 200.0,
+    "image": "images/istanbul_title_item_47.jpg",
     "weights": [
       {
         "label": "250GR",
         "price": 200.0
       }
-    ],
-    "price": 200.0,
-    "currency": "MDL",
-    "category": "coffee",
-    "image": "images/istanbul_title_item_39.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_48",
+    "category": "coffee",
     "title": {
       "ru": "Кофе по-турецки Kurukahveci Mehmet efendi 500gr",
       "ro": "Caise uscate ciocolatii suculente"
@@ -1314,22 +1127,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кофе по-турецки Kurukahveci Mehmet efendi 500gr.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Caise uscate ciocolatii suculente."
     },
-    "unitType": "unit",
+    "price": 370.0,
+    "image": "images/istanbul_title_item_48.jpg",
     "weights": [
       {
         "label": "500GR",
         "price": 370.0
       }
-    ],
-    "price": 370.0,
-    "currency": "MDL",
-    "category": "coffee",
-    "image": "images/istanbul_title_item_40.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_49",
+    "category": "coffee",
     "title": {
       "ru": "Кофе по-турецки Nuri Toplar",
       "ro": "Caise uscate regale"
@@ -1338,22 +1147,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кофе по-турецки Nuri Toplar.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Caise uscate regale."
     },
-    "unitType": "unit",
+    "price": 65.0,
+    "image": "images/istanbul_title_item_49.png",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 65.0
       }
-    ],
-    "price": 65.0,
-    "currency": "MDL",
-    "category": "coffee",
-    "image": "images/istanbul_title_item_41.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_50",
+    "category": "coffee",
     "title": {
       "ru": "Кофе по-турецки Nuri Toplar 250г -500г",
       "ro": "Lămâie uscată feliată"
@@ -1362,22 +1167,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кофе по-турецки Nuri Toplar 250г -500г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Lămâie uscată feliată."
     },
-    "unitType": "unit",
+    "price": 180.0,
+    "image": "images/istanbul_title_item_50.jpg",
     "weights": [
       {
         "label": "250Г",
         "price": 180.0
       }
-    ],
-    "price": 180.0,
-    "currency": "MDL",
-    "category": "coffee",
-    "image": "images/istanbul_title_item_42.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_51",
+    "category": "coffee",
     "title": {
       "ru": "Кофе по-турецки Nuri Toplar с мастикой 100gr",
       "ro": "Lămâie verde uscată feliată"
@@ -1386,22 +1187,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кофе по-турецки Nuri Toplar с мастикой 100gr.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Lămâie verde uscată feliată."
     },
-    "unitType": "unit",
+    "price": 80.0,
+    "image": "images/istanbul_title_item_51.jpg",
     "weights": [
       {
         "label": "100GR",
         "price": 80.0
       }
-    ],
-    "price": 80.0,
-    "currency": "MDL",
-    "category": "coffee",
-    "image": "images/istanbul_title_item_43.png",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_52",
+    "category": "nuts",
     "title": {
       "ru": "Кукурузные чипсы со сладкой паприкой",
       "ro": "Acid citric"
@@ -1410,22 +1207,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кукурузные чипсы со сладкой паприкой.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Acid citric."
     },
-    "unitType": "unit",
+    "price": 50.0,
+    "image": "images/istanbul_title_item_52.png",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 50.0
       }
-    ],
-    "price": 50.0,
-    "currency": "MDL",
-    "category": "sweets",
-    "image": "images/istanbul_title_item_44.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_53",
+    "category": "pastes-jams",
     "title": {
       "ru": "Кунжутная паста Koska",
       "ro": "Paletă pentru tort și baclava"
@@ -1434,22 +1227,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кунжутная паста Koska.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Paletă pentru tort și baclava."
     },
-    "unitType": "unit",
+    "price": 90.0,
+    "image": "images/istanbul_title_item_53.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 90.0
       }
-    ],
-    "price": 90.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_45.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_54",
+    "category": "spices-oils",
     "title": {
       "ru": "Кунжутная халва с рожковой пудрой и фундуком Koska 200гр",
       "ro": "Nuci Macadamia în coajă"
@@ -1458,22 +1247,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Кунжутная халва с рожковой пудрой и фундуком Koska 200гр.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Nuci Macadamia în coajă."
     },
-    "unitType": "unit",
+    "price": 65.0,
+    "image": "images/istanbul_title_item_54.jpg",
     "weights": [
       {
         "label": "200ГР",
         "price": 65.0
       }
-    ],
-    "price": 65.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_46.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_55",
+    "category": "dried-fruits",
     "title": {
       "ru": "Курага",
       "ro": "Mac persan"
@@ -1482,7 +1267,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Курага.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mac persan."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_55.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1496,16 +1282,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_47.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_56",
+    "category": "dried-fruits",
     "title": {
       "ru": "Курага натуральная (абрикос вяленый)",
       "ro": "Mango uscat natural"
@@ -1514,7 +1295,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Курага натуральная (абрикос вяленый).",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mango uscat natural."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_56.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1528,16 +1310,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_48.jpg",
-    "badge": "new",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_57",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум Sultan с фисташками Koska 500г",
       "ro": "Mango confiat"
@@ -1546,7 +1323,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум Sultan с фисташками Koska 500г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mango confiat."
     },
-    "unitType": "weighted",
+    "price": 130.0,
+    "image": "images/istanbul_title_item_57.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1560,16 +1338,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 520.0
       }
-    ],
-    "price": 130.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_49.png",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_58",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум ассорти (фундук, фисташки, классический и кокосовая стружка ) Koska 250г",
       "ro": "Miere turcească polifloră 500g"
@@ -1578,7 +1351,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум ассорти (фундук, фисташки, классический и кокосовая стружка ) Koska 250г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Miere turcească polifloră 500g."
     },
-    "unitType": "weighted",
+    "price": 90.0,
+    "image": "images/istanbul_title_item_58.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1592,16 +1366,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 360.0
       }
-    ],
-    "price": 90.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_50.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_59",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум ассорти с разными ароматами Koska 250г",
       "ro": "Migdale albite"
@@ -1610,7 +1379,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум ассорти с разными ароматами Koska 250г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Migdale albite."
     },
-    "unitType": "weighted",
+    "price": 70.0,
+    "image": "images/istanbul_title_item_59.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1624,16 +1394,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 280.0
       }
-    ],
-    "price": 70.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_51.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_60",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум ассорти с разными ароматами Koska 500г",
       "ro": "Migdale prăjite sărate"
@@ -1642,7 +1407,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум ассорти с разными ароматами Koska 500г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Migdale prăjite sărate."
     },
-    "unitType": "weighted",
+    "price": 110.0,
+    "image": "images/istanbul_title_item_60.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1656,16 +1422,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 440.0
       }
-    ],
-    "price": 110.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_52.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_61",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум гранатовый с фисташкой и кокосовая стружка",
       "ro": "Migdale crude premium"
@@ -1674,7 +1435,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум гранатовый с фисташкой и кокосовая стружка.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Migdale crude premium."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_61.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1688,16 +1450,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_53.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_62",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум гранатовый с шафраном",
       "ro": "Migdale glazurate în zahăr"
@@ -1706,7 +1463,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум гранатовый с шафраном.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Migdale glazurate în zahăr."
     },
-    "unitType": "weighted",
+    "price": 125.0,
+    "image": "images/istanbul_title_item_62.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1720,16 +1478,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 500.0
       }
-    ],
-    "price": 125.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_54.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_63",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум классический Koska 250г",
       "ro": "Mix de nuci crude"
@@ -1738,7 +1491,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум классический Koska 250г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mix de nuci crude."
     },
-    "unitType": "weighted",
+    "price": 75.0,
+    "image": "images/istanbul_title_item_63.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1752,16 +1506,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 300.0
       }
-    ],
-    "price": 75.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_55.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_64",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум классический Koska 500г",
       "ro": "Mix de nuci prăjite sărate"
@@ -1770,7 +1519,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум классический Koska 500г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mix de nuci prăjite sărate."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_64.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1784,16 +1534,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_56.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_65",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с ароматом апельсина и лимона в шоколадной глазури Koska 140г",
       "ro": "Mix de fructe uscate"
@@ -1802,7 +1547,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с ароматом апельсина и лимона в шоколадной глазури Koska 140г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mix de fructe uscate."
     },
-    "unitType": "weighted",
+    "price": 95.0,
+    "image": "images/istanbul_title_item_65.png",
     "weights": [
       {
         "label": "250g",
@@ -1816,16 +1562,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 380.0
       }
-    ],
-    "price": 95.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_57.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_66",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с ароматом мяты в шоколадной глазури Koska 140г",
       "ro": "Mentă uscată mărunțită"
@@ -1834,7 +1575,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с ароматом мяты в шоколадной глазури Koska 140г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mentă uscată mărunțită."
     },
-    "unitType": "weighted",
+    "price": 95.0,
+    "image": "images/istanbul_title_item_66.png",
     "weights": [
       {
         "label": "250g",
@@ -1848,16 +1590,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 380.0
       }
-    ],
-    "price": 95.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_58.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_67",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с ароматом розы и лимона без добавления сахара Koska 160г",
       "ro": "Măsline la grătar în ulei"
@@ -1866,7 +1603,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с ароматом розы и лимона без добавления сахара Koska 160г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Măsline la grătar în ulei."
     },
-    "unitType": "weighted",
+    "price": 85.0,
+    "image": "images/istanbul_title_item_67.png",
     "weights": [
       {
         "label": "250g",
@@ -1880,16 +1618,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 340.0
       }
-    ],
-    "price": 85.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_59.jpg",
-    "badge": "new",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_68",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с гранатом, фисташками и молоком",
       "ro": "Măsline verzi gigante cu sâmbure"
@@ -1898,7 +1631,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с гранатом, фисташками и молоком.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Măsline verzi gigante cu sâmbure."
     },
-    "unitType": "weighted",
+    "price": 137.5,
+    "image": "images/istanbul_title_item_68.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1912,16 +1646,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 550.0
       }
-    ],
-    "price": 137.5,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_60.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_69",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с молоком и шоколадной пастой (ролы)",
       "ro": "Măsline negre deshidratate Sele"
@@ -1930,7 +1659,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с молоком и шоколадной пастой (ролы).",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Măsline negre deshidratate Sele."
     },
-    "unitType": "weighted",
+    "price": 112.5,
+    "image": "images/istanbul_title_item_69.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1944,16 +1674,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 450.0
       }
-    ],
-    "price": 112.5,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_61.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_70",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с фисташками Koska 250г",
       "ro": "Papaya uscată confiată"
@@ -1962,7 +1687,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с фисташками Koska 250г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Papaya uscată confiată."
     },
-    "unitType": "weighted",
+    "price": 105.0,
+    "image": "images/istanbul_title_item_70.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1976,16 +1702,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 420.0
       }
-    ],
-    "price": 105.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_62.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_71",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с фисташками Koska 500г",
       "ro": "Nuci Pecan selecte"
@@ -1994,7 +1715,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с фисташками Koska 500г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Nuci Pecan selecte."
     },
-    "unitType": "weighted",
+    "price": 170.0,
+    "image": "images/istanbul_title_item_71.png",
     "weights": [
       {
         "label": "250g",
@@ -2008,16 +1730,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 680.0
       }
-    ],
-    "price": 170.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_63.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_72",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с фисташками без добавления сахара Koska 160г",
       "ro": "Pekmez de roșcove Koska"
@@ -2026,7 +1743,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с фисташками без добавления сахара Koska 160г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pekmez de roșcove Koska."
     },
-    "unitType": "weighted",
+    "price": 120.0,
+    "image": "images/istanbul_title_item_72.png",
     "weights": [
       {
         "label": "250g",
@@ -2040,16 +1758,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 480.0
       }
-    ],
-    "price": 120.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_64.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_73",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с фисташками в шоколадной глазури Koska 140г",
       "ro": "Pekmez de dude Koska"
@@ -2058,7 +1771,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с фисташками в шоколадной глазури Koska 140г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pekmez de dude Koska."
     },
-    "unitType": "weighted",
+    "price": 110.0,
+    "image": "images/istanbul_title_item_73.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2072,16 +1786,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 440.0
       }
-    ],
-    "price": 110.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_65.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_74",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с фундуком в шоколадной глазури Koska 140г",
       "ro": "Piersici uscate"
@@ -2090,7 +1799,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с фундуком в шоколадной глазури Koska 140г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Piersici uscate."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_74.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2104,16 +1814,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_66.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_75",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум с фундуком, фисташками и кокосом Koska 500г",
       "ro": "Pișmaniye clasic de vanilie Koska"
@@ -2122,7 +1827,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум с фундуком, фисташками и кокосом Koska 500г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pișmaniye clasic de vanilie Koska."
     },
-    "unitType": "weighted",
+    "price": 150.0,
+    "image": "images/istanbul_title_item_75.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2136,16 +1842,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 600.0
       }
-    ],
-    "price": 150.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_63.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_76",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Лукум фруктовый микс",
       "ro": "Pișmaniye cu fistic Koska"
@@ -2154,7 +1855,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Лукум фруктовый микс.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pișmaniye cu fistic Koska."
     },
-    "unitType": "weighted",
+    "price": 62.5,
+    "image": "images/istanbul_title_item_76.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2168,16 +1870,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 250.0
       }
-    ],
-    "price": 62.5,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_67.png",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_77",
+    "category": "dried-fruits",
     "title": {
       "ru": "Манго сушеный",
       "ro": "Pișmaniye în ciocolată Koska"
@@ -2186,7 +1883,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Манго сушеный.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pișmaniye în ciocolată Koska."
     },
-    "unitType": "weighted",
+    "price": 75.0,
+    "image": "images/istanbul_title_item_77.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2200,16 +1898,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 300.0
       }
-    ],
-    "price": 75.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_68.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_78",
+    "category": "pastes-jams",
     "title": {
       "ru": "Медовая паста с экстрактом Эпимедиума",
       "ro": "Rahat-lokum de rodie cu fistic Koska"
@@ -2218,22 +1911,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Медовая паста с экстрактом Эпимедиума.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat-lokum de rodie cu fistic Koska."
     },
-    "unitType": "unit",
+    "price": 300.0,
+    "image": "images/istanbul_title_item_78.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 300.0
       }
-    ],
-    "price": 300.0,
-    "currency": "MDL",
-    "category": "pastes-jams",
-    "image": "images/istanbul_title_item_69.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_79",
+    "category": "nuts",
     "title": {
       "ru": "Микс орехов",
       "ro": "Rahat-lokum asortat fructat Koska"
@@ -2242,7 +1931,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Микс орехов.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat-lokum asortat fructat Koska."
     },
-    "unitType": "weighted",
+    "price": 75.0,
+    "image": "images/istanbul_title_item_79.png",
     "weights": [
       {
         "label": "250g",
@@ -2256,16 +1946,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 300.0
       }
-    ],
-    "price": 75.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_70.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_80",
+    "category": "nuts",
     "title": {
       "ru": "Миндаль жареный соленый",
       "ro": "Rahat-lokum de vanilie cu arahide Koska"
@@ -2274,7 +1959,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Миндаль жареный соленый.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat-lokum de vanilie cu arahide Koska."
     },
-    "unitType": "weighted",
+    "price": 137.5,
+    "image": "images/istanbul_title_item_80.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2288,16 +1974,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 550.0
       }
-    ],
-    "price": 137.5,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_71.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_81",
+    "category": "nuts",
     "title": {
       "ru": "Миндаль сырой голден",
       "ro": "Rahat-lokum de vanilie cu fistic Koska"
@@ -2306,7 +1987,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Миндаль сырой голден.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat-lokum de vanilie cu fistic Koska."
     },
-    "unitType": "weighted",
+    "price": 137.5,
+    "image": "images/istanbul_title_item_81.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2320,16 +2002,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 550.0
       }
-    ],
-    "price": 137.5,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_72.png",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_82",
+    "category": "dried-fruits",
     "title": {
       "ru": "Натуральное сушеное манго",
       "ro": "Rahat-lokum cu alune de pădure Koska"
@@ -2338,7 +2015,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Натуральное сушеное манго.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat-lokum cu alune de pădure Koska."
     },
-    "unitType": "weighted",
+    "price": 105.0,
+    "image": "images/istanbul_title_item_82.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2352,16 +2030,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 420.0
       }
-    ],
-    "price": 105.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_73.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_83",
+    "category": "dried-fruits",
     "title": {
       "ru": "Натуральный сушеный инжир",
       "ro": "Semințe de dovleac prăjite"
@@ -2370,7 +2043,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Натуральный сушеный инжир.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Semințe de dovleac prăjite."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_83.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2384,16 +2058,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_74.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_84",
+    "category": "nuts",
     "title": {
       "ru": "Нут жареный леблеби",
       "ro": "Semințe de floarea-soarelui"
@@ -2402,22 +2071,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Нут жареный леблеби.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Semințe de floarea-soarelui."
     },
-    "unitType": "unit",
+    "price": 50.0,
+    "image": "images/istanbul_title_item_84.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 50.0
       }
-    ],
-    "price": 50.0,
-    "currency": "MDL",
-    "category": "sweets",
-    "image": "images/istanbul_title_item_75.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_85",
+    "category": "dried-fruits",
     "title": {
       "ru": "Папайя сушеная.",
       "ro": "Sos de rodie Narșarab"
@@ -2426,7 +2091,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Папайя сушеная..",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Sos de rodie Narșarab."
     },
-    "unitType": "weighted",
+    "price": 105.0,
+    "image": "images/istanbul_title_item_85.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2440,16 +2106,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 420.0
       }
-    ],
-    "price": 105.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_76.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_86",
+    "category": "pastes-jams",
     "title": {
       "ru": "Патока виноградная",
       "ro": "Condimente pentru grătar și carne"
@@ -2458,22 +2119,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Патока виноградная.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Condimente pentru grătar și carne."
     },
-    "unitType": "unit",
+    "price": 110.0,
+    "image": "images/istanbul_title_item_86.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 110.0
       }
-    ],
-    "price": 110.0,
-    "currency": "MDL",
-    "category": "sweets",
-    "image": "images/istanbul_title_item_77.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_87",
+    "category": "pastes-jams",
     "title": {
       "ru": "Патока из шелковицы",
       "ro": "Condimente pentru pui în stil turcesc"
@@ -2482,22 +2139,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Патока из шелковицы.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Condimente pentru pui în stil turcesc."
     },
-    "unitType": "unit",
+    "price": 110.0,
+    "image": "images/istanbul_title_item_87.png",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 110.0
       }
-    ],
-    "price": 110.0,
-    "currency": "MDL",
-    "category": "sweets",
-    "image": "images/istanbul_title_item_78.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_88",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Пишмание классическое Koska 150г",
       "ro": "Condimente pentru pește și fructe de mare"
@@ -2506,22 +2159,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Пишмание классическое Koska 150г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Condimente pentru pește și fructe de mare."
     },
-    "unitType": "unit",
+    "price": 85.0,
+    "image": "images/istanbul_title_item_88.jpg",
     "weights": [
       {
         "label": "150Г",
         "price": 85.0
       }
-    ],
-    "price": 85.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_79.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_89",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Пишмание с фисташками Koska 250г",
       "ro": "Condimente Pul Biber (fulgi de ardei)"
@@ -2530,7 +2179,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Пишмание с фисташками Koska 250г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Condimente Pul Biber (fulgi de ardei)."
     },
-    "unitType": "weighted",
+    "price": 95.0,
+    "image": "images/istanbul_title_item_89.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2544,16 +2194,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 380.0
       }
-    ],
-    "price": 95.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_80.jpg",
-    "badge": "new",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_90",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Рахат лукум классический",
       "ro": "Sumac turcesc"
@@ -2562,7 +2207,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Рахат лукум классический.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Sumac turcesc."
     },
-    "unitType": "weighted",
+    "price": 50.0,
+    "image": "images/istanbul_title_item_90.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2576,16 +2222,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 200.0
       }
-    ],
-    "price": 50.0,
-    "currency": "MDL",
-    "category": "rahat-lukum",
-    "image": "images/istanbul_title_item_81.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_91",
+    "category": "pastes-jams",
     "title": {
       "ru": "Рожковое патока",
       "ro": "Kumquat uscat"
@@ -2594,22 +2235,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Рожковое патока.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Kumquat uscat."
     },
-    "unitType": "unit",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_91.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 100.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "sweets",
-    "image": "images/istanbul_title_item_82.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_92",
+    "category": "nuts",
     "title": {
       "ru": "Смесь орехов с фисташкой",
       "ro": "Pastă de tomate turcească 830g"
@@ -2618,7 +2255,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Смесь орехов с фисташкой.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pastă de tomate turcească 830g."
     },
-    "unitType": "weighted",
+    "price": 150.0,
+    "image": "images/istanbul_title_item_92.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2632,16 +2270,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 600.0
       }
-    ],
-    "price": 150.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_83.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_93",
+    "category": "dragees",
     "title": {
       "ru": "Сублимированная клубника в шоколаде",
       "ro": "Pastă de ardei iute 700g"
@@ -2650,7 +2283,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Сублимированная клубника в шоколаде.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pastă de ardei iute 700g."
     },
-    "unitType": "weighted",
+    "price": 225.0,
+    "image": "images/istanbul_title_item_93.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2664,16 +2298,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 900.0
       }
-    ],
-    "price": 225.0,
-    "currency": "MDL",
-    "category": "dragees",
-    "image": "images/istanbul_title_item_84.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_94",
+    "category": "dried-fruits",
     "title": {
       "ru": "Сушенный кокос",
       "ro": "Pastă de ardei dulce 700g"
@@ -2682,7 +2311,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Сушенный кокос.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pastă de ardei dulce 700g."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_94.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2696,16 +2326,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_85.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_95",
+    "category": "dried-fruits",
     "title": {
       "ru": "Сушеное помело",
       "ro": "Ibric turcesc din cupru 300ml"
@@ -2714,7 +2339,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Сушеное помело.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ibric turcesc din cupru 300ml."
     },
-    "unitType": "weighted",
+    "price": 75.0,
+    "image": "images/istanbul_title_item_95.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2728,16 +2354,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 300.0
       }
-    ],
-    "price": 75.0,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_86.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_96",
+    "category": "pastes-jams",
     "title": {
       "ru": "Тахини с пастой из фундука и пекмезом Koska 320г",
       "ro": "Pahare turcești armudu (6 buc)"
@@ -2746,7 +2367,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Тахини с пастой из фундука и пекмезом Koska 320г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pahare turcești armudu (6 buc)."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_96.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2760,16 +2382,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_87.png",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_97",
+    "category": "pastes-jams",
     "title": {
       "ru": "Тахини с пекмезом из рожкового дерева Koska 350г",
       "ro": "Cafea turcească Kurukahveci Mehmet Efendi 100g"
@@ -2778,22 +2395,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Тахини с пекмезом из рожкового дерева Koska 350г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea turcească Kurukahveci Mehmet Efendi 100g."
     },
-    "unitType": "unit",
+    "price": 90.0,
+    "image": "images/istanbul_title_item_97.jpg",
     "weights": [
       {
         "label": "350Г",
         "price": 90.0
       }
-    ],
-    "price": 90.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_88.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_98",
+    "category": "coffee",
     "title": {
       "ru": "Турецкий кофе с кардамоном Nuri Toplar 250г",
       "ro": "Cafea turcească Kurukahveci Mehmet Efendi 250g"
@@ -2802,22 +2415,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Турецкий кофе с кардамоном Nuri Toplar 250г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea turcească Kurukahveci Mehmet Efendi 250g."
     },
-    "unitType": "unit",
+    "price": 210.0,
+    "image": "images/istanbul_title_item_98.jpg",
     "weights": [
       {
         "label": "250Г",
         "price": 210.0
       }
-    ],
-    "price": 210.0,
-    "currency": "MDL",
-    "category": "coffee",
-    "image": "images/istanbul_title_item_89.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_99",
+    "category": "dried-fruits",
     "title": {
       "ru": "Финики королевские",
       "ro": "Cafea turcească Kurukahveci Mehmet Efendi 500g"
@@ -2826,7 +2435,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Финики королевские.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea turcească Kurukahveci Mehmet Efendi 500g."
     },
-    "unitType": "weighted",
+    "price": 137.5,
+    "image": "images/istanbul_title_item_99.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2840,16 +2450,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 550.0
       }
-    ],
-    "price": 137.5,
-    "currency": "MDL",
-    "category": "dried-fruits",
-    "image": "images/istanbul_title_item_85.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_100",
+    "category": "nuts",
     "title": {
       "ru": "Фисташки жареные малосольные",
       "ro": "Cafea turcească cu mastic 200g"
@@ -2858,7 +2463,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Фисташки жареные малосольные.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea turcească cu mastic 200g."
     },
-    "unitType": "weighted",
+    "price": 187.5,
+    "image": "images/istanbul_title_item_100.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2872,16 +2478,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 750.0
       }
-    ],
-    "price": 187.5,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_90.jpg",
-    "badge": "new",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_101",
+    "category": "nuts",
     "title": {
       "ru": "Фисташки жареные соленые",
       "ro": "Cafea turcească cu cardamom 200g"
@@ -2890,7 +2491,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Фисташки жареные соленые.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea turcească cu cardamom 200g."
     },
-    "unitType": "weighted",
+    "price": 175.0,
+    "image": "images/istanbul_title_item_101.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2904,16 +2506,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 700.0
       }
-    ],
-    "price": 175.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_91.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_102",
+    "category": "dragees",
     "title": {
       "ru": "Фундук в шоколаде",
       "ro": "Ceai turcesc Çaykur Rize 500g"
@@ -2922,7 +2519,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Фундук в шоколаде.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Çaykur Rize 500g."
     },
-    "unitType": "weighted",
+    "price": 125.0,
+    "image": "images/istanbul_title_item_102.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2936,16 +2534,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 500.0
       }
-    ],
-    "price": 125.0,
-    "currency": "MDL",
-    "category": "dragees",
-    "image": "images/istanbul_title_item_92.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_103",
+    "category": "nuts",
     "title": {
       "ru": "Фундук жареный",
       "ro": "Ceai turcesc Çaykur Altınbaş 500g"
@@ -2954,7 +2547,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Фундук жареный.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Çaykur Altınbaş 500g."
     },
-    "unitType": "weighted",
+    "price": 175.0,
+    "image": "images/istanbul_title_item_103.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2968,16 +2562,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 700.0
       }
-    ],
-    "price": 175.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_92.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_104",
+    "category": "halva",
     "title": {
       "ru": "Халва диабетическая Koska 200г",
       "ro": "Ceai turcesc Çaykur Tiryaki 1000g"
@@ -2986,22 +2575,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Халва диабетическая Koska 200г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Çaykur Tiryaki 1000g."
     },
-    "unitType": "unit",
+    "price": 70.0,
+    "image": "images/istanbul_title_item_104.jpg",
     "weights": [
       {
         "label": "200Г",
         "price": 70.0
       }
-    ],
-    "price": 70.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_93.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_105",
+    "category": "halva",
     "title": {
       "ru": "Халва кунжутная классическая Koska 200г",
       "ro": "Ceai turcesc Dogadan tei și cimbrișor"
@@ -3010,22 +2595,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Халва кунжутная классическая Koska 200г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Dogadan tei și cimbrișor."
     },
-    "unitType": "unit",
+    "price": 55.0,
+    "image": "images/istanbul_title_item_105.png",
     "weights": [
       {
         "label": "200Г",
         "price": 55.0
       }
-    ],
-    "price": 55.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_94.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_106",
+    "category": "halva",
     "title": {
       "ru": "Халва кунжутная с какао Koska 200г",
       "ro": "Ceai turcesc Dogadan instant de rodie"
@@ -3034,22 +2615,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Халва кунжутная с какао Koska 200г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Dogadan instant de rodie."
     },
-    "unitType": "unit",
+    "price": 60.0,
+    "image": "images/istanbul_title_item_106.png",
     "weights": [
       {
         "label": "200Г",
         "price": 60.0
       }
-    ],
-    "price": 60.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_94.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_107",
+    "category": "halva",
     "title": {
       "ru": "Халва кунжутная с фисташками Koska 200г",
       "ro": "Ceai turcesc instant de măr"
@@ -3058,22 +2635,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Халва кунжутная с фисташками Koska 200г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc instant de măr."
     },
-    "unitType": "unit",
+    "price": 80.0,
+    "image": "images/istanbul_title_item_107.jpg",
     "weights": [
       {
         "label": "200Г",
         "price": 80.0
       }
-    ],
-    "price": 80.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_95.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_108",
+    "category": "halva",
     "title": {
       "ru": "Халва кунжутная с фундуком Koska 200г",
       "ro": "Curmale Regale Medjool"
@@ -3082,22 +2655,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Халва кунжутная с фундуком Koska 200г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Curmale Regale Medjool."
     },
-    "unitType": "unit",
+    "price": 70.0,
+    "image": "images/istanbul_title_item_108.jpg",
     "weights": [
       {
         "label": "200Г",
         "price": 70.0
       }
-    ],
-    "price": 70.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_96.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_109",
+    "category": "halva",
     "title": {
       "ru": "Халва с ореховым пюре Koska 40г",
       "ro": "Curmale Tunis pe cracă"
@@ -3106,7 +2675,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Халва с ореховым пюре Koska 40г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Curmale Tunis pe cracă."
     },
-    "unitType": "weighted",
+    "price": 16.0,
+    "image": "images/istanbul_title_item_109.jpg",
     "weights": [
       {
         "label": "250g",
@@ -3120,16 +2690,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 64.0
       }
-    ],
-    "price": 16.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_97.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_110",
+    "category": "halva",
     "title": {
       "ru": "Халва с рожковым деревом и фундуком Koska 250г",
       "ro": "Fistic întreg crud decojit"
@@ -3138,7 +2703,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Халва с рожковым деревом и фундуком Koska 250г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Fistic întreg crud decojit."
     },
-    "unitType": "weighted",
+    "price": 90.0,
+    "image": "images/istanbul_title_item_110.png",
     "weights": [
       {
         "label": "250g",
@@ -3152,16 +2718,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 360.0
       }
-    ],
-    "price": 90.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_98.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_111",
+    "category": "halva",
     "title": {
       "ru": "Халва фисташковая Koska 40г",
       "ro": "Fistic turcesc prăjit sărat Antep"
@@ -3170,7 +2731,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Халва фисташковая Koska 40г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Fistic turcesc prăjit sărat Antep."
     },
-    "unitType": "weighted",
+    "price": 20.0,
+    "image": "images/istanbul_title_item_111.png",
     "weights": [
       {
         "label": "250g",
@@ -3184,16 +2746,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 80.0
       }
-    ],
-    "price": 20.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_99.jpg",
-    "badge": "new",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_112",
+    "category": "halva",
     "title": {
       "ru": "Халва фисташковая диабетическая Koska 200г",
       "ro": "Alune de pădure prăjite albite"
@@ -3202,22 +2759,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Халва фисташковая диабетическая Koska 200г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Alune de pădure prăjite albite."
     },
-    "unitType": "unit",
+    "price": 90.0,
+    "image": "images/istanbul_title_item_112.jpg",
     "weights": [
       {
         "label": "200Г",
         "price": 90.0
       }
-    ],
-    "price": 90.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_100.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_113",
+    "category": "tea",
     "title": {
       "ru": "Чай Çaykur Altınbaş 500г",
       "ro": "Alune de pădure crude selecte"
@@ -3226,22 +2779,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чай Çaykur Altınbaş 500г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Alune de pădure crude selecte."
     },
-    "unitType": "unit",
+    "price": 200.0,
+    "image": "images/istanbul_title_item_113.jpg",
     "weights": [
       {
         "label": "500Г",
         "price": 200.0
       }
-    ],
-    "price": 200.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_101.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_114",
+    "category": "tea",
     "title": {
       "ru": "Чай Çaykur Altınbaş в жестяной банке 100г",
       "ro": "Halva de susan Koska cu vanilie 400g"
@@ -3250,22 +2799,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чай Çaykur Altınbaş в жестяной банке 100г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Halva de susan Koska cu vanilie 400g."
     },
-    "unitType": "unit",
+    "price": 80.0,
+    "image": "images/istanbul_title_item_102.jpg",
     "weights": [
       {
         "label": "100Г",
         "price": 80.0
       }
-    ],
-    "price": 80.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_102.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_115",
+    "category": "tea",
     "title": {
       "ru": "Чай из бутонов роз 100г",
       "ro": "Halva de susan Koska cu fistic 400g"
@@ -3274,22 +2819,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чай из бутонов роз 100г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Halva de susan Koska cu fistic 400g."
     },
-    "unitType": "unit",
+    "price": 120.0,
+    "image": "images/istanbul_title_item_103.jpg",
     "weights": [
       {
         "label": "100Г",
         "price": 120.0
       }
-    ],
-    "price": 120.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_103.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_116",
+    "category": "tea",
     "title": {
       "ru": "Чай из ромашки 100г",
       "ro": "Halva de susan Koska cu cacao 400g"
@@ -3298,22 +2839,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чай из ромашки 100г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Halva de susan Koska cu cacao 400g."
     },
-    "unitType": "unit",
+    "price": 80.0,
+    "image": "images/istanbul_title_item_104.jpg",
     "weights": [
       {
         "label": "100Г",
         "price": 80.0
       }
-    ],
-    "price": 80.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_104.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_117",
+    "category": "tea",
     "title": {
       "ru": "Чай из цветков граната 100г",
       "ro": "Halva de susan marmorată Koska"
@@ -3322,22 +2859,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чай из цветков граната 100г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Halva de susan marmorată Koska."
     },
-    "unitType": "unit",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_104.jpg",
     "weights": [
       {
         "label": "100Г",
         "price": 100.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_104.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_118",
+    "category": "tea",
     "title": {
       "ru": "Чай из шалфея 50г",
       "ro": "Halva de floarea-soarelui cu fistic"
@@ -3346,22 +2879,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чай из шалфея 50г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Halva de floarea-soarelui cu fistic."
     },
-    "unitType": "unit",
+    "price": 21.0,
+    "image": "images/istanbul_title_item_105.png",
     "weights": [
       {
         "label": "50Г",
         "price": 21.0
       }
-    ],
-    "price": 21.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_105.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_119",
+    "category": "spices-oils",
     "title": {
       "ru": "Чай каркадэ 100г",
       "ro": "Fructe confiate mix asortat"
@@ -3370,22 +2899,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чай каркадэ 100г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Fructe confiate mix asortat."
     },
-    "unitType": "unit",
+    "price": 55.0,
+    "image": "images/istanbul_title_item_106.png",
     "weights": [
       {
         "label": "100Г",
         "price": 55.0
       }
-    ],
-    "price": 55.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_106.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_120",
+    "category": "tea",
     "title": {
       "ru": "Чай с мятой и лимоном 100г",
       "ro": "Prune uscate fără sâmburi suculente"
@@ -3394,22 +2919,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чай с мятой и лимоном 100г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Prune uscate fără sâmburi suculente."
     },
-    "unitType": "unit",
+    "price": 60.0,
+    "image": "images/istanbul_title_item_107.jpg",
     "weights": [
       {
         "label": "100Г",
         "price": 60.0
       }
-    ],
-    "price": 60.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_107.jpg",
-    "badge": "popular",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_121",
+    "category": "tea",
     "title": {
       "ru": "Чай черный турецкий Caykur rize Turist",
       "ro": "Ciocolată turcească Ulker cu fistic"
@@ -3418,22 +2939,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чай черный турецкий Caykur rize Turist.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ciocolată turcească Ulker cu fistic."
     },
-    "unitType": "unit",
+    "price": 190.0,
+    "image": "images/istanbul_title_item_108.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 190.0
       }
-    ],
-    "price": 190.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_108.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_122",
+    "category": "tea",
     "title": {
       "ru": "Черный чай с бергамотом Tomurcuk",
       "ro": "Ciocolată turcească Godiva duet fistic"
@@ -3442,22 +2959,18 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Черный чай с бергамотом Tomurcuk.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ciocolată turcească Godiva duet fistic."
     },
-    "unitType": "unit",
+    "price": 80.0,
+    "image": "images/istanbul_title_item_109.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
         "price": 80.0
       }
-    ],
-    "price": 80.0,
-    "currency": "MDL",
-    "category": "tea",
-    "image": "images/istanbul_title_item_109.jpg",
-    "badge": "new",
-    "inStock": true
+    ]
   },
   {
     "id": "prod_123",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Чурчхела с грецким орехом и виноградным соком",
       "ro": "Bomboane de ciocolată cu umplutură de tahini"
@@ -3466,7 +2979,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чурчхела с грецким орехом и виноградным соком.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Bomboane de ciocolată cu umplutură de tahini."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_110.png",
     "weights": [
       {
         "label": "250g",
@@ -3480,16 +2994,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_110.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_124",
+    "category": "rahat-lukum",
     "title": {
       "ru": "Чурчхела с грецким орехом и гранатовым соком",
       "ro": "Pastă de epimedium Themra 240g"
@@ -3498,7 +3007,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Чурчхела с грецким орехом и гранатовым соком.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pastă de epimedium Themra 240g."
     },
-    "unitType": "weighted",
+    "price": 100.0,
+    "image": "images/istanbul_title_item_111.png",
     "weights": [
       {
         "label": "250g",
@@ -3512,16 +3022,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 400.0
       }
-    ],
-    "price": 100.0,
-    "currency": "MDL",
-    "category": "nuts",
-    "image": "images/istanbul_title_item_111.png",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_125",
+    "category": "dragees",
     "title": {
       "ru": "Шоколадно-миндальное драже",
       "ro": "Pastă de epimedium Sahimerdan 240g"
@@ -3530,7 +3035,8 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Шоколадно-миндальное драже.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pastă de epimedium Sahimerdan 240g."
     },
-    "unitType": "weighted",
+    "price": 125.0,
+    "image": "images/istanbul_title_item_112.jpg",
     "weights": [
       {
         "label": "250g",
@@ -3544,16 +3050,11 @@ const PRODUCTS_DATA = [
         "label": "1kg",
         "price": 500.0
       }
-    ],
-    "price": 125.0,
-    "currency": "MDL",
-    "category": "dragees",
-    "image": "images/istanbul_title_item_112.jpg",
-    "badge": null,
-    "inStock": true
+    ]
   },
   {
     "id": "prod_126",
+    "category": "pastes-jams",
     "title": {
       "ru": "Экстракт рожкового дерева Koska 310г",
       "ro": "Baclava palatului cu fistic Karaköy Güllüoğlu"
@@ -3562,18 +3063,13 @@ const PRODUCTS_DATA = [
       "ru": "Натуральный продукт высочайшего качества прямо из Турции. Экстракт рожкового дерева Koska 310г.",
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Baclava palatului cu fistic Karaköy Güllüoğlu."
     },
-    "unitType": "unit",
+    "price": 80.0,
+    "image": "images/istanbul_title_item_113.jpg",
     "weights": [
       {
         "label": "310Г",
         "price": 80.0
       }
-    ],
-    "price": 80.0,
-    "currency": "MDL",
-    "category": "halva",
-    "image": "images/istanbul_title_item_113.jpg",
-    "badge": "bestseller",
-    "inStock": true
+    ]
   }
 ];
