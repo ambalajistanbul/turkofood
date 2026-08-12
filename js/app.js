@@ -248,9 +248,16 @@
     renderCategorySidebar();
     renderProducts();
     closeCategoryDrawer();
+
+    // Smoothly scroll to the catalog grid so user immediately sees category products
+    const targetEl = document.getElementById('catalog-section') || document.getElementById('products-grid');
+    if (targetEl) {
+      const topOffset = -100;
+      const y = targetEl.getBoundingClientRect().top + window.pageYOffset + topOffset;
+      window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+    }
   }
 
-  // Event Listeners Setup
   function setupEventListeners() {
     elements.langBtns.forEach(btn => {
       btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
