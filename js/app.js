@@ -341,8 +341,43 @@
     });
   }
 
+
+  function updateProductSchema(products) {
+    let schemaScript = document.getElementById('products-jsonld');
+    if (!schemaScript) {
+      schemaScript = document.createElement('script');
+      schemaScript.id = 'products-jsonld';
+      schemaScript.type = 'application/ld+json';
+      document.head.appendChild(schemaScript);
+    }
+    const currentLang = state.lang || 'ru';
+    const schemaData = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "numberOfItems": products.length,
+      "itemListElement": products.map((prod, idx) => ({
+        "@type": "ListItem",
+        "position": idx + 1,
+        "item": {
+          "@type": "Product",
+          "name": prod.title[currentLang] || prod.title['ru'],
+          "image": "https://turkofood.vercel.app/" + prod.image,
+          "description": prod.description[currentLang] || prod.description['ru'],
+          "offers": {
+            "@type": "Offer",
+            "price": prod.price,
+            "priceCurrency": "MDL",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      }))
+    };
+    schemaScript.textContent = JSON.stringify(schemaData);
+  }
+
   // Product Grid Renderer
   function renderProducts() {
+    updateProductSchema(getFilteredProducts());
     if (!elements.productsGrid) return;
 
     const products = getFilteredProducts();

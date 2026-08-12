@@ -17,7 +17,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_1.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 30.0
       }
     ]
@@ -39,7 +39,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_2.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 20.0
       }
     ]
@@ -61,7 +61,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_3.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 30.0
       }
     ]
@@ -83,7 +83,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_4.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 20.0
       }
     ]
@@ -105,7 +105,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_5.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 225.0
       }
     ]
@@ -127,7 +127,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_6.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "200g",
         "price": 100.0
       }
     ]
@@ -149,7 +149,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_7.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 190.0
       }
     ]
@@ -171,7 +171,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_8.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 225.0
       }
     ]
@@ -195,6 +195,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 75.0
+      },
+      {
+        "label": "500g",
+        "price": 150.0
+      },
+      {
+        "label": "1000g",
+        "price": 300.0
       }
     ]
   },
@@ -217,6 +225,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 62.5
+      },
+      {
+        "label": "500g",
+        "price": 125.0
+      },
+      {
+        "label": "1000g",
+        "price": 250.0
       }
     ]
   },
@@ -239,6 +255,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 62.5
+      },
+      {
+        "label": "500g",
+        "price": 125.0
+      },
+      {
+        "label": "1000g",
+        "price": 250.0
       }
     ]
   },
@@ -261,6 +285,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 55.0
+      },
+      {
+        "label": "500g",
+        "price": 110.0
+      },
+      {
+        "label": "1000g",
+        "price": 220.0
       }
     ]
   },
@@ -283,6 +315,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 112.5
+      },
+      {
+        "label": "500g",
+        "price": 225.0
+      },
+      {
+        "label": "1000g",
+        "price": 450.0
       }
     ]
   },
@@ -305,6 +345,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 162.5
+      },
+      {
+        "label": "500g",
+        "price": 325.0
+      },
+      {
+        "label": "1000g",
+        "price": 650.0
       }
     ]
   },
@@ -327,6 +375,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 225.0
+      },
+      {
+        "label": "500g",
+        "price": 450.0
+      },
+      {
+        "label": "1000g",
+        "price": 900.0
       }
     ]
   },
@@ -349,6 +405,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 100.0
+      },
+      {
+        "label": "500g",
+        "price": 200.0
+      },
+      {
+        "label": "1000g",
+        "price": 400.0
       }
     ]
   },
@@ -371,6 +435,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 125.0
+      },
+      {
+        "label": "500g",
+        "price": 250.0
+      },
+      {
+        "label": "1000g",
+        "price": 500.0
       }
     ]
   },
@@ -393,6 +465,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 125.0
+      },
+      {
+        "label": "500g",
+        "price": 250.0
+      },
+      {
+        "label": "1000g",
+        "price": 500.0
       }
     ]
   },
@@ -415,6 +495,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 125.0
+      },
+      {
+        "label": "500g",
+        "price": 250.0
+      },
+      {
+        "label": "1000g",
+        "price": 500.0
       }
     ]
   },
@@ -437,6 +525,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 87.5
+      },
+      {
+        "label": "500g",
+        "price": 175.0
+      },
+      {
+        "label": "1000g",
+        "price": 350.0
       }
     ]
   },
@@ -457,7 +553,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_21.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "300g",
         "price": 60.0
       }
     ]
@@ -479,7 +575,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_22.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "300g",
         "price": 60.0
       }
     ]
@@ -501,7 +597,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_23.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "300g",
         "price": 70.0
       }
     ]
@@ -523,7 +619,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_24.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "300g",
         "price": 70.0
       }
     ]
@@ -545,7 +641,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_25.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "300g",
         "price": 80.0
       }
     ]
@@ -567,7 +663,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_26.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "300g",
         "price": 60.0
       }
     ]
@@ -589,7 +685,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_27.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "300g",
         "price": 70.0
       }
     ]
@@ -611,7 +707,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_28.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "300g",
         "price": 60.0
       }
     ]
@@ -633,7 +729,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_29.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 62.5
       }
     ]
@@ -655,7 +751,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_30.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 62.5
       }
     ]
@@ -677,7 +773,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_31.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 125.0
       }
     ]
@@ -701,6 +797,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 50.0
+      },
+      {
+        "label": "500g",
+        "price": 100.0
+      },
+      {
+        "label": "1000g",
+        "price": 200.0
       }
     ]
   },
@@ -721,7 +825,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_33.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "100g",
         "price": 95.0
       }
     ]
@@ -743,7 +847,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_34.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 150.0
       }
     ]
@@ -765,7 +869,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_35.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "100g",
         "price": 80.0
       }
     ]
@@ -789,6 +893,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 75.0
+      },
+      {
+        "label": "500g",
+        "price": 150.0
+      },
+      {
+        "label": "1000g",
+        "price": 300.0
       }
     ]
   },
@@ -811,6 +923,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 75.0
+      },
+      {
+        "label": "500g",
+        "price": 150.0
+      },
+      {
+        "label": "1000g",
+        "price": 300.0
       }
     ]
   },
@@ -833,6 +953,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 162.5
+      },
+      {
+        "label": "500g",
+        "price": 325.0
+      },
+      {
+        "label": "1000g",
+        "price": 650.0
       }
     ]
   },
@@ -853,7 +981,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_39.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 240.0
       }
     ]
@@ -877,6 +1005,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 137.5
+      },
+      {
+        "label": "500g",
+        "price": 275.0
+      },
+      {
+        "label": "1000g",
+        "price": 550.0
       }
     ]
   },
@@ -899,6 +1035,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 137.5
+      },
+      {
+        "label": "500g",
+        "price": 275.0
+      },
+      {
+        "label": "1000g",
+        "price": 550.0
       }
     ]
   },
@@ -921,6 +1065,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 75.0
+      },
+      {
+        "label": "500g",
+        "price": 150.0
+      },
+      {
+        "label": "1000g",
+        "price": 300.0
       }
     ]
   },
@@ -1007,7 +1159,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_46.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "100g",
         "price": 70.0
       }
     ]
@@ -1051,7 +1203,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_48.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "500g",
         "price": 370.0
       }
     ]
@@ -1073,7 +1225,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_49.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 65.0
       }
     ]
@@ -1117,7 +1269,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_51.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "100g",
         "price": 80.0
       }
     ]
@@ -1141,6 +1293,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 50.0
+      },
+      {
+        "label": "500g",
+        "price": 100.0
+      },
+      {
+        "label": "1000g",
+        "price": 200.0
       }
     ]
   },
@@ -1161,7 +1321,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_53.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 90.0
       }
     ]
@@ -1183,7 +1343,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_54.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "200g",
         "price": 65.0
       }
     ]
@@ -1207,6 +1367,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 100.0
+      },
+      {
+        "label": "500g",
+        "price": 200.0
+      },
+      {
+        "label": "1000g",
+        "price": 400.0
       }
     ]
   },
@@ -1229,6 +1397,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 100.0
+      },
+      {
+        "label": "500g",
+        "price": 200.0
+      },
+      {
+        "label": "1000g",
+        "price": 400.0
       }
     ]
   },
@@ -1251,6 +1427,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 130.0
+      },
+      {
+        "label": "500g",
+        "price": 260.0
+      },
+      {
+        "label": "1000g",
+        "price": 520.0
       }
     ]
   },
@@ -1273,6 +1457,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 90.0
+      },
+      {
+        "label": "500g",
+        "price": 180.0
+      },
+      {
+        "label": "1000g",
+        "price": 360.0
       }
     ]
   },
@@ -1295,6 +1487,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 70.0
+      },
+      {
+        "label": "500g",
+        "price": 140.0
+      },
+      {
+        "label": "1000g",
+        "price": 280.0
       }
     ]
   },
@@ -1317,6 +1517,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 110.0
+      },
+      {
+        "label": "500g",
+        "price": 220.0
+      },
+      {
+        "label": "1000g",
+        "price": 440.0
       }
     ]
   },
@@ -1339,6 +1547,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 100.0
+      },
+      {
+        "label": "500g",
+        "price": 200.0
+      },
+      {
+        "label": "1000g",
+        "price": 400.0
       }
     ]
   },
@@ -1361,6 +1577,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 125.0
+      },
+      {
+        "label": "500g",
+        "price": 250.0
+      },
+      {
+        "label": "1000g",
+        "price": 500.0
       }
     ]
   },
@@ -1383,6 +1607,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 75.0
+      },
+      {
+        "label": "500g",
+        "price": 150.0
+      },
+      {
+        "label": "1000g",
+        "price": 300.0
       }
     ]
   },
@@ -1405,6 +1637,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 100.0
+      },
+      {
+        "label": "500g",
+        "price": 200.0
+      },
+      {
+        "label": "1000g",
+        "price": 400.0
       }
     ]
   },
@@ -1427,6 +1667,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 95.0
+      },
+      {
+        "label": "500g",
+        "price": 190.0
+      },
+      {
+        "label": "1000g",
+        "price": 380.0
       }
     ]
   },
@@ -1449,6 +1697,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 95.0
+      },
+      {
+        "label": "500g",
+        "price": 190.0
+      },
+      {
+        "label": "1000g",
+        "price": 380.0
       }
     ]
   },
@@ -1471,6 +1727,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 85.0
+      },
+      {
+        "label": "500g",
+        "price": 170.0
+      },
+      {
+        "label": "1000g",
+        "price": 340.0
       }
     ]
   },
@@ -1493,6 +1757,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 137.5
+      },
+      {
+        "label": "500g",
+        "price": 275.0
+      },
+      {
+        "label": "1000g",
+        "price": 550.0
       }
     ]
   },
@@ -1515,6 +1787,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 112.5
+      },
+      {
+        "label": "500g",
+        "price": 225.0
+      },
+      {
+        "label": "1000g",
+        "price": 450.0
       }
     ]
   },
@@ -1537,6 +1817,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 105.0
+      },
+      {
+        "label": "500g",
+        "price": 210.0
+      },
+      {
+        "label": "1000g",
+        "price": 420.0
       }
     ]
   },
@@ -1559,6 +1847,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 170.0
+      },
+      {
+        "label": "500g",
+        "price": 340.0
+      },
+      {
+        "label": "1000g",
+        "price": 680.0
       }
     ]
   },
@@ -1581,6 +1877,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 120.0
+      },
+      {
+        "label": "500g",
+        "price": 240.0
+      },
+      {
+        "label": "1000g",
+        "price": 480.0
       }
     ]
   },
@@ -1603,6 +1907,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 110.0
+      },
+      {
+        "label": "500g",
+        "price": 220.0
+      },
+      {
+        "label": "1000g",
+        "price": 440.0
       }
     ]
   },
@@ -1625,6 +1937,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 100.0
+      },
+      {
+        "label": "500g",
+        "price": 200.0
+      },
+      {
+        "label": "1000g",
+        "price": 400.0
       }
     ]
   },
@@ -1647,6 +1967,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 150.0
+      },
+      {
+        "label": "500g",
+        "price": 300.0
+      },
+      {
+        "label": "1000g",
+        "price": 600.0
       }
     ]
   },
@@ -1669,6 +1997,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 62.5
+      },
+      {
+        "label": "500g",
+        "price": 125.0
+      },
+      {
+        "label": "1000g",
+        "price": 250.0
       }
     ]
   },
@@ -1691,6 +2027,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 75.0
+      },
+      {
+        "label": "500g",
+        "price": 150.0
+      },
+      {
+        "label": "1000g",
+        "price": 300.0
       }
     ]
   },
@@ -1711,7 +2055,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_78.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 300.0
       }
     ]
@@ -1735,6 +2079,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 75.0
+      },
+      {
+        "label": "500g",
+        "price": 150.0
+      },
+      {
+        "label": "1000g",
+        "price": 300.0
       }
     ]
   },
@@ -1757,6 +2109,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 137.5
+      },
+      {
+        "label": "500g",
+        "price": 275.0
+      },
+      {
+        "label": "1000g",
+        "price": 550.0
       }
     ]
   },
@@ -1779,6 +2139,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 137.5
+      },
+      {
+        "label": "500g",
+        "price": 275.0
+      },
+      {
+        "label": "1000g",
+        "price": 550.0
       }
     ]
   },
@@ -1801,6 +2169,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 105.0
+      },
+      {
+        "label": "500g",
+        "price": 210.0
+      },
+      {
+        "label": "1000g",
+        "price": 420.0
       }
     ]
   },
@@ -1823,6 +2199,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 100.0
+      },
+      {
+        "label": "500g",
+        "price": 200.0
+      },
+      {
+        "label": "1000g",
+        "price": 400.0
       }
     ]
   },
@@ -1845,6 +2229,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 50.0
+      },
+      {
+        "label": "500g",
+        "price": 100.0
+      },
+      {
+        "label": "1000g",
+        "price": 200.0
       }
     ]
   },
@@ -1867,6 +2259,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 105.0
+      },
+      {
+        "label": "500g",
+        "price": 210.0
+      },
+      {
+        "label": "1000g",
+        "price": 420.0
       }
     ]
   },
@@ -1887,7 +2287,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_86.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 110.0
       }
     ]
@@ -1909,7 +2309,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_87.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 110.0
       }
     ]
@@ -1933,6 +2333,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 85.0
+      },
+      {
+        "label": "500g",
+        "price": 170.0
+      },
+      {
+        "label": "1000g",
+        "price": 340.0
       }
     ]
   },
@@ -1955,6 +2363,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 95.0
+      },
+      {
+        "label": "500g",
+        "price": 190.0
+      },
+      {
+        "label": "1000g",
+        "price": 380.0
       }
     ]
   },
@@ -1977,6 +2393,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 50.0
+      },
+      {
+        "label": "500g",
+        "price": 100.0
+      },
+      {
+        "label": "1000g",
+        "price": 200.0
       }
     ]
   },
@@ -1997,7 +2421,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_91.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 100.0
       }
     ]
@@ -2021,6 +2445,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 150.0
+      },
+      {
+        "label": "500g",
+        "price": 300.0
+      },
+      {
+        "label": "1000g",
+        "price": 600.0
       }
     ]
   },
@@ -2041,7 +2473,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_93.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 225.0
       }
     ]
@@ -2065,6 +2497,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 100.0
+      },
+      {
+        "label": "500g",
+        "price": 200.0
+      },
+      {
+        "label": "1000g",
+        "price": 400.0
       }
     ]
   },
@@ -2087,6 +2527,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 75.0
+      },
+      {
+        "label": "500g",
+        "price": 150.0
+      },
+      {
+        "label": "1000g",
+        "price": 300.0
       }
     ]
   },
@@ -2107,7 +2555,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_96.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "320g",
         "price": 100.0
       }
     ]
@@ -2129,7 +2577,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_97.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "350g",
         "price": 90.0
       }
     ]
@@ -2175,6 +2623,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 137.5
+      },
+      {
+        "label": "500g",
+        "price": 275.0
+      },
+      {
+        "label": "1000g",
+        "price": 550.0
       }
     ]
   },
@@ -2197,6 +2653,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 187.5
+      },
+      {
+        "label": "500g",
+        "price": 375.0
+      },
+      {
+        "label": "1000g",
+        "price": 750.0
       }
     ]
   },
@@ -2219,6 +2683,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 175.0
+      },
+      {
+        "label": "500g",
+        "price": 350.0
+      },
+      {
+        "label": "1000g",
+        "price": 700.0
       }
     ]
   },
@@ -2239,7 +2711,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_102.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 125.0
       }
     ]
@@ -2263,6 +2735,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 175.0
+      },
+      {
+        "label": "500g",
+        "price": 350.0
+      },
+      {
+        "label": "1000g",
+        "price": 700.0
       }
     ]
   },
@@ -2283,7 +2763,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_104.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "200g",
         "price": 70.0
       }
     ]
@@ -2305,7 +2785,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_105.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "200g",
         "price": 55.0
       }
     ]
@@ -2327,7 +2807,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_106.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "200g",
         "price": 60.0
       }
     ]
@@ -2349,7 +2829,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_107.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "200g",
         "price": 80.0
       }
     ]
@@ -2371,7 +2851,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_108.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "200g",
         "price": 70.0
       }
     ]
@@ -2393,7 +2873,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_109.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "40g",
         "price": 16.0
       }
     ]
@@ -2437,7 +2917,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_111.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "40g",
         "price": 20.0
       }
     ]
@@ -2459,7 +2939,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_112.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "200g",
         "price": 90.0
       }
     ]
@@ -2481,7 +2961,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_113.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "500g",
         "price": 200.0
       }
     ]
@@ -2503,7 +2983,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_114.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "100g",
         "price": 80.0
       }
     ]
@@ -2525,7 +3005,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_115.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "100g",
         "price": 120.0
       }
     ]
@@ -2547,7 +3027,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_116.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "100g",
         "price": 80.0
       }
     ]
@@ -2569,7 +3049,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_117.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "100g",
         "price": 100.0
       }
     ]
@@ -2591,7 +3071,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_118.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "50g",
         "price": 21.0
       }
     ]
@@ -2613,7 +3093,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_119.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "100g",
         "price": 55.0
       }
     ]
@@ -2635,7 +3115,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_120.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "100g",
         "price": 60.0
       }
     ]
@@ -2657,7 +3137,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_121.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 190.0
       }
     ]
@@ -2679,7 +3159,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_122.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 80.0
       }
     ]
@@ -2703,6 +3183,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 100.0
+      },
+      {
+        "label": "500g",
+        "price": 200.0
+      },
+      {
+        "label": "1000g",
+        "price": 400.0
       }
     ]
   },
@@ -2725,6 +3213,14 @@ const PRODUCTS_DATA = [
       {
         "label": "250g",
         "price": 100.0
+      },
+      {
+        "label": "500g",
+        "price": 200.0
+      },
+      {
+        "label": "1000g",
+        "price": 400.0
       }
     ]
   },
@@ -2745,7 +3241,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_125.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "1 Adet / 1 шт",
         "price": 125.0
       }
     ]
@@ -2767,7 +3263,7 @@ const PRODUCTS_DATA = [
     "image": "images/exact_sf_prod_126.jpg",
     "weights": [
       {
-        "label": "250g",
+        "label": "310g",
         "price": 80.0
       }
     ]
