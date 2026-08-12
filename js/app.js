@@ -127,42 +127,7 @@
     updateCartUI();
   }
 
-  function openDeliveryModal() {
-    const modal = document.getElementById('delivery-modal');
-    const contentEl = document.getElementById('delivery-modal-body-content');
-    if (!modal || !contentEl) return;
-
-    const lang = state.lang || 'ru';
-    if (lang === 'ro') {
-      contentEl.innerHTML = `
-        <div class="delivery-legal-text">
-          <p><strong>Livrare în municipiul Chișinău:</strong> Se efectuează în termen de 3 ore după confirmarea comenzii de către operatorii noștri. Livrarea se face între orele 09:00 - 17:00 și este <strong>GRATUITĂ la comenzi de peste 700 MDL</strong>. La comenzi mai mici, costul livrării este de 80 MDL (suma va fi inclusă în totalul comenzii).</p>
-          <p><strong>Livrare pe teritoriul Republicii Moldova:</strong> Se efectuează în termen de 8-12 ore după confirmarea comenzii. Livrarea se face între orele 09:00 - 16:00 și este <strong>GRATUITĂ la comenzi de peste 1200 MDL</strong>. La comenzi mai mici, costul livrării este de 120 MDL (suma va fi inclusă în totalul comenzii).</p>
-          <p>⚠️ <em>În zilele de duminică și în sărbătorile legale nu se efectuează livrări.</em></p>
-          <p>ℹ️ Termenul de livrare poate fi prelungit în cazuri excepționale (condiții meteo nefavorabile, sărbători legale, probleme tehnice neprevăzute). În astfel de situații vă vom notifica în prealabil.</p>
-          <p>📍 Puteți alege orice adresă de livrare — acasă, la birou sau altă adresă, fără taxe suplimentare. În cadrul unei comenzi este permisă livrarea la o singură adresă.</p>
-          <p>🔍 <strong>La primirea comenzii:</strong> Vă rugăm să verificați în prezența curierului integritatea ambalajului și prezența bonului fiscal. Reclamațiile ulterioare nu vor fi acceptate.</p>
-        </div>
-      `;
-    } else {
-      contentEl.innerHTML = `
-        <div class="delivery-legal-text">
-          <p><strong>Доставка по муниципию Кишинёв:</strong> Осуществляется в течение 3 часов после подтверждения заказа нашими операторами. Доставка производится с 9:00 до 17:00 и является <strong>БЕСПЛАТНОЙ при заказе от 700 MDL</strong>. При заказах на меньшую сумму стоимость доставки составляет 80 MDL (данная сумма будет включена в итоговую сумму заказа).</p>
-          <p><strong>Доставка по территории Республики Молдова:</strong> Осуществляется в течение 8-12 часов после подтверждения заказа нашими операторами. Доставка производится с 9:00 до 16:00 и является <strong>БЕСПЛАТНОЙ при заказе от 1200 MDL</strong>. При заказах на меньшую сумму стоимость доставки составляет 120 MDL (данная сумма будет включена в итоговую сумму заказа).</p>
-          <p>⚠️ <em>В воскресные дни и в дни государственных праздников доставка не осуществляется.</em></p>
-          <p>ℹ️ Срок доставки может быть увеличен в отдельных случаях (неблагоприятные погодные условия, государственные праздники, непредвиденные технические проблемы и т.д.). В таких ситуациях мы предварительно уведомим вас.</p>
-          <p>📍 Вы можете выбрать любой адрес доставки — домой, в офис или любой другой адрес, без дополнительной оплаты. В рамках одного заказа допускается доставка только по одному адресу.</p>
-          <p>🔍 <strong>При получении заказа:</strong> Пожалуйста, проверьте в присутствии курьера целостность упаковки и наличие кассового чека. Последующие претензии по данным вопросам не принимаются.</p>
-        </div>
-      `;
-    }
-    modal.classList.add('active');
-  }
-
-  function closeDeliveryModal() {
-    const modal = document.getElementById('delivery-modal');
-    if (modal) modal.classList.remove('active');
-  }
+  
 
   return {
           cartKey: `${prod.id}_${label}`,
@@ -744,42 +709,7 @@
     updateCartUI();
   }
 
-  function openDeliveryModal() {
-    const modal = document.getElementById('delivery-modal');
-    const contentEl = document.getElementById('delivery-modal-body-content');
-    if (!modal || !contentEl) return;
-
-    const lang = state.lang || 'ru';
-    if (lang === 'ro') {
-      contentEl.innerHTML = `
-        <div class="delivery-legal-text">
-          <p><strong>Livrare în municipiul Chișinău:</strong> Se efectuează în termen de 3 ore după confirmarea comenzii de către operatorii noștri. Livrarea se face între orele 09:00 - 17:00 și este <strong>GRATUITĂ la comenzi de peste 700 MDL</strong>. La comenzi mai mici, costul livrării este de 80 MDL (suma va fi inclusă în totalul comenzii).</p>
-          <p><strong>Livrare pe teritoriul Republicii Moldova:</strong> Se efectuează în termen de 8-12 ore după confirmarea comenzii. Livrarea se face între orele 09:00 - 16:00 și este <strong>GRATUITĂ la comenzi de peste 1200 MDL</strong>. La comenzi mai mici, costul livrării este de 120 MDL (suma va fi inclusă în totalul comenzii).</p>
-          <p>⚠️ <em>În zilele de duminică și în sărbătorile legale nu se efectuează livrări.</em></p>
-          <p>ℹ️ Termenul de livrare poate fi prelungit în cazuri excepționale (condiții meteo nefavorabile, sărbători legale, probleme tehnice neprevăzute). În astfel de situații vă vom notifica în prealabil.</p>
-          <p>📍 Puteți alege orice adresă de livrare — acasă, la birou sau altă adresă, fără taxe suplimentare. În cadrul unei comenzi este permisă livrarea la o singură adresă.</p>
-          <p>🔍 <strong>La primirea comenzii:</strong> Vă rugăm să verificați în prezența curierului integritatea ambalajului și prezența bonului fiscal. Reclamațiile ulterioare nu vor fi acceptate.</p>
-        </div>
-      `;
-    } else {
-      contentEl.innerHTML = `
-        <div class="delivery-legal-text">
-          <p><strong>Доставка по муниципию Кишинёв:</strong> Осуществляется в течение 3 часов после подтверждения заказа нашими операторами. Доставка производится с 9:00 до 17:00 и является <strong>БЕСПЛАТНОЙ при заказе от 700 MDL</strong>. При заказах на меньшую сумму стоимость доставки составляет 80 MDL (данная сумма будет включена в итоговую сумму заказа).</p>
-          <p><strong>Доставка по территории Республики Молдова:</strong> Осуществляется в течение 8-12 часов после подтверждения заказа нашими операторами. Доставка производится с 9:00 до 16:00 и является <strong>БЕСПЛАТНОЙ при заказе от 1200 MDL</strong>. При заказах на меньшую сумму стоимость доставки составляет 120 MDL (данная сумма будет включена в итоговую сумму заказа).</p>
-          <p>⚠️ <em>В воскресные дни и в дни государственных праздников доставка не осуществляется.</em></p>
-          <p>ℹ️ Срок доставки может быть увеличен в отдельных случаях (неблагоприятные погодные условия, государственные праздники, непредвиденные технические проблемы и т.д.). В таких ситуациях мы предварительно уведомим вас.</p>
-          <p>📍 Вы можете выбрать любой адрес доставки — домой, в офис или любой другой адрес, без дополнительной оплаты. В рамках одного заказа допускается доставка только по одному адресу.</p>
-          <p>🔍 <strong>При получении заказа:</strong> Пожалуйста, проверьте в присутствии курьера целостность упаковки и наличие кассового чека. Последующие претензии по данным вопросам не принимаются.</p>
-        </div>
-      `;
-    }
-    modal.classList.add('active');
-  }
-
-  function closeDeliveryModal() {
-    const modal = document.getElementById('delivery-modal');
-    if (modal) modal.classList.remove('active');
-  }
+  
 
   // Global API Export
   window.TurkofoodApp = {
@@ -797,13 +727,9 @@
     triggerWhatsAppOrder,
     triggerTelegramOrder
   ,
-    setDeliveryZone,
-    openDeliveryModal,
-    closeDeliveryModal
+    setDeliveryZone
 ,
-    setDeliveryZone,
-    openDeliveryModal,
-    closeDeliveryModal
+    setDeliveryZone
   };
 
   document.addEventListener('DOMContentLoaded', init);
