@@ -525,6 +525,16 @@
     }
   }
 
+  
+  function setModalWeight(weightIdx) {
+    state.activeModalWeightIdx = weightIdx;
+    if (state.activeModalProduct) {
+      state.selectedWeights[state.activeModalProduct.id] = weightIdx;
+    }
+    updateModalUI();
+    renderProducts();
+  }
+
   function closeModal() {
     if (elements.modalBackdrop) {
       elements.modalBackdrop.classList.remove('active');
@@ -732,10 +742,7 @@
     openCartDrawer,
     closeCartDrawer,
     triggerWhatsAppOrder,
-    triggerTelegramOrder
-  ,
-    setDeliveryZone
-,
+    triggerTelegramOrder,
     setDeliveryZone
   };
 
