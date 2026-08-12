@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Primary Meta Tags -->
+  <title>Turkofood - Натуральные Турецкие Продукты в Молдове | Produse Turcești în Moldova</title>
+  <meta name="title" content="Turkofood - Натуральные Турецкие Продукты в Молдове | Produse Turcești в Moldova">
+  <meta name="description" content="Официальный интернет-магазин турецких продуктов Turkofood в Кишиневе и Молдове. Баклава, рахат-лукум, турецкий чай, кофе, орехи, специи, оливки и деликатесы с доставкой. turkofood.vercel.app">
+  <meta name="keywords" content="turkofood, turkofood vercel, турецкие продукты кишинев, баклава молдова, рахат лукум, турецкий чай, produce turcesti chisinau, baclava moldova, ceai turcesc">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://turkofood.vercel.app/">
+
+  <!-- Alternate Language Links for SEO -->
+  <link rel="alternate" hreflang="ru-MD" href="https://turkofood.vercel.app/?lang=ru">
+  <link rel="alternate" hreflang="ro-MD" href="https://turkofood.vercel.app/?lang=ro">
+  <link rel="alternate" hreflang="x-default" href="https://turkofood.vercel.app/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://turkofood.vercel.app/">
+  <meta property="og:title" content="Turkofood - Натуральные Турецкие Продукты в Молдове">
+  <meta property="og:description" content="Свежая баклава, рахат-лукум, ароматный чай, отборные орехи и турецкие деликатесы с доставкой по Молдове.">
+  <meta property="og:image" content="images/hero_banner.jpg">
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://turkofood.vercel.app/">
+  <meta property="twitter:title" content="Turkofood - Authentic Turkish Food Store Moldova">
+  <meta property="twitter:description" content="Authentic imported Turkish sweets, tea, coffee, nuts and spices in Moldova.">
+  <meta property="twitter:image" content="images/hero_banner.jpg">
+
+  <!-- Google Fonts Preconnect & Styling -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Structured Data JSON-LD (Schema.org) for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GroceryStore",
+    "name": "Turkofood",
+    "url": "https://turkofood.vercel.app",
+    "logo": "https://turkofood.vercel.app/images/hero_banner.jpg",
+    "image": "https://turkofood.vercel.app/images/hero_banner.jpg",
+    "description": "Импортер и сеть турецких магазинов натуральных продуктов питания из Турции в Молдове.",
+    "telephone": "+37368123456",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chisinau",
+      "addressCountry": "MD"
+    },
+    "priceRange": "$$",
+    "openingHours": "Mo-Su 09:00-20:00"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Notification & Language Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-info">
+        <div class="top-bar-item">
+          <span>📍</span>
+          <span data-i18n="addressContact">Молдова, г. Кишинев</span>
+        </div>
+        <div class="top-bar-item">
+          <span>📞</span>
+          <span data-i18n="phoneContact">+373 68 123 456</span>
+        </div>
+        <div class="top-bar-item">
+          <span>🕒</span>
+          <span data-i18n="workingHours">Пн - Вс: 09:00 - 20:00</span>
+        </div>
+      </div>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="ro">RO</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <!-- Logo -->
+        <a href="#" class="brand-logo">
+          <div class="logo-badge">🌙</div>
+          <div class="logo-text-group">
+            <span class="logo-title">TURKOFOOD</span>
+            <span class="logo-sub" data-i18n="tagline">Produse Turcești în Moldova</span>
+          </div>
+        </a>
+
+        <!-- Search Input -->
+        <div class="header-search">
+          <div class="search-input-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" class="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Поиск баклавы, чая, лукума, специй...">
+          </div>
+        </div>
+
+        <!-- Header Actions -->
+        <div class="header-actions">
+          <button id="cart-toggle-btn" class="cart-toggle-btn">
+            <span>🛒</span>
+            <span data-i18n="cartTitle">Корзина</span>
+            <span id="cart-badge" class="cart-badge">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="pill-badge">
+            <span>✨</span>
+            <span data-i18n="heroBadge">100% ПРЯМЫЕ ПОСТАВКИ ИЗ ТУРЦИИ</span>
+          </div>
+          <h1 class="hero-title" data-i18n="heroTitle">Вкус Настоящей Турции у Вас Дома</h1>
+          <p class="hero-subtitle" data-i18n="heroSubtitle">
+            Свежая баклава, рахат-лукум, ароматный чай, отборные орехи, специи и восточные сладости с доставкой по Кишиневу и всей Молдове.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#catalog" class="btn-primary">
+              <span data-i18n="heroCtaPrimary">Смотреть Каталог</span>
+              <span>👇</span>
+            </a>
+            <a href="#catalog" class="btn-secondary" data-i18n="heroCtaSecondary">Спецпредложения</a>
+          </div>
+        </div>
+        <div class="hero-banner-frame">
+          <img src="images/hero_banner.jpg" alt="Turkofood Turkish Gourmet Showcase" loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Cards -->
+  <section class="features-section">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📦</div>
+          <div class="feature-info">
+            <h4 data-i18n="feat1Title">Прямой Импорт</h4>
+            <p data-i18n="feat1Desc">100% аутентичные турецкие бренды высочайшего качества</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌿</div>
+          <div class="feature-info">
+            <h4 data-i18n="feat2Title">Всегда Свежее</h4>
+            <p data-i18n="feat2Desc">Регулярные прямые поставки из Турции каждые 7 дней</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🚀</div>
+          <div class="feature-info">
+            <h4 data-i18n="feat3Title">Быстрая Доставка</h4>
+            <p data-i18n="feat3Desc">Доставка курьером по Кишиневу и почтой по всей Молдове</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⭐</div>
+          <div class="feature-info">
+            <h4 data-i18n="feat4Title">Гарантия Вкуса</h4>
+            <p data-i18n="feat4Desc">Натуральные ингредиенты без искусственных добавок</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catalog Section with Desktop Sidebar & Mobile Filter Bar -->
+  <section id="catalog" class="container">
+    
+    <!-- Mobile Category Trigger Button -->
+    <div class="mobile-filter-bar">
+      <button id="mobile-filter-btn" class="btn-mobile-filter">
+        <span>📂</span>
+        <span data-i18n="mobileFilterBtn">Категории и Фильтры</span>
+      </button>
+    </div>
+
+    <!-- Main Catalog Layout Grid -->
+    <div class="catalog-layout">
+      
+      <!-- Desktop Sidebar Category Navigation -->
+      <aside class="catalog-sidebar">
+        <h3 class="sidebar-title">
+          <span>📂</span>
+          <span data-i18n="categoriesTitle">Категории Товаров</span>
+        </h3>
+        <ul id="sidebar-cat-list" class="sidebar-category-list">
+          <!-- Populated dynamically via app.js -->
+        </ul>
+      </aside>
+
+      <!-- Main Content Area -->
+      <main class="catalog-main">
+        <div class="catalog-toolbar">
+          <span id="items-counter" class="items-counter">126 товаров</span>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <label for="sort-select" data-i18n="sortLabel" style="font-size: 0.9rem; font-weight: 700;">Сортировка:</label>
+            <select id="sort-select" class="sort-select">
+              <option value="default" data-i18n="sortDefault">По умолчанию</option>
+              <option value="price-asc" data-i18n="sortPriceAsc">Сначала дешевле</option>
+              <option value="price-desc" data-i18n="sortPriceDesc">Сначала дороже</option>
+              <option value="title" data-i18n="sortTitle">По названию</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div id="products-grid" class="products-grid">
+          <!-- Populated dynamically via app.js -->
+        </div>
+      </main>
+    </div>
+  </section>
+
+  <!-- Mobile Category Filter Drawer / Modal -->
+  <div id="category-drawer-backdrop" class="cart-drawer-backdrop"></div>
+  <aside id="category-drawer" class="cart-drawer" style="max-width: 380px;">
+    <div class="cart-header">
+      <h3 style="font-size: 1.2rem;" data-i18n="categoriesTitle">Категории Товаров</h3>
+      <button id="category-drawer-close" style="font-size: 1.5rem; color: var(--text-muted);">&times;</button>
+    </div>
+    <div style="padding: 16px; overflow-y: auto;">
+      <ul id="mobile-drawer-cat-list" class="sidebar-category-list">
+        <!-- Populated via app.js -->
+      </ul>
+    </div>
+  </aside>
+
+  <!-- Quick View / Product Detail Modal -->
+  <div id="modal-backdrop" class="modal-backdrop">
+    <div class="modal-content">
+      <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+      <div class="modal-img-wrapper">
+        <img id="modal-img" src="" alt="Product image">
+      </div>
+      <div class="modal-body">
+        <h2 id="modal-title" class="modal-title"></h2>
+        <div id="modal-price" class="modal-price"></div>
+        <p id="modal-desc" class="modal-desc"></p>
+        
+        <div>
+          <label data-i18n="selectWeightPrompt" style="display: block; font-size: 0.85rem; font-weight: 700; margin-bottom: 8px;">Выберите Вес / Упаковку:</label>
+          <div id="modal-weight-options" class="modal-weight-selector"></div>
+        </div>
+
+        <div style="margin-top: 16px;">
+          <button id="modal-add-cart-btn" class="btn-primary" style="width: 100%; justify-content: center;">
+            <span data-i18n="addToCart">В корзину</span>
+            <span>🛒</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shopping Cart Slide-over Drawer with Dual WhatsApp & Telegram Checkout Buttons -->
+  <div id="cart-drawer-backdrop" class="cart-drawer-backdrop"></div>
+  <aside id="cart-drawer" class="cart-drawer">
+    <div class="cart-header">
+      <h3 style="font-size: 1.3rem;" data-i18n="cartTitle">Корзина</h3>
+      <button id="cart-close-btn" style="font-size: 1.5rem; color: var(--text-muted);">&times;</button>
+    </div>
+    <div id="cart-items-list" class="cart-items-list">
+      <!-- Injected via app.js -->
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span data-i18n="cartSubtotal">Итого:</span>
+        <span id="cart-subtotal-price" style="color: var(--primary);">0.00 MDL</span>
+      </div>
+      <p style="font-size: 0.8rem; color: var(--text-muted); text-align: center;" data-i18n="cartDeliveryNote">Доставка рассчитывается при подтверждении</p>
+      
+      <!-- Dual Messenger Direct Order Buttons -->
+      <button id="whatsapp-checkout-btn" class="btn-whatsapp-checkout">
+        <span>💬</span>
+        <span data-i18n="whatsappOrder">Заказать через WhatsApp</span>
+      </button>
+
+      <button id="telegram-checkout-btn" class="btn-telegram-checkout">
+        <span>✈️</span>
+        <span data-i18n="telegramOrder">Заказать через Telegram</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Mobile Sticky Bottom Cart Trigger Bar -->
+  <div id="mobile-bottom-cart" class="mobile-bottom-cart-bar">
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span>🛒 <span data-i18n="cartTitle">Корзина</span></span>
+      <span id="mobile-cart-badge" style="background: var(--gold); color: var(--dark-bg); padding: 2px 8px; border-radius: 12px; font-size: 0.8rem;">0</span>
+    </div>
+    <span id="mobile-cart-price">0.00 MDL</span>
+  </div>
+
+  <!-- Floating Scroll To Top Button -->
+  <button id="scroll-to-top" class="scroll-to-top-btn" aria-label="Scroll to top" title="Наверх / Sus">⬆️</button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title" style="font-size: 1.6rem; color: var(--gold);">TURKOFOOD</h3>
+          <p data-i18n="footerDesc" style="font-size: 0.9rem; line-height: 1.6; margin-top: 8px;">
+            Turkofood — Главный поставщик оригинальных турецких продуктов питания в Молдове. Самый широкий выбор баклавы, лукума, чая, кофе и турецких деликатесов.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="quickLinks">Быстрые ссылки</h4>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.9rem;">
+            <li><a href="#catalog" data-i18n="navCatalog">Каталог</a></li>
+            <li><a href="#catalog" data-i18n="catBaklava">Баклава & Кадаиф</a></li>
+            <li><a href="#catalog" data-i18n="catRahatLukurn">Рахат-Лукум</a></li>
+            <li><a href="#catalog" data-i18n="catTea">Турецкий Чай</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="contactsTitle">Контакты</h4>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.9rem;">
+            <li data-i18n="addressContact">Молдова, г. Кишинев</li>
+            <li data-i18n="phoneContact">+373 68 123 456</li>
+            <li>info@turkofood.md</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title" data-i18n="workingHoursTitle">Часы работы</h4>
+          <p data-i18n="workingHours" style="font-size: 0.9rem;">Пн - Вс: 09:00 - 20:00</p>
+          <div style="margin-top: 14px; font-size: 1.2rem; display: flex; gap: 10px;">
+            <span>🇲🇩</span>
+            <span>🇹🇷</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="copyright">© 2026 Turkofood (turkofood.vercel.app). Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Bundles -->
+  <script src="js/products.js"></script>
+  <script src="js/translations.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
