@@ -1,4 +1,4 @@
-// Turkofood 100% Authentic Product Catalog (126 Products)
+// Turkofood 100% Verified Real Product Catalog (126 Products)
 const PRODUCTS_DATA = [
   {
     "id": "prod_1",
@@ -20,7 +20,7 @@ const PRODUCTS_DATA = [
     "price": 30.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/product_1.jpg",
+    "image": "images/real_exact_prod_1.png",
     "badge": "popular",
     "inStock": true
   },
@@ -44,7 +44,7 @@ const PRODUCTS_DATA = [
     "price": 20.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/product_2.jpg",
+    "image": "images/real_exact_prod_2.jpg",
     "badge": null,
     "inStock": true
   },
@@ -68,7 +68,7 @@ const PRODUCTS_DATA = [
     "price": 30.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/product_1.jpg",
+    "image": "images/real_exact_prod_3.jpg",
     "badge": null,
     "inStock": true
   },
@@ -92,7 +92,7 @@ const PRODUCTS_DATA = [
     "price": 20.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/product_2.jpg",
+    "image": "images/real_exact_prod_4.jpg",
     "badge": null,
     "inStock": true
   },
@@ -124,7 +124,7 @@ const PRODUCTS_DATA = [
     "price": 225.0,
     "currency": "MDL",
     "category": "dragees",
-    "image": "images/real_prod_84.jpg",
+    "image": "images/real_exact_prod_5.jpg",
     "badge": null,
     "inStock": true
   },
@@ -148,7 +148,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/product_4.jpg",
+    "image": "images/real_exact_prod_6.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -172,7 +172,7 @@ const PRODUCTS_DATA = [
     "price": 190.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/product_3.jpg",
+    "image": "images/real_exact_prod_7.jpg",
     "badge": null,
     "inStock": true
   },
@@ -204,7 +204,7 @@ const PRODUCTS_DATA = [
     "price": 225.0,
     "currency": "MDL",
     "category": "dragees",
-    "image": "images/real_prod_84.jpg",
+    "image": "images/real_exact_prod_8.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -236,7 +236,7 @@ const PRODUCTS_DATA = [
     "price": 75.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/product_6.jpg",
+    "image": "images/real_exact_prod_9.jpg",
     "badge": null,
     "inStock": true
   },
@@ -268,7 +268,7 @@ const PRODUCTS_DATA = [
     "price": 62.5,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_7.jpg",
+    "image": "images/real_exact_prod_10.jpg",
     "badge": null,
     "inStock": true
   },
@@ -300,7 +300,7 @@ const PRODUCTS_DATA = [
     "price": 62.5,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/product_8.jpg",
+    "image": "images/real_exact_prod_11.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -332,7 +332,7 @@ const PRODUCTS_DATA = [
     "price": 55.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_9.jpg",
+    "image": "images/real_exact_prod_12.jpg",
     "badge": "new",
     "inStock": true
   },
@@ -364,7 +364,7 @@ const PRODUCTS_DATA = [
     "price": 112.5,
     "currency": "MDL",
     "category": "baklava",
-    "image": "images/product_10.jpg",
+    "image": "images/real_exact_prod_13.jpg",
     "badge": null,
     "inStock": true
   },
@@ -396,7 +396,7 @@ const PRODUCTS_DATA = [
     "price": 162.5,
     "currency": "MDL",
     "category": "baklava",
-    "image": "images/product_11.jpg",
+    "image": "images/real_exact_prod_14.jpg",
     "badge": null,
     "inStock": true
   },
@@ -428,7 +428,7 @@ const PRODUCTS_DATA = [
     "price": 225.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/product_12.jpg",
+    "image": "images/real_exact_prod_15.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -460,7 +460,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/product_13.jpg",
+    "image": "images/real_exact_prod_16.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -492,7 +492,7 @@ const PRODUCTS_DATA = [
     "price": 125.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_14.png",
+    "image": "images/real_exact_prod_17.jpg",
     "badge": null,
     "inStock": true
   },
@@ -524,7 +524,7 @@ const PRODUCTS_DATA = [
     "price": 125.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_15.png",
+    "image": "images/real_exact_prod_18.jpg",
     "badge": null,
     "inStock": true
   },
@@ -556,7 +556,7 @@ const PRODUCTS_DATA = [
     "price": 125.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_16.png",
+    "image": "images/real_exact_prod_19.jpg",
     "badge": null,
     "inStock": true
   },
@@ -588,7 +588,7 @@ const PRODUCTS_DATA = [
     "price": 87.5,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_17.jpg",
+    "image": "images/real_exact_prod_20.jpg",
     "badge": null,
     "inStock": true
   },
@@ -612,7 +612,7 @@ const PRODUCTS_DATA = [
     "price": 60.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_18.png",
+    "image": "images/real_exact_prod_21.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -636,7 +636,7 @@ const PRODUCTS_DATA = [
     "price": 60.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_19.png",
+    "image": "images/real_exact_prod_22.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -660,7 +660,7 @@ const PRODUCTS_DATA = [
     "price": 70.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/product_4.jpg",
+    "image": "images/real_exact_prod_23.jpg",
     "badge": "new",
     "inStock": true
   },
@@ -684,7 +684,7 @@ const PRODUCTS_DATA = [
     "price": 70.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_20.png",
+    "image": "images/real_exact_prod_24.jpg",
     "badge": null,
     "inStock": true
   },
@@ -708,7 +708,7 @@ const PRODUCTS_DATA = [
     "price": 80.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_21.jpg",
+    "image": "images/real_exact_prod_25.jpg",
     "badge": null,
     "inStock": true
   },
@@ -732,7 +732,7 @@ const PRODUCTS_DATA = [
     "price": 60.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_22.png",
+    "image": "images/real_exact_prod_26.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -756,7 +756,7 @@ const PRODUCTS_DATA = [
     "price": 70.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_23.png",
+    "image": "images/real_exact_prod_27.jpg",
     "badge": null,
     "inStock": true
   },
@@ -780,7 +780,7 @@ const PRODUCTS_DATA = [
     "price": 60.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_24.png",
+    "image": "images/real_exact_prod_28.png",
     "badge": null,
     "inStock": true
   },
@@ -812,7 +812,7 @@ const PRODUCTS_DATA = [
     "price": 62.5,
     "currency": "MDL",
     "category": "dragees",
-    "image": "images/real_prod_25.jpg",
+    "image": "images/real_exact_prod_29.png",
     "badge": "popular",
     "inStock": true
   },
@@ -844,7 +844,7 @@ const PRODUCTS_DATA = [
     "price": 62.5,
     "currency": "MDL",
     "category": "dragees",
-    "image": "images/real_prod_26.jpg",
+    "image": "images/real_exact_prod_30.png",
     "badge": null,
     "inStock": true
   },
@@ -876,7 +876,7 @@ const PRODUCTS_DATA = [
     "price": 125.0,
     "currency": "MDL",
     "category": "dragees",
-    "image": "images/real_prod_31.jpg",
+    "image": "images/real_exact_prod_31.png",
     "badge": "bestseller",
     "inStock": true
   },
@@ -900,7 +900,7 @@ const PRODUCTS_DATA = [
     "price": 50.0,
     "currency": "MDL",
     "category": "sweets",
-    "image": "images/real_prod_27.jpg",
+    "image": "images/real_exact_prod_32.png",
     "badge": null,
     "inStock": true
   },
@@ -924,7 +924,7 @@ const PRODUCTS_DATA = [
     "price": 95.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/product_6.jpg",
+    "image": "images/real_exact_prod_33.png",
     "badge": null,
     "inStock": true
   },
@@ -948,7 +948,7 @@ const PRODUCTS_DATA = [
     "price": 150.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_28.jpg",
+    "image": "images/real_exact_prod_34.jpg",
     "badge": "new",
     "inStock": true
   },
@@ -972,7 +972,7 @@ const PRODUCTS_DATA = [
     "price": 80.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_28.jpg",
+    "image": "images/real_exact_prod_35.jpg",
     "badge": null,
     "inStock": true
   },
@@ -996,7 +996,7 @@ const PRODUCTS_DATA = [
     "price": 75.0,
     "currency": "MDL",
     "category": "sweets",
-    "image": "images/real_prod_29.jpg",
+    "image": "images/real_exact_prod_36.png",
     "badge": "popular",
     "inStock": true
   },
@@ -1028,7 +1028,7 @@ const PRODUCTS_DATA = [
     "price": 75.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_30.jpg",
+    "image": "images/real_exact_prod_37.png",
     "badge": null,
     "inStock": true
   },
@@ -1060,7 +1060,7 @@ const PRODUCTS_DATA = [
     "price": 162.5,
     "currency": "MDL",
     "category": "baklava",
-    "image": "images/real_prod_31.jpg",
+    "image": "images/real_exact_prod_38.png",
     "badge": null,
     "inStock": true
   },
@@ -1084,7 +1084,7 @@ const PRODUCTS_DATA = [
     "price": 240.0,
     "currency": "MDL",
     "category": "sweets",
-    "image": "images/real_prod_32.jpg",
+    "image": "images/real_exact_prod_39.png",
     "badge": null,
     "inStock": true
   },
@@ -1116,7 +1116,7 @@ const PRODUCTS_DATA = [
     "price": 137.5,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_33.jpg",
+    "image": "images/real_exact_prod_40.png",
     "badge": null,
     "inStock": true
   },
@@ -1148,7 +1148,7 @@ const PRODUCTS_DATA = [
     "price": 137.5,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_34.jpg",
+    "image": "images/real_exact_prod_41.png",
     "badge": "bestseller",
     "inStock": true
   },
@@ -1180,7 +1180,7 @@ const PRODUCTS_DATA = [
     "price": 75.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_35.jpg",
+    "image": "images/real_exact_prod_42.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1204,7 +1204,7 @@ const PRODUCTS_DATA = [
     "price": 150.0,
     "currency": "MDL",
     "category": "coffee",
-    "image": "images/real_prod_501.jpg",
+    "image": "images/real_exact_prod_43.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -1228,7 +1228,7 @@ const PRODUCTS_DATA = [
     "price": 210.0,
     "currency": "MDL",
     "category": "coffee",
-    "image": "images/real_prod_36.jpg",
+    "image": "images/real_exact_prod_44.png",
     "badge": null,
     "inStock": true
   },
@@ -1252,7 +1252,7 @@ const PRODUCTS_DATA = [
     "price": 210.0,
     "currency": "MDL",
     "category": "coffee",
-    "image": "images/real_prod_37.jpg",
+    "image": "images/real_exact_prod_45.png",
     "badge": "new",
     "inStock": true
   },
@@ -1276,7 +1276,7 @@ const PRODUCTS_DATA = [
     "price": 70.0,
     "currency": "MDL",
     "category": "coffee",
-    "image": "images/real_prod_38.jpg",
+    "image": "images/real_exact_prod_46.png",
     "badge": "bestseller",
     "inStock": true
   },
@@ -1300,7 +1300,7 @@ const PRODUCTS_DATA = [
     "price": 200.0,
     "currency": "MDL",
     "category": "coffee",
-    "image": "images/real_prod_39.jpg",
+    "image": "images/real_exact_prod_47.png",
     "badge": null,
     "inStock": true
   },
@@ -1324,7 +1324,7 @@ const PRODUCTS_DATA = [
     "price": 370.0,
     "currency": "MDL",
     "category": "coffee",
-    "image": "images/real_prod_40.jpg",
+    "image": "images/real_exact_prod_48.png",
     "badge": null,
     "inStock": true
   },
@@ -1348,7 +1348,7 @@ const PRODUCTS_DATA = [
     "price": 65.0,
     "currency": "MDL",
     "category": "coffee",
-    "image": "images/real_prod_41.jpg",
+    "image": "images/real_exact_prod_49.png",
     "badge": null,
     "inStock": true
   },
@@ -1372,7 +1372,7 @@ const PRODUCTS_DATA = [
     "price": 180.0,
     "currency": "MDL",
     "category": "coffee",
-    "image": "images/real_prod_42.jpg",
+    "image": "images/real_exact_prod_50.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -1396,7 +1396,7 @@ const PRODUCTS_DATA = [
     "price": 80.0,
     "currency": "MDL",
     "category": "coffee",
-    "image": "images/real_prod_43.png",
+    "image": "images/real_exact_prod_51.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -1420,7 +1420,7 @@ const PRODUCTS_DATA = [
     "price": 50.0,
     "currency": "MDL",
     "category": "sweets",
-    "image": "images/real_prod_44.png",
+    "image": "images/real_exact_prod_52.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1444,7 +1444,7 @@ const PRODUCTS_DATA = [
     "price": 90.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_45.png",
+    "image": "images/real_exact_prod_53.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1468,7 +1468,7 @@ const PRODUCTS_DATA = [
     "price": 65.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_46.png",
+    "image": "images/real_exact_prod_54.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1500,7 +1500,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_47.jpg",
+    "image": "images/real_exact_prod_55.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1532,7 +1532,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_48.jpg",
+    "image": "images/real_exact_prod_56.png",
     "badge": "new",
     "inStock": true
   },
@@ -1564,7 +1564,7 @@ const PRODUCTS_DATA = [
     "price": 130.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_49.png",
+    "image": "images/real_exact_prod_57.png",
     "badge": "popular",
     "inStock": true
   },
@@ -1596,7 +1596,7 @@ const PRODUCTS_DATA = [
     "price": 90.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_50.jpg",
+    "image": "images/real_exact_prod_58.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1628,7 +1628,7 @@ const PRODUCTS_DATA = [
     "price": 70.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_51.jpg",
+    "image": "images/real_exact_prod_59.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1660,7 +1660,7 @@ const PRODUCTS_DATA = [
     "price": 110.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_52.png",
+    "image": "images/real_exact_prod_60.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1692,7 +1692,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_53.jpg",
+    "image": "images/real_exact_prod_61.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -1724,7 +1724,7 @@ const PRODUCTS_DATA = [
     "price": 125.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_54.jpg",
+    "image": "images/real_exact_prod_62.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1756,7 +1756,7 @@ const PRODUCTS_DATA = [
     "price": 75.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_55.jpg",
+    "image": "images/real_exact_prod_63.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1788,7 +1788,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_56.png",
+    "image": "images/real_exact_prod_64.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -1820,7 +1820,7 @@ const PRODUCTS_DATA = [
     "price": 95.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_57.png",
+    "image": "images/real_exact_prod_65.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1852,7 +1852,7 @@ const PRODUCTS_DATA = [
     "price": 95.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_58.png",
+    "image": "images/real_exact_prod_66.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -1884,7 +1884,7 @@ const PRODUCTS_DATA = [
     "price": 85.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_59.jpg",
+    "image": "images/real_exact_prod_67.jpg",
     "badge": "new",
     "inStock": true
   },
@@ -1916,7 +1916,7 @@ const PRODUCTS_DATA = [
     "price": 137.5,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_60.jpg",
+    "image": "images/real_exact_prod_68.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1948,7 +1948,7 @@ const PRODUCTS_DATA = [
     "price": 112.5,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_61.jpg",
+    "image": "images/real_exact_prod_69.jpg",
     "badge": null,
     "inStock": true
   },
@@ -1980,7 +1980,7 @@ const PRODUCTS_DATA = [
     "price": 105.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_62.jpg",
+    "image": "images/real_exact_prod_70.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2012,7 +2012,7 @@ const PRODUCTS_DATA = [
     "price": 170.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_63.jpg",
+    "image": "images/real_exact_prod_71.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -2044,7 +2044,7 @@ const PRODUCTS_DATA = [
     "price": 120.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_64.jpg",
+    "image": "images/real_exact_prod_72.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2076,7 +2076,7 @@ const PRODUCTS_DATA = [
     "price": 110.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_65.png",
+    "image": "images/real_exact_prod_73.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2108,7 +2108,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_66.jpg",
+    "image": "images/real_exact_prod_74.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2140,7 +2140,7 @@ const PRODUCTS_DATA = [
     "price": 150.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_502.jpg",
+    "image": "images/real_exact_prod_75.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2172,7 +2172,7 @@ const PRODUCTS_DATA = [
     "price": 62.5,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_67.jpg",
+    "image": "images/real_exact_prod_76.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -2204,7 +2204,7 @@ const PRODUCTS_DATA = [
     "price": 75.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_68.jpg",
+    "image": "images/real_exact_prod_77.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2228,7 +2228,7 @@ const PRODUCTS_DATA = [
     "price": 300.0,
     "currency": "MDL",
     "category": "pastes-jams",
-    "image": "images/real_prod_69.png",
+    "image": "images/real_exact_prod_78.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -2260,7 +2260,7 @@ const PRODUCTS_DATA = [
     "price": 75.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_70.jpg",
+    "image": "images/real_exact_prod_79.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2292,7 +2292,7 @@ const PRODUCTS_DATA = [
     "price": 137.5,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_71.jpg",
+    "image": "images/real_exact_prod_80.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2324,7 +2324,7 @@ const PRODUCTS_DATA = [
     "price": 137.5,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_72.jpg",
+    "image": "images/real_exact_prod_81.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -2356,7 +2356,7 @@ const PRODUCTS_DATA = [
     "price": 105.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_73.jpg",
+    "image": "images/real_exact_prod_82.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2388,7 +2388,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_74.jpg",
+    "image": "images/real_exact_prod_83.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2412,7 +2412,7 @@ const PRODUCTS_DATA = [
     "price": 50.0,
     "currency": "MDL",
     "category": "sweets",
-    "image": "images/real_prod_75.jpg",
+    "image": "images/real_exact_prod_84.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2444,7 +2444,7 @@ const PRODUCTS_DATA = [
     "price": 105.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_76.jpg",
+    "image": "images/real_exact_prod_85.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -2468,7 +2468,7 @@ const PRODUCTS_DATA = [
     "price": 110.0,
     "currency": "MDL",
     "category": "sweets",
-    "image": "images/real_prod_77.jpg",
+    "image": "images/real_exact_prod_86.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -2492,7 +2492,7 @@ const PRODUCTS_DATA = [
     "price": 110.0,
     "currency": "MDL",
     "category": "sweets",
-    "image": "images/real_prod_78.jpg",
+    "image": "images/real_exact_prod_87.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2516,7 +2516,7 @@ const PRODUCTS_DATA = [
     "price": 85.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_79.jpg",
+    "image": "images/real_exact_prod_88.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2548,7 +2548,7 @@ const PRODUCTS_DATA = [
     "price": 95.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_80.jpg",
+    "image": "images/real_exact_prod_89.jpg",
     "badge": "new",
     "inStock": true
   },
@@ -2580,7 +2580,7 @@ const PRODUCTS_DATA = [
     "price": 50.0,
     "currency": "MDL",
     "category": "rahat-lukum",
-    "image": "images/real_prod_81.jpg",
+    "image": "images/real_exact_prod_90.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2604,7 +2604,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "sweets",
-    "image": "images/real_prod_82.jpg",
+    "image": "images/real_exact_prod_91.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -2636,7 +2636,7 @@ const PRODUCTS_DATA = [
     "price": 150.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_83.jpg",
+    "image": "images/real_exact_prod_92.png",
     "badge": "popular",
     "inStock": true
   },
@@ -2668,7 +2668,7 @@ const PRODUCTS_DATA = [
     "price": 225.0,
     "currency": "MDL",
     "category": "dragees",
-    "image": "images/real_prod_84.jpg",
+    "image": "images/real_exact_prod_93.png",
     "badge": null,
     "inStock": true
   },
@@ -2700,7 +2700,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_85.jpg",
+    "image": "images/real_exact_prod_94.png",
     "badge": null,
     "inStock": true
   },
@@ -2732,7 +2732,7 @@ const PRODUCTS_DATA = [
     "price": 75.0,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_86.jpg",
+    "image": "images/real_exact_prod_95.png",
     "badge": null,
     "inStock": true
   },
@@ -2764,7 +2764,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_87.png",
+    "image": "images/real_exact_prod_96.png",
     "badge": "bestseller",
     "inStock": true
   },
@@ -2788,7 +2788,7 @@ const PRODUCTS_DATA = [
     "price": 90.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_88.jpg",
+    "image": "images/real_exact_prod_97.png",
     "badge": null,
     "inStock": true
   },
@@ -2812,7 +2812,7 @@ const PRODUCTS_DATA = [
     "price": 210.0,
     "currency": "MDL",
     "category": "coffee",
-    "image": "images/real_prod_89.jpg",
+    "image": "images/real_exact_prod_98.png",
     "badge": null,
     "inStock": true
   },
@@ -2844,7 +2844,7 @@ const PRODUCTS_DATA = [
     "price": 137.5,
     "currency": "MDL",
     "category": "dried-fruits",
-    "image": "images/real_prod_503.jpg",
+    "image": "images/real_exact_prod_99.png",
     "badge": "popular",
     "inStock": true
   },
@@ -2876,7 +2876,7 @@ const PRODUCTS_DATA = [
     "price": 187.5,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_90.jpg",
+    "image": "images/real_exact_prod_100.jpg",
     "badge": "new",
     "inStock": true
   },
@@ -2908,7 +2908,7 @@ const PRODUCTS_DATA = [
     "price": 175.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_91.jpg",
+    "image": "images/real_exact_prod_101.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -2940,7 +2940,7 @@ const PRODUCTS_DATA = [
     "price": 125.0,
     "currency": "MDL",
     "category": "dragees",
-    "image": "images/product_7.jpg",
+    "image": "images/real_exact_prod_102.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2972,7 +2972,7 @@ const PRODUCTS_DATA = [
     "price": 175.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_92.jpg",
+    "image": "images/real_exact_prod_103.jpg",
     "badge": null,
     "inStock": true
   },
@@ -2996,7 +2996,7 @@ const PRODUCTS_DATA = [
     "price": 70.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_93.jpg",
+    "image": "images/real_exact_prod_104.png",
     "badge": null,
     "inStock": true
   },
@@ -3020,7 +3020,7 @@ const PRODUCTS_DATA = [
     "price": 55.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_94.png",
+    "image": "images/real_exact_prod_105.png",
     "badge": null,
     "inStock": true
   },
@@ -3044,7 +3044,7 @@ const PRODUCTS_DATA = [
     "price": 60.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/product_8.jpg",
+    "image": "images/real_exact_prod_106.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -3068,7 +3068,7 @@ const PRODUCTS_DATA = [
     "price": 80.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_95.png",
+    "image": "images/real_exact_prod_107.jpg",
     "badge": null,
     "inStock": true
   },
@@ -3092,7 +3092,7 @@ const PRODUCTS_DATA = [
     "price": 70.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_96.png",
+    "image": "images/real_exact_prod_108.jpg",
     "badge": null,
     "inStock": true
   },
@@ -3124,7 +3124,7 @@ const PRODUCTS_DATA = [
     "price": 16.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_97.png",
+    "image": "images/real_exact_prod_109.jpg",
     "badge": null,
     "inStock": true
   },
@@ -3156,7 +3156,7 @@ const PRODUCTS_DATA = [
     "price": 90.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_98.png",
+    "image": "images/real_exact_prod_110.png",
     "badge": null,
     "inStock": true
   },
@@ -3188,7 +3188,7 @@ const PRODUCTS_DATA = [
     "price": 20.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_99.png",
+    "image": "images/real_exact_prod_111.png",
     "badge": "new",
     "inStock": true
   },
@@ -3212,7 +3212,7 @@ const PRODUCTS_DATA = [
     "price": 90.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_100.jpg",
+    "image": "images/real_exact_prod_112.jpg",
     "badge": null,
     "inStock": true
   },
@@ -3236,7 +3236,7 @@ const PRODUCTS_DATA = [
     "price": 200.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_101.jpg",
+    "image": "images/real_exact_prod_113.jpg",
     "badge": "popular",
     "inStock": true
   },
@@ -3260,7 +3260,7 @@ const PRODUCTS_DATA = [
     "price": 80.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_102.jpg",
+    "image": "images/real_exact_prod_114.jpg",
     "badge": null,
     "inStock": true
   },
@@ -3284,7 +3284,7 @@ const PRODUCTS_DATA = [
     "price": 120.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_103.png",
+    "image": "images/real_exact_prod_115.jpg",
     "badge": null,
     "inStock": true
   },
@@ -3308,7 +3308,7 @@ const PRODUCTS_DATA = [
     "price": 80.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_104.png",
+    "image": "images/real_exact_prod_116.jpg",
     "badge": "bestseller",
     "inStock": true
   },
@@ -3332,7 +3332,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_504.png",
+    "image": "images/real_exact_prod_117.jpg",
     "badge": null,
     "inStock": true
   },
@@ -3356,7 +3356,7 @@ const PRODUCTS_DATA = [
     "price": 21.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_105.jpg",
+    "image": "images/real_exact_prod_118.png",
     "badge": null,
     "inStock": true
   },
@@ -3380,7 +3380,7 @@ const PRODUCTS_DATA = [
     "price": 55.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_106.jpg",
+    "image": "images/real_exact_prod_119.png",
     "badge": null,
     "inStock": true
   },
@@ -3404,7 +3404,7 @@ const PRODUCTS_DATA = [
     "price": 60.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_107.png",
+    "image": "images/real_exact_prod_120.png",
     "badge": "popular",
     "inStock": true
   },
@@ -3428,7 +3428,7 @@ const PRODUCTS_DATA = [
     "price": 190.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_108.jpg",
+    "image": "images/real_exact_prod_121.png",
     "badge": "bestseller",
     "inStock": true
   },
@@ -3452,7 +3452,7 @@ const PRODUCTS_DATA = [
     "price": 80.0,
     "currency": "MDL",
     "category": "tea",
-    "image": "images/real_prod_109.jpg",
+    "image": "images/real_exact_prod_122.png",
     "badge": "new",
     "inStock": true
   },
@@ -3484,7 +3484,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_110.png",
+    "image": "images/real_exact_prod_123.png",
     "badge": null,
     "inStock": true
   },
@@ -3516,7 +3516,7 @@ const PRODUCTS_DATA = [
     "price": 100.0,
     "currency": "MDL",
     "category": "nuts",
-    "image": "images/real_prod_111.jpg",
+    "image": "images/real_exact_prod_124.jpg",
     "badge": null,
     "inStock": true
   },
@@ -3548,7 +3548,7 @@ const PRODUCTS_DATA = [
     "price": 125.0,
     "currency": "MDL",
     "category": "dragees",
-    "image": "images/real_prod_112.jpg",
+    "image": "images/real_exact_prod_125.jpg",
     "badge": null,
     "inStock": true
   },
@@ -3572,7 +3572,7 @@ const PRODUCTS_DATA = [
     "price": 80.0,
     "currency": "MDL",
     "category": "halva",
-    "image": "images/real_prod_113.png",
+    "image": "images/real_exact_prod_126.jpg",
     "badge": "bestseller",
     "inStock": true
   }
