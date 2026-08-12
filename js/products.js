@@ -1,4 +1,4 @@
-// Turkofood 100% Multilingual WooCommerce Catalog (126 Verified Products)
+// Turkofood 100% Verified WooCommerce Catalog (126 Exact Card Images Mapped 1-to-1)
 const PRODUCTS_DATA = [
   {
     "id": "prod_1",
@@ -14,7 +14,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Hazelnut Bar\"."
     },
     "price": 30.0,
-    "image": "images/exact_sf_prod_1.jpg",
+    "image": "images/exact_card/card_img_1.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -36,7 +36,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Peanut Bar\"."
     },
     "price": 20.0,
-    "image": "images/exact_sf_prod_2.jpg",
+    "image": "images/exact_card/card_img_2.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -58,7 +58,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Almond Bar\"."
     },
     "price": 30.0,
-    "image": "images/exact_sf_prod_3.jpg",
+    "image": "images/exact_card/card_img_3.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -80,7 +80,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Carrot & Nut Bar (Cezerye)\"."
     },
     "price": 20.0,
-    "image": "images/exact_sf_prod_4.jpg",
+    "image": "images/exact_card/card_img_4.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -102,7 +102,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Freeze-dried Strawberries in Lime Chocolate\"."
     },
     "price": 225.0,
-    "image": "images/exact_sf_prod_5.jpg",
+    "image": "images/exact_card/card_img_5.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -124,7 +124,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Turkish Filiz Tea 200g\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_6.jpg",
+    "image": "images/exact_card/card_img_6.jpg",
     "weights": [
       {
         "label": "200g",
@@ -146,7 +146,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Tahini Sesame Paste\"."
     },
     "price": 190.0,
-    "image": "images/exact_sf_prod_7.jpg",
+    "image": "images/exact_card/card_img_7.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -168,7 +168,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Freeze-dried Raspberries in White Chocolate\"."
     },
     "price": 225.0,
-    "image": "images/exact_sf_prod_8.jpg",
+    "image": "images/exact_card/card_img_8.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -190,7 +190,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Candied Dried Pineapple\"."
     },
     "price": 75.0,
-    "image": "images/exact_sf_prod_9.jpg",
+    "image": "images/exact_card/card_img_9.jpg",
     "weights": [
       {
         "label": "250g",
@@ -220,7 +220,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Honey Sesame Peanuts\"."
     },
     "price": 62.5,
-    "image": "images/exact_sf_prod_10.jpg",
+    "image": "images/exact_card/card_img_10.jpg",
     "weights": [
       {
         "label": "250g",
@@ -250,7 +250,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Crispy Coated Peanuts\"."
     },
     "price": 62.5,
-    "image": "images/exact_sf_prod_11.jpg",
+    "image": "images/exact_card/card_img_11.jpg",
     "weights": [
       {
         "label": "250g",
@@ -280,7 +280,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Roasted Salted Peanuts\"."
     },
     "price": 55.0,
-    "image": "images/exact_sf_prod_12.jpg",
+    "image": "images/exact_card/card_img_12.jpg",
     "weights": [
       {
         "label": "250g",
@@ -310,7 +310,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Walnut Baklava\"."
     },
     "price": 112.5,
-    "image": "images/exact_sf_prod_13.jpg",
+    "image": "images/exact_card/card_img_13.jpg",
     "weights": [
       {
         "label": "250g",
@@ -340,7 +340,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Pistachio Baklava\"."
     },
     "price": 162.5,
-    "image": "images/exact_sf_prod_14.jpg",
+    "image": "images/exact_card/card_img_14.jpg",
     "weights": [
       {
         "label": "250g",
@@ -370,7 +370,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Brazil Nuts\"."
     },
     "price": 225.0,
-    "image": "images/exact_sf_prod_15.jpg",
+    "image": "images/exact_card/card_img_15.jpg",
     "weights": [
       {
         "label": "250g",
@@ -400,7 +400,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Dried Bananas\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_16.jpg",
+    "image": "images/exact_card/card_img_16.jpg",
     "weights": [
       {
         "label": "250g",
@@ -430,7 +430,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Pomegranate Delight with Pistachios & Barberry\"."
     },
     "price": 125.0,
-    "image": "images/exact_sf_prod_17.jpg",
+    "image": "images/exact_card/card_img_17.jpg",
     "weights": [
       {
         "label": "250g",
@@ -460,7 +460,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Pomegranate Delight with Pistachios & Puffed Rice\"."
     },
     "price": 125.0,
-    "image": "images/exact_sf_prod_18.jpg",
+    "image": "images/exact_card/card_img_18.jpg",
     "weights": [
       {
         "label": "250g",
@@ -490,7 +490,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Pomegranate Delight with Pistachios & Rose Petals\"."
     },
     "price": 125.0,
-    "image": "images/exact_sf_prod_19.jpg",
+    "image": "images/exact_card/card_img_19.jpg",
     "weights": [
       {
         "label": "250g",
@@ -520,7 +520,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Walnut Kernels\"."
     },
     "price": 87.5,
-    "image": "images/exact_sf_prod_20.jpg",
+    "image": "images/exact_card/card_img_20.jpg",
     "weights": [
       {
         "label": "250g",
@@ -550,7 +550,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Apricot Jam 300g\"."
     },
     "price": 60.0,
-    "image": "images/exact_sf_prod_21.jpg",
+    "image": "images/exact_card/card_img_21.jpg",
     "weights": [
       {
         "label": "300g",
@@ -572,7 +572,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Quince Jam 300g\"."
     },
     "price": 60.0,
-    "image": "images/exact_sf_prod_22.jpg",
+    "image": "images/exact_card/card_img_22.jpg",
     "weights": [
       {
         "label": "300g",
@@ -594,7 +594,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Orange Jam 300g\"."
     },
     "price": 70.0,
-    "image": "images/exact_sf_prod_23.jpg",
+    "image": "images/exact_card/card_img_23.jpg",
     "weights": [
       {
         "label": "300g",
@@ -616,7 +616,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Sour Cherry Jam 300g\"."
     },
     "price": 70.0,
-    "image": "images/exact_sf_prod_24.jpg",
+    "image": "images/exact_card/card_img_24.jpg",
     "weights": [
       {
         "label": "300g",
@@ -638,7 +638,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Blackberry Jam 300g\"."
     },
     "price": 80.0,
-    "image": "images/exact_sf_prod_25.jpg",
+    "image": "images/exact_card/card_img_25.jpg",
     "weights": [
       {
         "label": "300g",
@@ -660,7 +660,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Fig Jam 300g\"."
     },
     "price": 60.0,
-    "image": "images/exact_sf_prod_26.jpg",
+    "image": "images/exact_card/card_img_26.jpg",
     "weights": [
       {
         "label": "300g",
@@ -682,7 +682,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Strawberry Jam 300g\"."
     },
     "price": 70.0,
-    "image": "images/exact_sf_prod_27.jpg",
+    "image": "images/exact_card/card_img_27.jpg",
     "weights": [
       {
         "label": "300g",
@@ -704,7 +704,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Rose Jam 300g\"."
     },
     "price": 60.0,
-    "image": "images/exact_sf_prod_28.jpg",
+    "image": "images/exact_card/card_img_28.jpg",
     "weights": [
       {
         "label": "300g",
@@ -726,7 +726,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Bonibon Dragées\"."
     },
     "price": 62.5,
-    "image": "images/exact_sf_prod_29.jpg",
+    "image": "images/exact_card/card_img_29.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -748,7 +748,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Chocolate Pebble Dragées\"."
     },
     "price": 62.5,
-    "image": "images/exact_sf_prod_30.jpg",
+    "image": "images/exact_card/card_img_30.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -770,7 +770,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Hazelnut Dragées in White Chocolate\"."
     },
     "price": 125.0,
-    "image": "images/exact_sf_prod_31.jpg",
+    "image": "images/exact_card/card_img_31.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -792,7 +792,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Roasted Salted Corn\"."
     },
     "price": 50.0,
-    "image": "images/exact_sf_prod_32.jpg",
+    "image": "images/exact_card/card_img_32.jpg",
     "weights": [
       {
         "label": "250g",
@@ -822,7 +822,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Turkish Green Tea 100g\"."
     },
     "price": 95.0,
-    "image": "images/exact_sf_prod_33.jpg",
+    "image": "images/exact_card/card_img_33.jpg",
     "weights": [
       {
         "label": "100g",
@@ -844,7 +844,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Winter Herbal Tea\"."
     },
     "price": 150.0,
-    "image": "images/exact_sf_prod_34.jpg",
+    "image": "images/exact_card/card_img_34.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -866,7 +866,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Winter Herbal Tea 100g\"."
     },
     "price": 80.0,
-    "image": "images/exact_sf_prod_35.jpg",
+    "image": "images/exact_card/card_img_35.jpg",
     "weights": [
       {
         "label": "100g",
@@ -888,7 +888,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Golden Raisins\"."
     },
     "price": 75.0,
-    "image": "images/exact_sf_prod_36.jpg",
+    "image": "images/exact_card/card_img_36.jpg",
     "weights": [
       {
         "label": "250g",
@@ -918,7 +918,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Candied Dried Ginger\"."
     },
     "price": 75.0,
-    "image": "images/exact_sf_prod_37.jpg",
+    "image": "images/exact_card/card_img_37.jpg",
     "weights": [
       {
         "label": "250g",
@@ -948,7 +948,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Pistachio Kadaif\"."
     },
     "price": 162.5,
-    "image": "images/exact_sf_prod_38.jpg",
+    "image": "images/exact_card/card_img_38.jpg",
     "weights": [
       {
         "label": "250g",
@@ -978,7 +978,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Turkish Cocoa Nuri Toplar\"."
     },
     "price": 240.0,
-    "image": "images/exact_sf_prod_39.jpg",
+    "image": "images/exact_card/card_img_39.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -1000,7 +1000,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Roasted Salted Cashews\"."
     },
     "price": 137.5,
-    "image": "images/exact_sf_prod_40.jpg",
+    "image": "images/exact_card/card_img_40.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1030,7 +1030,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Raw Dried Cashews\"."
     },
     "price": 137.5,
-    "image": "images/exact_sf_prod_41.jpg",
+    "image": "images/exact_card/card_img_41.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1060,7 +1060,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Dried Kiwi Slices\"."
     },
     "price": 75.0,
-    "image": "images/exact_sf_prod_42.jpg",
+    "image": "images/exact_card/card_img_42.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1090,7 +1090,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Nuri Toplar Ottoman Coffee 250g\"."
     },
     "price": 150.0,
-    "image": "images/exact_sf_prod_43.jpg",
+    "image": "images/exact_card/card_img_43.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1112,7 +1112,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Nuri Toplar Hazelnut Coffee 250g\"."
     },
     "price": 210.0,
-    "image": "images/exact_sf_prod_44.jpg",
+    "image": "images/exact_card/card_img_44.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1134,7 +1134,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Nuri Toplar Mastic Coffee 250g\"."
     },
     "price": 210.0,
-    "image": "images/exact_sf_prod_45.jpg",
+    "image": "images/exact_card/card_img_45.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1156,7 +1156,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Kurukahveci Mehmet Efendi Turkish Coffee 100g\"."
     },
     "price": 70.0,
-    "image": "images/exact_sf_prod_46.jpg",
+    "image": "images/exact_card/card_img_46.jpg",
     "weights": [
       {
         "label": "100g",
@@ -1178,7 +1178,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Kurukahveci Mehmet Efendi Turkish Coffee 250g\"."
     },
     "price": 200.0,
-    "image": "images/exact_sf_prod_47.jpg",
+    "image": "images/exact_card/card_img_47.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1200,7 +1200,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Kurukahveci Mehmet Efendi Turkish Coffee 500g\"."
     },
     "price": 370.0,
-    "image": "images/exact_sf_prod_48.jpg",
+    "image": "images/exact_card/card_img_48.jpg",
     "weights": [
       {
         "label": "500g",
@@ -1222,7 +1222,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Nuri Toplar Turkish Coffee\"."
     },
     "price": 65.0,
-    "image": "images/exact_sf_prod_49.jpg",
+    "image": "images/exact_card/card_img_49.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -1244,7 +1244,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Nuri Toplar Turkish Coffee 250g-500g\"."
     },
     "price": 180.0,
-    "image": "images/exact_sf_prod_50.jpg",
+    "image": "images/exact_card/card_img_50.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1266,7 +1266,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Nuri Toplar Mastic Coffee 100g\"."
     },
     "price": 80.0,
-    "image": "images/exact_sf_prod_51.jpg",
+    "image": "images/exact_card/card_img_51.jpg",
     "weights": [
       {
         "label": "100g",
@@ -1288,7 +1288,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Sweet Paprika Corn Chips\"."
     },
     "price": 50.0,
-    "image": "images/exact_sf_prod_52.jpg",
+    "image": "images/exact_card/card_img_52.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1318,7 +1318,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Tahini Sesame Paste\"."
     },
     "price": 90.0,
-    "image": "images/exact_sf_prod_53.jpg",
+    "image": "images/exact_card/card_img_53.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -1340,7 +1340,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Carob & Hazelnut Sesame Halva 200g\"."
     },
     "price": 65.0,
-    "image": "images/exact_sf_prod_54.jpg",
+    "image": "images/exact_card/card_img_54.jpg",
     "weights": [
       {
         "label": "200g",
@@ -1362,7 +1362,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Dried Apricots\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_55.jpg",
+    "image": "images/exact_card/card_img_55.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1392,7 +1392,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Natural Dark Dried Apricots\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_56.jpg",
+    "image": "images/exact_card/card_img_56.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1422,7 +1422,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Sultan Pistachio Delight 500g\"."
     },
     "price": 130.0,
-    "image": "images/exact_sf_prod_57.jpg",
+    "image": "images/exact_card/card_img_57.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1452,7 +1452,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Assorted Delight 250g\"."
     },
     "price": 90.0,
-    "image": "images/exact_sf_prod_58.jpg",
+    "image": "images/exact_card/card_img_58.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1482,7 +1482,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Fruit Flavor Assorted Delight 250g\"."
     },
     "price": 70.0,
-    "image": "images/exact_sf_prod_59.jpg",
+    "image": "images/exact_card/card_img_59.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1512,7 +1512,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Fruit Flavor Assorted Delight 500g\"."
     },
     "price": 110.0,
-    "image": "images/exact_sf_prod_60.jpg",
+    "image": "images/exact_card/card_img_60.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1542,7 +1542,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Pomegranate Pistachio & Coconut Delight\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_61.jpg",
+    "image": "images/exact_card/card_img_61.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1572,7 +1572,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Pomegranate Saffron Pistachio Delight\"."
     },
     "price": 125.0,
-    "image": "images/exact_sf_prod_62.jpg",
+    "image": "images/exact_card/card_img_62.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1602,7 +1602,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Classic Turkish Delight 250g\"."
     },
     "price": 75.0,
-    "image": "images/exact_sf_prod_63.jpg",
+    "image": "images/exact_card/card_img_63.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1632,7 +1632,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Classic Turkish Delight 500g\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_64.jpg",
+    "image": "images/exact_card/card_img_64.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1662,7 +1662,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Orange & Lemon Delight in Chocolate 140g\"."
     },
     "price": 95.0,
-    "image": "images/exact_sf_prod_65.jpg",
+    "image": "images/exact_card/card_img_65.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1692,7 +1692,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Mint Delight in Chocolate 140g\"."
     },
     "price": 95.0,
-    "image": "images/exact_sf_prod_66.jpg",
+    "image": "images/exact_card/card_img_66.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1722,7 +1722,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Sugar Free Rose & Lemon Delight 160g\"."
     },
     "price": 85.0,
-    "image": "images/exact_sf_prod_67.jpg",
+    "image": "images/exact_card/card_img_67.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1752,7 +1752,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Pomegranate, Pistachio & Milk Roll Delight\"."
     },
     "price": 137.5,
-    "image": "images/exact_sf_prod_68.jpg",
+    "image": "images/exact_card/card_img_68.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1782,7 +1782,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Milk & Chocolate Paste Roll Delight\"."
     },
     "price": 112.5,
-    "image": "images/exact_sf_prod_69.jpg",
+    "image": "images/exact_card/card_img_69.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1812,7 +1812,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Pistachio Delight 250g\"."
     },
     "price": 105.0,
-    "image": "images/exact_sf_prod_70.jpg",
+    "image": "images/exact_card/card_img_70.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1842,7 +1842,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Pistachio Delight 500g\"."
     },
     "price": 170.0,
-    "image": "images/exact_sf_prod_71.jpg",
+    "image": "images/exact_card/card_img_71.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1872,7 +1872,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Sugar Free Pistachio Delight 160g\"."
     },
     "price": 120.0,
-    "image": "images/exact_sf_prod_72.jpg",
+    "image": "images/exact_card/card_img_72.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1902,7 +1902,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Pistachio Delight in Chocolate 140g\"."
     },
     "price": 110.0,
-    "image": "images/exact_sf_prod_73.jpg",
+    "image": "images/exact_card/card_img_73.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1932,7 +1932,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Hazelnut Delight in Chocolate 140g\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_74.jpg",
+    "image": "images/exact_card/card_img_74.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1962,7 +1962,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Hazelnut, Pistachio & Coconut Delight 500g\"."
     },
     "price": 150.0,
-    "image": "images/exact_sf_prod_75.jpg",
+    "image": "images/exact_card/card_img_75.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1992,7 +1992,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Fruit Mix Turkish Delight\"."
     },
     "price": 62.5,
-    "image": "images/exact_sf_prod_76.jpg",
+    "image": "images/exact_card/card_img_76.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2022,7 +2022,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Dried Mango Slices\"."
     },
     "price": 75.0,
-    "image": "images/exact_sf_prod_77.jpg",
+    "image": "images/exact_card/card_img_77.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2052,7 +2052,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Epimedium Honey Paste (Macun)\"."
     },
     "price": 300.0,
-    "image": "images/exact_sf_prod_78.jpg",
+    "image": "images/exact_card/card_img_78.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -2074,7 +2074,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Mixed Nut Selection\"."
     },
     "price": 75.0,
-    "image": "images/exact_sf_prod_79.jpg",
+    "image": "images/exact_card/card_img_79.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2104,7 +2104,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Roasted Salted Almonds\"."
     },
     "price": 137.5,
-    "image": "images/exact_sf_prod_80.jpg",
+    "image": "images/exact_card/card_img_80.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2134,7 +2134,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Raw Golden Almonds\"."
     },
     "price": 137.5,
-    "image": "images/exact_sf_prod_81.jpg",
+    "image": "images/exact_card/card_img_81.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2164,7 +2164,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Natural Dried Mango\"."
     },
     "price": 105.0,
-    "image": "images/exact_sf_prod_82.jpg",
+    "image": "images/exact_card/card_img_82.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2194,7 +2194,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish natural dried figs."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_83.jpg",
+    "image": "images/exact_card/card_img_83.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2224,7 +2224,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Roasted Chickpeas (Leblebi)\"."
     },
     "price": 50.0,
-    "image": "images/exact_sf_prod_84.jpg",
+    "image": "images/exact_card/card_img_84.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2254,7 +2254,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Dried Papaya\"."
     },
     "price": 105.0,
-    "image": "images/exact_sf_prod_85.jpg",
+    "image": "images/exact_card/card_img_85.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2284,7 +2284,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Grape Molasses (Pekmez)\"."
     },
     "price": 110.0,
-    "image": "images/exact_sf_prod_86.jpg",
+    "image": "images/exact_card/card_img_86.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -2306,7 +2306,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Mulberry Molasses (Pekmez)\"."
     },
     "price": 110.0,
-    "image": "images/exact_sf_prod_87.jpg",
+    "image": "images/exact_card/card_img_87.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -2328,7 +2328,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Classic Pișmaniye 150g\"."
     },
     "price": 85.0,
-    "image": "images/exact_sf_prod_88.jpg",
+    "image": "images/exact_card/card_img_88.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2358,7 +2358,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Pistachio Pișmaniye 250g\"."
     },
     "price": 95.0,
-    "image": "images/exact_sf_prod_89.jpg",
+    "image": "images/exact_card/card_img_89.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2388,7 +2388,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Classic Turkish Delight\"."
     },
     "price": 50.0,
-    "image": "images/exact_sf_prod_90.jpg",
+    "image": "images/exact_card/card_img_90.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2418,7 +2418,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Carob Molasses (Pekmez)\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_91.jpg",
+    "image": "images/exact_card/card_img_91.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -2440,7 +2440,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Nut Mix with Pistachios\"."
     },
     "price": 150.0,
-    "image": "images/exact_sf_prod_92.jpg",
+    "image": "images/exact_card/card_img_92.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2470,7 +2470,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Freeze-dried Strawberries in Chocolate\"."
     },
     "price": 225.0,
-    "image": "images/exact_sf_prod_93.jpg",
+    "image": "images/exact_card/card_img_93.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -2492,7 +2492,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Dried Coconut Cubes\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_94.jpg",
+    "image": "images/exact_card/card_img_94.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2522,7 +2522,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Dried Pomelo Slices\"."
     },
     "price": 75.0,
-    "image": "images/exact_sf_prod_95.jpg",
+    "image": "images/exact_card/card_img_95.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2552,7 +2552,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Tahini with Hazelnut Paste & Pekmez 320g\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_96.jpg",
+    "image": "images/exact_card/card_img_96.jpg",
     "weights": [
       {
         "label": "320g",
@@ -2574,7 +2574,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Tahini with Carob Molasses 350g\"."
     },
     "price": 90.0,
-    "image": "images/exact_sf_prod_97.jpg",
+    "image": "images/exact_card/card_img_97.jpg",
     "weights": [
       {
         "label": "350g",
@@ -2596,7 +2596,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Nuri Toplar Cardamom Turkish Coffee 250g\"."
     },
     "price": 210.0,
-    "image": "images/exact_sf_prod_98.jpg",
+    "image": "images/exact_card/card_img_98.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2618,7 +2618,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Royal Medjool Dates\"."
     },
     "price": 137.5,
-    "image": "images/exact_sf_prod_99.jpg",
+    "image": "images/exact_card/card_img_99.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2648,7 +2648,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Lightly Salted Roasted Pistachios\"."
     },
     "price": 187.5,
-    "image": "images/exact_sf_prod_100.jpg",
+    "image": "images/exact_card/card_img_100.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2678,7 +2678,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Roasted Salted Turkish Pistachios\"."
     },
     "price": 175.0,
-    "image": "images/exact_sf_prod_101.jpg",
+    "image": "images/exact_card/card_img_101.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2708,7 +2708,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Hazelnuts in Chocolate\"."
     },
     "price": 125.0,
-    "image": "images/exact_sf_prod_102.jpg",
+    "image": "images/exact_card/card_img_102.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -2730,7 +2730,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Roasted Hazelnuts\"."
     },
     "price": 175.0,
-    "image": "images/exact_sf_prod_103.jpg",
+    "image": "images/exact_card/card_img_103.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2760,7 +2760,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Diabetic Halva 200g\"."
     },
     "price": 70.0,
-    "image": "images/exact_sf_prod_104.jpg",
+    "image": "images/exact_card/card_img_104.jpg",
     "weights": [
       {
         "label": "200g",
@@ -2782,7 +2782,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Classic Sesame Halva 200g\"."
     },
     "price": 55.0,
-    "image": "images/exact_sf_prod_105.jpg",
+    "image": "images/exact_card/card_img_105.jpg",
     "weights": [
       {
         "label": "200g",
@@ -2804,7 +2804,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Cocoa Sesame Halva 200g\"."
     },
     "price": 60.0,
-    "image": "images/exact_sf_prod_106.jpg",
+    "image": "images/exact_card/card_img_106.jpg",
     "weights": [
       {
         "label": "200g",
@@ -2826,7 +2826,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Pistachio Sesame Halva 200g\"."
     },
     "price": 80.0,
-    "image": "images/exact_sf_prod_107.jpg",
+    "image": "images/exact_card/card_img_107.jpg",
     "weights": [
       {
         "label": "200g",
@@ -2848,7 +2848,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Hazelnut Sesame Halva 200g\"."
     },
     "price": 70.0,
-    "image": "images/exact_sf_prod_108.jpg",
+    "image": "images/exact_card/card_img_108.jpg",
     "weights": [
       {
         "label": "200g",
@@ -2870,7 +2870,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Nut Puree Halva 40g\"."
     },
     "price": 16.0,
-    "image": "images/exact_sf_prod_109.jpg",
+    "image": "images/exact_card/card_img_109.jpg",
     "weights": [
       {
         "label": "40g",
@@ -2892,7 +2892,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Carob & Hazelnut Halva 250g\"."
     },
     "price": 90.0,
-    "image": "images/exact_sf_prod_110.jpg",
+    "image": "images/exact_card/card_img_110.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2914,7 +2914,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Pistachio Halva 40g\"."
     },
     "price": 20.0,
-    "image": "images/exact_sf_prod_111.jpg",
+    "image": "images/exact_card/card_img_111.jpg",
     "weights": [
       {
         "label": "40g",
@@ -2936,7 +2936,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Diabetic Pistachio Halva 200g\"."
     },
     "price": 90.0,
-    "image": "images/exact_sf_prod_112.jpg",
+    "image": "images/exact_card/card_img_112.jpg",
     "weights": [
       {
         "label": "200g",
@@ -2958,7 +2958,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Çaykur Altınbaş Turkish Tea 500g\"."
     },
     "price": 200.0,
-    "image": "images/exact_sf_prod_113.jpg",
+    "image": "images/exact_card/card_img_113.jpg",
     "weights": [
       {
         "label": "500g",
@@ -2980,7 +2980,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Çaykur Altınbaş Tea Tin Box 100g\"."
     },
     "price": 80.0,
-    "image": "images/exact_sf_prod_114.jpg",
+    "image": "images/exact_card/card_img_114.jpg",
     "weights": [
       {
         "label": "100g",
@@ -3002,7 +3002,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Rose Bud Herbal Tea 100g\"."
     },
     "price": 120.0,
-    "image": "images/exact_sf_prod_115.jpg",
+    "image": "images/exact_card/card_img_115.jpg",
     "weights": [
       {
         "label": "100g",
@@ -3024,7 +3024,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Chamomile Tea 100g\"."
     },
     "price": 80.0,
-    "image": "images/exact_sf_prod_116.jpg",
+    "image": "images/exact_card/card_img_116.jpg",
     "weights": [
       {
         "label": "100g",
@@ -3046,7 +3046,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Pomegranate Flower Tea 100g\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_117.jpg",
+    "image": "images/exact_card/card_img_117.jpg",
     "weights": [
       {
         "label": "100g",
@@ -3068,7 +3068,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Sage Tea (Adaçayı) 50g\"."
     },
     "price": 21.0,
-    "image": "images/exact_sf_prod_118.jpg",
+    "image": "images/exact_card/card_img_118.jpg",
     "weights": [
       {
         "label": "50g",
@@ -3090,7 +3090,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Hibiscus (Carcade) Tea 100g\"."
     },
     "price": 55.0,
-    "image": "images/exact_sf_prod_119.jpg",
+    "image": "images/exact_card/card_img_119.jpg",
     "weights": [
       {
         "label": "100g",
@@ -3112,7 +3112,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Mint & Lemon Tea 100g\"."
     },
     "price": 60.0,
-    "image": "images/exact_sf_prod_120.jpg",
+    "image": "images/exact_card/card_img_120.jpg",
     "weights": [
       {
         "label": "100g",
@@ -3134,7 +3134,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Çaykur Rize Turist Black Tea 500g\"."
     },
     "price": 190.0,
-    "image": "images/exact_sf_prod_121.jpg",
+    "image": "images/exact_card/card_img_121.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -3156,7 +3156,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Çaykur Tomurcuk Bergamot Black Tea 125g\"."
     },
     "price": 80.0,
-    "image": "images/exact_sf_prod_122.jpg",
+    "image": "images/exact_card/card_img_122.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -3178,7 +3178,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Churchkhela with Walnut & Grape Juice\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_123.jpg",
+    "image": "images/exact_card/card_img_123.jpg",
     "weights": [
       {
         "label": "250g",
@@ -3208,7 +3208,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Churchkhela with Walnut & Pomegranate Juice\"."
     },
     "price": 100.0,
-    "image": "images/exact_sf_prod_124.jpg",
+    "image": "images/exact_card/card_img_124.jpg",
     "weights": [
       {
         "label": "250g",
@@ -3238,7 +3238,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Almond Dragées in Chocolate\"."
     },
     "price": 125.0,
-    "image": "images/exact_sf_prod_125.jpg",
+    "image": "images/exact_card/card_img_125.jpg",
     "weights": [
       {
         "label": "1 Adet / 1 шт",
@@ -3260,7 +3260,7 @@ const PRODUCTS_DATA = [
       "en": "Authentic premium Turkish \"Koska Carob Extract 310g\"."
     },
     "price": 80.0,
-    "image": "images/exact_sf_prod_126.jpg",
+    "image": "images/exact_card/card_img_126.jpg",
     "weights": [
       {
         "label": "310g",
