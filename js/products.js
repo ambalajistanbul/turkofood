@@ -12,7 +12,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Batoana Koska cu alune de pădure."
     },
     "price": 30.0,
-    "image": "images/istanbul_title_item_1.jpg",
+    "image": "images/real_store_item_1.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -32,7 +32,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Batoana Koska cu arahide."
     },
     "price": 20.0,
-    "image": "images/istanbul_title_item_2.jpg",
+    "image": "images/real_store_item_2.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -52,7 +52,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Batoana Koska cu migdale."
     },
     "price": 30.0,
-    "image": "images/istanbul_title_item_3.jpg",
+    "image": "images/real_store_item_3.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -72,7 +72,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Batoana Koska cu morcov și nuci (Cezerye)."
     },
     "price": 20.0,
-    "image": "images/istanbul_title_item_4.jpg",
+    "image": "images/real_store_item_4.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -92,7 +92,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Căpșuni liofilizate în ciocolată cu lămâie verde."
     },
     "price": 225.0,
-    "image": "images/istanbul_title_item_5.png",
+    "image": "images/real_store_item_5.jpg",
     "weights": [
       {
         "label": "250g",
@@ -110,7 +110,7 @@ const PRODUCTS_DATA = [
   },
   {
     "id": "prod_6",
-    "category": "spices-oils",
+    "category": "tea",
     "title": {
       "ru": "Турецкий чай Filiz 200г",
       "ro": "Ceai turcesc Filiz 200g"
@@ -120,7 +120,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Filiz 200g."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_6.jpg",
+    "image": "images/real_store_item_6.jpg",
     "weights": [
       {
         "label": "200 GR",
@@ -140,7 +140,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Tahini (pastă de susan) Koska."
     },
     "price": 190.0,
-    "image": "images/istanbul_title_item_7.jpg",
+    "image": "images/real_store_item_7.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -160,7 +160,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Zmeură liofilizată în ciocolată albă."
     },
     "price": 225.0,
-    "image": "images/istanbul_title_item_8.jpg",
+    "image": "images/real_store_item_8.jpg",
     "weights": [
       {
         "label": "250g",
@@ -188,7 +188,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ananas uscat (fructe confiate)."
     },
     "price": 75.0,
-    "image": "images/istanbul_title_item_9.jpg",
+    "image": "images/real_store_item_9.jpg",
     "weights": [
       {
         "label": "250g",
@@ -216,7 +216,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Arahide în susan cu miere."
     },
     "price": 62.5,
-    "image": "images/istanbul_title_item_10.png",
+    "image": "images/real_store_item_10.jpg",
     "weights": [
       {
         "label": "250g",
@@ -244,7 +244,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Arahide crocante pane."
     },
     "price": 62.5,
-    "image": "images/istanbul_title_item_11.jpg",
+    "image": "images/real_store_item_11.jpg",
     "weights": [
       {
         "label": "250g",
@@ -272,7 +272,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Arahide prăjite sărate."
     },
     "price": 55.0,
-    "image": "images/istanbul_title_item_12.png",
+    "image": "images/real_store_item_12.jpg",
     "weights": [
       {
         "label": "250g",
@@ -300,7 +300,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Baclava cu nucă."
     },
     "price": 112.5,
-    "image": "images/istanbul_title_item_13.jpg",
+    "image": "images/real_store_item_13.jpg",
     "weights": [
       {
         "label": "250g",
@@ -328,7 +328,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Baclava cu fistic premium."
     },
     "price": 162.5,
-    "image": "images/istanbul_title_item_14.png",
+    "image": "images/real_store_item_14.jpg",
     "weights": [
       {
         "label": "250g",
@@ -356,7 +356,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Nuci braziliene selecte."
     },
     "price": 225.0,
-    "image": "images/istanbul_title_item_15.png",
+    "image": "images/real_store_item_15.jpg",
     "weights": [
       {
         "label": "250g",
@@ -384,7 +384,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Banane uscate premium."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_16.png",
+    "image": "images/real_store_item_16.jpg",
     "weights": [
       {
         "label": "250g",
@@ -412,7 +412,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat lokum de rodie cu fistic și dracilă."
     },
     "price": 125.0,
-    "image": "images/istanbul_title_item_17.jpg",
+    "image": "images/real_store_item_17.jpg",
     "weights": [
       {
         "label": "250g",
@@ -440,7 +440,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat lokum de rodie cu fistic și orez expandat."
     },
     "price": 125.0,
-    "image": "images/istanbul_title_item_18.jpg",
+    "image": "images/real_store_item_18.jpg",
     "weights": [
       {
         "label": "250g",
@@ -468,7 +468,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat lokum de rodie cu fistic și petale de trandafir."
     },
     "price": 125.0,
-    "image": "images/istanbul_title_item_19.jpg",
+    "image": "images/real_store_item_19.jpg",
     "weights": [
       {
         "label": "250g",
@@ -496,7 +496,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Nuci grecești."
     },
     "price": 87.5,
-    "image": "images/istanbul_title_item_20.jpg",
+    "image": "images/real_store_item_20.jpg",
     "weights": [
       {
         "label": "250g",
@@ -524,7 +524,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de caise Koska 300g."
     },
     "price": 60.0,
-    "image": "images/istanbul_title_item_21.jpg",
+    "image": "images/real_store_item_21.jpg",
     "weights": [
       {
         "label": "300ГР",
@@ -544,7 +544,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de gutui Koska 300g."
     },
     "price": 60.0,
-    "image": "images/istanbul_title_item_22.jpg",
+    "image": "images/real_store_item_22.jpg",
     "weights": [
       {
         "label": "300Г",
@@ -564,7 +564,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de portocale Koska 300g."
     },
     "price": 70.0,
-    "image": "images/istanbul_title_item_23.png",
+    "image": "images/real_store_item_23.jpg",
     "weights": [
       {
         "label": "300ГР",
@@ -584,7 +584,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de vișine Koska 300g."
     },
     "price": 70.0,
-    "image": "images/istanbul_title_item_24.jpg",
+    "image": "images/real_store_item_24.jpg",
     "weights": [
       {
         "label": "300ГР",
@@ -604,7 +604,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de mure Koska 300g."
     },
     "price": 80.0,
-    "image": "images/istanbul_title_item_25.png",
+    "image": "images/real_store_item_25.jpg",
     "weights": [
       {
         "label": "300ГР",
@@ -624,7 +624,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de smochine Koska 300g."
     },
     "price": 60.0,
-    "image": "images/istanbul_title_item_26.jpg",
+    "image": "images/real_store_item_26.jpg",
     "weights": [
       {
         "label": "300ГР",
@@ -644,7 +644,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de căpșuni Koska 300g."
     },
     "price": 70.0,
-    "image": "images/istanbul_title_item_27.jpg",
+    "image": "images/real_store_item_27.jpg",
     "weights": [
       {
         "label": "300ГР",
@@ -664,7 +664,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Gem de trandafir Koska 300g."
     },
     "price": 60.0,
-    "image": "images/istanbul_title_item_28.jpg",
+    "image": "images/real_store_item_28.jpg",
     "weights": [
       {
         "label": "300ГР",
@@ -684,7 +684,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Drajeuri Bonibon."
     },
     "price": 62.5,
-    "image": "images/istanbul_title_item_29.png",
+    "image": "images/real_store_item_29.jpg",
     "weights": [
       {
         "label": "250g",
@@ -712,7 +712,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Drajeuri pietricile de ciocolată."
     },
     "price": 62.5,
-    "image": "images/istanbul_title_item_30.jpg",
+    "image": "images/real_store_item_30.jpg",
     "weights": [
       {
         "label": "250g",
@@ -740,7 +740,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Drajeuri cu alune de pădure în ciocolată albă."
     },
     "price": 125.0,
-    "image": "images/istanbul_title_item_31.png",
+    "image": "images/real_store_item_31.jpg",
     "weights": [
       {
         "label": "250g",
@@ -768,7 +768,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Porumb prăjit."
     },
     "price": 50.0,
-    "image": "images/istanbul_title_item_32.jpg",
+    "image": "images/real_store_item_32.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -788,7 +788,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai verde 100g."
     },
     "price": 95.0,
-    "image": "images/istanbul_title_item_33.jpg",
+    "image": "images/real_store_item_33.jpg",
     "weights": [
       {
         "label": "100Г",
@@ -808,7 +808,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai de iarnă."
     },
     "price": 150.0,
-    "image": "images/istanbul_title_item_34.jpg",
+    "image": "images/real_store_item_34.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -828,7 +828,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai de iarnă 100g."
     },
     "price": 80.0,
-    "image": "images/istanbul_title_item_35.png",
+    "image": "images/real_store_item_35.jpg",
     "weights": [
       {
         "label": "100Г",
@@ -848,7 +848,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Stafide aurii Golden."
     },
     "price": 75.0,
-    "image": "images/istanbul_title_item_36.jpg",
+    "image": "images/real_store_item_36.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -868,7 +868,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Smochine uscate premium."
     },
     "price": 75.0,
-    "image": "images/istanbul_title_item_37.jpg",
+    "image": "images/real_store_item_37.jpg",
     "weights": [
       {
         "label": "250g",
@@ -896,7 +896,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ghimbir confiat."
     },
     "price": 162.5,
-    "image": "images/istanbul_title_item_38.jpg",
+    "image": "images/real_store_item_38.jpg",
     "weights": [
       {
         "label": "250g",
@@ -924,7 +924,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cacao Nuri Toplar."
     },
     "price": 240.0,
-    "image": "images/istanbul_title_item_39.jpg",
+    "image": "images/real_store_item_39.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -944,7 +944,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Caju crud premium."
     },
     "price": 137.5,
-    "image": "images/istanbul_title_item_40.jpg",
+    "image": "images/real_store_item_40.jpg",
     "weights": [
       {
         "label": "250g",
@@ -972,7 +972,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Caju prăjit sărat."
     },
     "price": 137.5,
-    "image": "images/istanbul_title_item_41.jpg",
+    "image": "images/real_store_item_41.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1000,7 +1000,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Kiwi uscat (fructe confiate)."
     },
     "price": 75.0,
-    "image": "images/istanbul_title_item_42.jpg",
+    "image": "images/real_store_item_42.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1028,7 +1028,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea Nuri Toplar Osman 250g."
     },
     "price": 150.0,
-    "image": "images/istanbul_title_item_43.png",
+    "image": "images/real_store_item_43.jpg",
     "weights": [
       {
         "label": "250Г",
@@ -1048,7 +1048,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea Nuri Toplar cu damasc."
     },
     "price": 210.0,
-    "image": "images/istanbul_title_item_44.png",
+    "image": "images/real_store_item_44.jpg",
     "weights": [
       {
         "label": "250Г",
@@ -1068,7 +1068,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea Nuri Toplar 250g."
     },
     "price": 210.0,
-    "image": "images/istanbul_title_item_45.png",
+    "image": "images/real_store_item_45.jpg",
     "weights": [
       {
         "label": "250Г",
@@ -1088,7 +1088,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ulei de cocos 250ml."
     },
     "price": 70.0,
-    "image": "images/istanbul_title_item_46.jpg",
+    "image": "images/real_store_item_46.jpg",
     "weights": [
       {
         "label": "100GR",
@@ -1108,7 +1108,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Bomboane turcești asortate."
     },
     "price": 200.0,
-    "image": "images/istanbul_title_item_47.jpg",
+    "image": "images/real_store_item_47.jpg",
     "weights": [
       {
         "label": "250GR",
@@ -1128,7 +1128,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Caise uscate ciocolatii suculente."
     },
     "price": 370.0,
-    "image": "images/istanbul_title_item_48.jpg",
+    "image": "images/real_store_item_48.jpg",
     "weights": [
       {
         "label": "500GR",
@@ -1148,7 +1148,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Caise uscate regale."
     },
     "price": 65.0,
-    "image": "images/istanbul_title_item_49.png",
+    "image": "images/real_store_item_49.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -1168,7 +1168,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Lămâie uscată feliată."
     },
     "price": 180.0,
-    "image": "images/istanbul_title_item_50.jpg",
+    "image": "images/real_store_item_50.jpg",
     "weights": [
       {
         "label": "250Г",
@@ -1188,7 +1188,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Lămâie verde uscată feliată."
     },
     "price": 80.0,
-    "image": "images/istanbul_title_item_51.jpg",
+    "image": "images/real_store_item_51.jpg",
     "weights": [
       {
         "label": "100GR",
@@ -1208,7 +1208,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Acid citric."
     },
     "price": 50.0,
-    "image": "images/istanbul_title_item_52.png",
+    "image": "images/real_store_item_52.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -1228,7 +1228,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Paletă pentru tort și baclava."
     },
     "price": 90.0,
-    "image": "images/istanbul_title_item_53.jpg",
+    "image": "images/real_store_item_53.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -1238,7 +1238,7 @@ const PRODUCTS_DATA = [
   },
   {
     "id": "prod_54",
-    "category": "spices-oils",
+    "category": "halva",
     "title": {
       "ru": "Кунжутная халва с рожковой пудрой и фундуком Koska 200гр",
       "ro": "Nuci Macadamia în coajă"
@@ -1248,7 +1248,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Nuci Macadamia în coajă."
     },
     "price": 65.0,
-    "image": "images/istanbul_title_item_54.jpg",
+    "image": "images/real_store_item_54.jpg",
     "weights": [
       {
         "label": "200ГР",
@@ -1268,7 +1268,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mac persan."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_55.jpg",
+    "image": "images/real_store_item_55.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1296,7 +1296,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mango uscat natural."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_56.jpg",
+    "image": "images/real_store_item_56.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1324,7 +1324,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mango confiat."
     },
     "price": 130.0,
-    "image": "images/istanbul_title_item_57.jpg",
+    "image": "images/real_store_item_57.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1352,7 +1352,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Miere turcească polifloră 500g."
     },
     "price": 90.0,
-    "image": "images/istanbul_title_item_58.jpg",
+    "image": "images/real_store_item_58.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1380,7 +1380,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Migdale albite."
     },
     "price": 70.0,
-    "image": "images/istanbul_title_item_59.jpg",
+    "image": "images/real_store_item_59.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1408,7 +1408,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Migdale prăjite sărate."
     },
     "price": 110.0,
-    "image": "images/istanbul_title_item_60.jpg",
+    "image": "images/real_store_item_60.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1436,7 +1436,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Migdale crude premium."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_61.jpg",
+    "image": "images/real_store_item_61.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1464,7 +1464,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Migdale glazurate în zahăr."
     },
     "price": 125.0,
-    "image": "images/istanbul_title_item_62.jpg",
+    "image": "images/real_store_item_62.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1492,7 +1492,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mix de nuci crude."
     },
     "price": 75.0,
-    "image": "images/istanbul_title_item_63.jpg",
+    "image": "images/real_store_item_63.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1520,7 +1520,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mix de nuci prăjite sărate."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_64.jpg",
+    "image": "images/real_store_item_64.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1548,7 +1548,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mix de fructe uscate."
     },
     "price": 95.0,
-    "image": "images/istanbul_title_item_65.png",
+    "image": "images/real_store_item_65.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1576,7 +1576,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Mentă uscată mărunțită."
     },
     "price": 95.0,
-    "image": "images/istanbul_title_item_66.png",
+    "image": "images/real_store_item_66.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1604,7 +1604,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Măsline la grătar în ulei."
     },
     "price": 85.0,
-    "image": "images/istanbul_title_item_67.png",
+    "image": "images/real_store_item_67.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1632,7 +1632,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Măsline verzi gigante cu sâmbure."
     },
     "price": 137.5,
-    "image": "images/istanbul_title_item_68.jpg",
+    "image": "images/real_store_item_68.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1660,7 +1660,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Măsline negre deshidratate Sele."
     },
     "price": 112.5,
-    "image": "images/istanbul_title_item_69.jpg",
+    "image": "images/real_store_item_69.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1688,7 +1688,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Papaya uscată confiată."
     },
     "price": 105.0,
-    "image": "images/istanbul_title_item_70.jpg",
+    "image": "images/real_store_item_70.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1716,7 +1716,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Nuci Pecan selecte."
     },
     "price": 170.0,
-    "image": "images/istanbul_title_item_71.png",
+    "image": "images/real_store_item_71.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1744,7 +1744,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pekmez de roșcove Koska."
     },
     "price": 120.0,
-    "image": "images/istanbul_title_item_72.png",
+    "image": "images/real_store_item_72.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1772,7 +1772,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pekmez de dude Koska."
     },
     "price": 110.0,
-    "image": "images/istanbul_title_item_73.jpg",
+    "image": "images/real_store_item_73.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1800,7 +1800,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Piersici uscate."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_74.jpg",
+    "image": "images/real_store_item_74.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1828,7 +1828,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pișmaniye clasic de vanilie Koska."
     },
     "price": 150.0,
-    "image": "images/istanbul_title_item_75.jpg",
+    "image": "images/real_store_item_75.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1856,7 +1856,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pișmaniye cu fistic Koska."
     },
     "price": 62.5,
-    "image": "images/istanbul_title_item_76.jpg",
+    "image": "images/real_store_item_76.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1884,7 +1884,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pișmaniye în ciocolată Koska."
     },
     "price": 75.0,
-    "image": "images/istanbul_title_item_77.jpg",
+    "image": "images/real_store_item_77.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1912,7 +1912,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat-lokum de rodie cu fistic Koska."
     },
     "price": 300.0,
-    "image": "images/istanbul_title_item_78.jpg",
+    "image": "images/real_store_item_78.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -1932,7 +1932,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat-lokum asortat fructat Koska."
     },
     "price": 75.0,
-    "image": "images/istanbul_title_item_79.png",
+    "image": "images/real_store_item_79.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1960,7 +1960,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat-lokum de vanilie cu arahide Koska."
     },
     "price": 137.5,
-    "image": "images/istanbul_title_item_80.jpg",
+    "image": "images/real_store_item_80.jpg",
     "weights": [
       {
         "label": "250g",
@@ -1988,7 +1988,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat-lokum de vanilie cu fistic Koska."
     },
     "price": 137.5,
-    "image": "images/istanbul_title_item_81.jpg",
+    "image": "images/real_store_item_81.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2016,7 +2016,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Rahat-lokum cu alune de pădure Koska."
     },
     "price": 105.0,
-    "image": "images/istanbul_title_item_82.jpg",
+    "image": "images/real_store_item_82.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2044,7 +2044,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Semințe de dovleac prăjite."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_83.jpg",
+    "image": "images/real_store_item_83.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2072,7 +2072,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Semințe de floarea-soarelui."
     },
     "price": 50.0,
-    "image": "images/istanbul_title_item_84.jpg",
+    "image": "images/real_store_item_84.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -2092,7 +2092,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Sos de rodie Narșarab."
     },
     "price": 105.0,
-    "image": "images/istanbul_title_item_85.jpg",
+    "image": "images/real_store_item_85.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2120,7 +2120,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Condimente pentru grătar și carne."
     },
     "price": 110.0,
-    "image": "images/istanbul_title_item_86.jpg",
+    "image": "images/real_store_item_86.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -2140,7 +2140,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Condimente pentru pui în stil turcesc."
     },
     "price": 110.0,
-    "image": "images/istanbul_title_item_87.png",
+    "image": "images/real_store_item_87.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -2160,7 +2160,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Condimente pentru pește și fructe de mare."
     },
     "price": 85.0,
-    "image": "images/istanbul_title_item_88.jpg",
+    "image": "images/real_store_item_88.jpg",
     "weights": [
       {
         "label": "150Г",
@@ -2180,7 +2180,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Condimente Pul Biber (fulgi de ardei)."
     },
     "price": 95.0,
-    "image": "images/istanbul_title_item_89.jpg",
+    "image": "images/real_store_item_89.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2208,7 +2208,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Sumac turcesc."
     },
     "price": 50.0,
-    "image": "images/istanbul_title_item_90.jpg",
+    "image": "images/real_store_item_90.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2236,7 +2236,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Kumquat uscat."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_91.jpg",
+    "image": "images/real_store_item_91.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -2256,7 +2256,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pastă de tomate turcească 830g."
     },
     "price": 150.0,
-    "image": "images/istanbul_title_item_92.jpg",
+    "image": "images/real_store_item_92.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2284,7 +2284,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pastă de ardei iute 700g."
     },
     "price": 225.0,
-    "image": "images/istanbul_title_item_93.jpg",
+    "image": "images/real_store_item_93.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2312,7 +2312,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pastă de ardei dulce 700g."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_94.jpg",
+    "image": "images/real_store_item_94.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2340,7 +2340,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ibric turcesc din cupru 300ml."
     },
     "price": 75.0,
-    "image": "images/istanbul_title_item_95.jpg",
+    "image": "images/real_store_item_95.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2368,7 +2368,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pahare turcești armudu (6 buc)."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_96.jpg",
+    "image": "images/real_store_item_96.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2396,7 +2396,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea turcească Kurukahveci Mehmet Efendi 100g."
     },
     "price": 90.0,
-    "image": "images/istanbul_title_item_97.jpg",
+    "image": "images/real_store_item_97.jpg",
     "weights": [
       {
         "label": "350Г",
@@ -2416,7 +2416,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea turcească Kurukahveci Mehmet Efendi 250g."
     },
     "price": 210.0,
-    "image": "images/istanbul_title_item_98.jpg",
+    "image": "images/real_store_item_98.jpg",
     "weights": [
       {
         "label": "250Г",
@@ -2436,7 +2436,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea turcească Kurukahveci Mehmet Efendi 500g."
     },
     "price": 137.5,
-    "image": "images/istanbul_title_item_99.jpg",
+    "image": "images/real_store_item_99.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2464,7 +2464,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea turcească cu mastic 200g."
     },
     "price": 187.5,
-    "image": "images/istanbul_title_item_100.jpg",
+    "image": "images/real_store_item_100.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2492,7 +2492,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Cafea turcească cu cardamom 200g."
     },
     "price": 175.0,
-    "image": "images/istanbul_title_item_101.jpg",
+    "image": "images/real_store_item_101.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2520,7 +2520,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Çaykur Rize 500g."
     },
     "price": 125.0,
-    "image": "images/istanbul_title_item_102.jpg",
+    "image": "images/real_store_item_102.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2548,7 +2548,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Çaykur Altınbaş 500g."
     },
     "price": 175.0,
-    "image": "images/istanbul_title_item_103.jpg",
+    "image": "images/real_store_item_103.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2576,7 +2576,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Çaykur Tiryaki 1000g."
     },
     "price": 70.0,
-    "image": "images/istanbul_title_item_104.jpg",
+    "image": "images/real_store_item_104.jpg",
     "weights": [
       {
         "label": "200Г",
@@ -2596,7 +2596,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Dogadan tei și cimbrișor."
     },
     "price": 55.0,
-    "image": "images/istanbul_title_item_105.png",
+    "image": "images/real_store_item_105.jpg",
     "weights": [
       {
         "label": "200Г",
@@ -2616,7 +2616,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc Dogadan instant de rodie."
     },
     "price": 60.0,
-    "image": "images/istanbul_title_item_106.png",
+    "image": "images/real_store_item_106.jpg",
     "weights": [
       {
         "label": "200Г",
@@ -2636,7 +2636,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ceai turcesc instant de măr."
     },
     "price": 80.0,
-    "image": "images/istanbul_title_item_107.jpg",
+    "image": "images/real_store_item_107.jpg",
     "weights": [
       {
         "label": "200Г",
@@ -2656,7 +2656,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Curmale Regale Medjool."
     },
     "price": 70.0,
-    "image": "images/istanbul_title_item_108.jpg",
+    "image": "images/real_store_item_108.jpg",
     "weights": [
       {
         "label": "200Г",
@@ -2676,7 +2676,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Curmale Tunis pe cracă."
     },
     "price": 16.0,
-    "image": "images/istanbul_title_item_109.jpg",
+    "image": "images/real_store_item_109.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2704,7 +2704,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Fistic întreg crud decojit."
     },
     "price": 90.0,
-    "image": "images/istanbul_title_item_110.png",
+    "image": "images/real_store_item_110.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2732,7 +2732,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Fistic turcesc prăjit sărat Antep."
     },
     "price": 20.0,
-    "image": "images/istanbul_title_item_111.png",
+    "image": "images/real_store_item_111.jpg",
     "weights": [
       {
         "label": "250g",
@@ -2760,7 +2760,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Alune de pădure prăjite albite."
     },
     "price": 90.0,
-    "image": "images/istanbul_title_item_112.jpg",
+    "image": "images/real_store_item_112.jpg",
     "weights": [
       {
         "label": "200Г",
@@ -2780,7 +2780,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Alune de pădure crude selecte."
     },
     "price": 200.0,
-    "image": "images/istanbul_title_item_113.jpg",
+    "image": "images/real_store_item_113.jpg",
     "weights": [
       {
         "label": "500Г",
@@ -2800,7 +2800,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Halva de susan Koska cu vanilie 400g."
     },
     "price": 80.0,
-    "image": "images/istanbul_title_item_102.jpg",
+    "image": "images/real_store_item_114.jpg",
     "weights": [
       {
         "label": "100Г",
@@ -2820,7 +2820,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Halva de susan Koska cu fistic 400g."
     },
     "price": 120.0,
-    "image": "images/istanbul_title_item_103.jpg",
+    "image": "images/real_store_item_115.jpg",
     "weights": [
       {
         "label": "100Г",
@@ -2840,7 +2840,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Halva de susan Koska cu cacao 400g."
     },
     "price": 80.0,
-    "image": "images/istanbul_title_item_104.jpg",
+    "image": "images/real_store_item_116.jpg",
     "weights": [
       {
         "label": "100Г",
@@ -2860,7 +2860,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Halva de susan marmorată Koska."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_104.jpg",
+    "image": "images/real_store_item_117.jpg",
     "weights": [
       {
         "label": "100Г",
@@ -2880,7 +2880,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Halva de floarea-soarelui cu fistic."
     },
     "price": 21.0,
-    "image": "images/istanbul_title_item_105.png",
+    "image": "images/real_store_item_118.jpg",
     "weights": [
       {
         "label": "50Г",
@@ -2890,7 +2890,7 @@ const PRODUCTS_DATA = [
   },
   {
     "id": "prod_119",
-    "category": "spices-oils",
+    "category": "tea",
     "title": {
       "ru": "Чай каркадэ 100г",
       "ro": "Fructe confiate mix asortat"
@@ -2900,7 +2900,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Fructe confiate mix asortat."
     },
     "price": 55.0,
-    "image": "images/istanbul_title_item_106.png",
+    "image": "images/real_store_item_119.jpg",
     "weights": [
       {
         "label": "100Г",
@@ -2920,7 +2920,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Prune uscate fără sâmburi suculente."
     },
     "price": 60.0,
-    "image": "images/istanbul_title_item_107.jpg",
+    "image": "images/real_store_item_120.jpg",
     "weights": [
       {
         "label": "100Г",
@@ -2940,7 +2940,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ciocolată turcească Ulker cu fistic."
     },
     "price": 190.0,
-    "image": "images/istanbul_title_item_108.jpg",
+    "image": "images/real_store_item_121.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -2960,7 +2960,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Ciocolată turcească Godiva duet fistic."
     },
     "price": 80.0,
-    "image": "images/istanbul_title_item_109.jpg",
+    "image": "images/real_store_item_122.jpg",
     "weights": [
       {
         "label": "1 шт / 1 buc",
@@ -2980,7 +2980,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Bomboane de ciocolată cu umplutură de tahini."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_110.png",
+    "image": "images/real_store_item_123.jpg",
     "weights": [
       {
         "label": "250g",
@@ -3008,7 +3008,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pastă de epimedium Themra 240g."
     },
     "price": 100.0,
-    "image": "images/istanbul_title_item_111.png",
+    "image": "images/real_store_item_124.jpg",
     "weights": [
       {
         "label": "250g",
@@ -3036,7 +3036,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Pastă de epimedium Sahimerdan 240g."
     },
     "price": 125.0,
-    "image": "images/istanbul_title_item_112.jpg",
+    "image": "images/real_store_item_125.jpg",
     "weights": [
       {
         "label": "250g",
@@ -3064,7 +3064,7 @@ const PRODUCTS_DATA = [
       "ro": "Produs natural autentic de cea mai înaltă calitate, importat direct din Turcia. Baclava palatului cu fistic Karaköy Güllüoğlu."
     },
     "price": 80.0,
-    "image": "images/istanbul_title_item_113.jpg",
+    "image": "images/real_store_item_126.jpg",
     "weights": [
       {
         "label": "310Г",
