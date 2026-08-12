@@ -2598,7 +2598,7 @@ const PRODUCTS_DATA = [
   },
   {
     "id": "prod_119",
-    "category": "spices-oils",
+    "category": "tea",
     "title": {
       "ru": "Чай каркадэ 100г",
       "ro": "Чай каркадэ 100г",
