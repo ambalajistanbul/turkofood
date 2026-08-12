@@ -1,5 +1,5 @@
 /* ==========================================================================
-   TURKOFOOD - GRAND BAZAARIST IMPERIAL OTTOMAN LUXURY DESIGN SYSTEM (V7)
+   TURKOFOOD - GRAND BAZAARIST IMPERIAL OTTOMAN LUXURY DESIGN SYSTEM (V9)
    ========================================================================== */
 
 :root {
@@ -29,7 +29,7 @@
   --shadow-sm: 0 4px 14px rgba(97, 27, 63, 0.05);
   --shadow-md: 0 10px 30px rgba(97, 27, 63, 0.1);
   --shadow-lg: 0 20px 50px rgba(97, 27, 63, 0.18);
-  --shadow-gold: 0 8px 25px rgba(197, 160, 89, 0.3);
+  --shadow-gold: 0 8px 25px rgba(197, 160, 89, 0.35);
   
   --radius-sm: 10px;
   --radius-md: 16px;
@@ -1015,87 +1015,98 @@ img {
   font-size: 1rem;
 }
 
-/* Floating Messenger Quick Contact Buttons (Bottom-Left Stack) */
-.floating-messenger-stack {
+/* ==========================================================================
+   HIGH-END FLOATING ACTION DOCK (RIGHT SIDE - WHATSAPP, TELEGRAM, SCROLL TOP)
+   ========================================================================== */
+
+.floating-action-dock {
   position: fixed;
   bottom: 24px;
-  left: 24px;
+  right: 24px;
   z-index: 95;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  align-items: center;
+  gap: 14px;
 }
 
-.floating-chat-btn {
-  width: 52px;
-  height: 52px;
+.dock-btn {
+  width: 54px;
+  height: 54px;
   border-radius: var(--radius-full);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
   color: white;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-  transition: var(--transition);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  transition: all 0.35 cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
-}
-
-.btn-wa-float {
-  background: #25D366;
-  border: 2px solid white;
-}
-
-.btn-wa-float:hover {
-  background: #1EBE5A;
-  transform: scale(1.1);
-  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
-}
-
-.btn-tg-float {
-  background: #0088CC;
-  border: 2px solid white;
-}
-
-.btn-tg-float:hover {
-  background: #0077B5;
-  transform: scale(1.1);
-  box-shadow: 0 8px 25px rgba(0, 136, 204, 0.45);
-}
-
-/* Floating Scroll-to-Top Button */
-.scroll-to-top-btn {
-  position: fixed;
-  bottom: 30px;
-  right: 24px;
-  width: 48px;
-  height: 48px;
-  border-radius: var(--radius-full);
-  background: linear-gradient(135deg, var(--gold), var(--gold-hover));
-  color: var(--dark-bg);
-  border: 2px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.3rem;
-  font-weight: 900;
-  box-shadow: var(--shadow-lg);
+  border: 2px solid rgba(255, 255, 255, 0.85);
   cursor: pointer;
-  z-index: 90;
+}
+
+/* WhatsApp Floating Bubble */
+.btn-wa-bubble {
+  background: linear-gradient(135deg, #25D366, #1EBE5A);
+}
+
+.btn-wa-bubble:hover {
+  transform: scale(1.12) translateY(-2px);
+  box-shadow: 0 12px 30px rgba(37, 211, 102, 0.5);
+  border-color: #FFFFFF;
+}
+
+/* Telegram Floating Bubble */
+.btn-tg-bubble {
+  background: linear-gradient(135deg, #0088CC, #0077B5);
+}
+
+.btn-tg-bubble:hover {
+  transform: scale(1.12) translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0, 136, 204, 0.5);
+  border-color: #FFFFFF;
+}
+
+/* Redesigned Imperial Ottoman Gold Scroll-to-Top Button */
+.scroll-to-top-btn {
+  background: linear-gradient(135deg, var(--gold), #A3803C);
+  color: var(--dark-bg);
+  border: 2px solid #FFFBEB;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(10px);
-  transition: var(--transition);
+  transform: translateY(12px) scale(0.9);
+  box-shadow: var(--shadow-gold);
 }
 
 .scroll-to-top-btn.visible {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
 }
 
 .scroll-to-top-btn:hover {
-  transform: translateY(-4px) scale(1.06);
-  box-shadow: 0 10px 25px rgba(197, 160, 89, 0.45);
+  transform: translateY(-4px) scale(1.12);
+  background: linear-gradient(135deg, #D4AF37, var(--gold));
+  color: #1A0810;
+  box-shadow: 0 12px 32px rgba(197, 160, 89, 0.6);
+  border-color: #FFFFFF;
+}
+
+/* Gentle Pulsing Aura for Chat Bubbles */
+.pulse-ring {
+  position: absolute;
+  inset: -4px;
+  border-radius: var(--radius-full);
+  border: 2px solid currentColor;
+  opacity: 0;
+  animation: pulseAura 2.5s infinite;
+  pointer-events: none;
+}
+
+@keyframes pulseAura {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.25); opacity: 0; }
+  100% { transform: scale(0.95); opacity: 0; }
 }
 
 /* Footer */
@@ -1214,24 +1225,15 @@ img {
     display: flex;
   }
 
-  .floating-messenger-stack {
-    bottom: 85px;
-    left: 16px;
-    gap: 8px;
-  }
-
-  .floating-chat-btn {
-    width: 44px;
-    height: 44px;
-    font-size: 1.2rem;
-  }
-
-  .scroll-to-top-btn {
+  .floating-action-dock {
     bottom: 85px;
     right: 16px;
-    width: 44px;
-    height: 44px;
-    font-size: 1.1rem;
+    gap: 10px;
+  }
+
+  .dock-btn {
+    width: 46px;
+    height: 46px;
   }
 
   .footer-grid {
