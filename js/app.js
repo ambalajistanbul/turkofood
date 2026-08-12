@@ -1,4 +1,4 @@
-// Turkofood Ultra-Refined E-Commerce Core Application Logic (V6 100% Perfect Bilingual RU/RO)
+// Turkofood Ultra-Refined E-Commerce Core Application Logic (V7 Verified)
 (function() {
   'use strict';
 
@@ -633,25 +633,25 @@
     return text;
   }
 
-  // WhatsApp Order Trigger
+  // WhatsApp Order Trigger (+373 67 353 798)
   function triggerWhatsAppOrder() {
     if (state.cart.length === 0) {
       alert(t('emptyCart'));
       return;
     }
-    const phone = '37368123456';
+    const phone = '37367353798';
     const text = buildFormattedOrderText();
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
   }
 
-  // Telegram Order Trigger
+  // Telegram Order Trigger (@akilion)
   function triggerTelegramOrder() {
     if (state.cart.length === 0) {
       alert(t('emptyCart'));
       return;
     }
-    const username = 'turkofood_md';
+    const username = 'akilion';
     const text = buildFormattedOrderText();
     const url = `https://t.me/${username}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');

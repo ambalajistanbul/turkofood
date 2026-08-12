@@ -1,6 +1,5 @@
 /* ==========================================================================
-   TURKOFOOD - GRAND BAZAARIST IMPERIAL OTTOMAN LUXURY DESIGN SYSTEM (V6)
-   Inspired by https://www.grandbazaarist.com/
+   TURKOFOOD - GRAND BAZAARIST IMPERIAL OTTOMAN LUXURY DESIGN SYSTEM (V7)
    ========================================================================== */
 
 :root {
@@ -1016,6 +1015,53 @@ img {
   font-size: 1rem;
 }
 
+/* Floating Messenger Quick Contact Buttons (Bottom-Left Stack) */
+.floating-messenger-stack {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 95;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.floating-chat-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: var(--transition);
+  position: relative;
+}
+
+.btn-wa-float {
+  background: #25D366;
+  border: 2px solid white;
+}
+
+.btn-wa-float:hover {
+  background: #1EBE5A;
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.45);
+}
+
+.btn-tg-float {
+  background: #0088CC;
+  border: 2px solid white;
+}
+
+.btn-tg-float:hover {
+  background: #0077B5;
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 136, 204, 0.45);
+}
+
 /* Floating Scroll-to-Top Button */
 .scroll-to-top-btn {
   position: fixed;
@@ -1168,8 +1214,20 @@ img {
     display: flex;
   }
 
+  .floating-messenger-stack {
+    bottom: 85px;
+    left: 16px;
+    gap: 8px;
+  }
+
+  .floating-chat-btn {
+    width: 44px;
+    height: 44px;
+    font-size: 1.2rem;
+  }
+
   .scroll-to-top-btn {
-    bottom: 85px; /* Positioned right above the mobile bottom cart bar */
+    bottom: 85px;
     right: 16px;
     width: 44px;
     height: 44px;

@@ -88,13 +88,17 @@ const TRANSLATIONS = {
     clearCart: "Очистить",
     selectedWeight: "Упаковка:",
 
+    // Floating Quick Chat Tooltips
+    chatWhatsAppTooltip: "Написать в WhatsApp",
+    chatTelegramTooltip: "Написать в Telegram",
+
     // Footer
     footerDesc: "Turkofood — Главный поставщик оригинальных турецких продуктов питания в Молдове. Самый широкий выбор баклавы, лукума, чая, кофе и турецких деликатесов.",
     quickLinks: "Быстрые ссылки",
     contactsTitle: "Контакты",
     workingHoursTitle: "Часы работы",
     workingHours: "Пн - Вс: 09:00 - 20:00",
-    phoneContact: "+373 68 123 456",
+    phoneContact: "+373 67 353 798",
     addressContact: "Молдова, г. Кишинев",
     copyright: "© 2026 Turkofood (turkofood.vercel.app). Все права защищены."
   },
@@ -186,13 +190,17 @@ const TRANSLATIONS = {
     clearCart: "Golește",
     selectedWeight: "Ambalaj:",
 
+    // Floating Quick Chat Tooltips
+    chatWhatsAppTooltip: "Scrie pe WhatsApp",
+    chatTelegramTooltip: "Scrie pe Telegram",
+
     // Footer
     footerDesc: "Turkofood — Principalul furnizor de produse alimentare turcești originale în Moldova. Cea mai vastă selecție de baclava, rahat, ceai, cafea și delicii orientale.",
     quickLinks: "Linkuri Rapide",
     contactsTitle: "Contacte",
     workingHoursTitle: "Program de lucru",
     workingHours: "Lu - Du: 09:00 - 20:00",
-    phoneContact: "+373 68 123 456",
+    phoneContact: "+373 67 353 798",
     addressContact: "Moldova, or. Chișinău",
     copyright: "© 2026 Turkofood (turkofood.vercel.app). Toate drepturile rezervate."
   }
