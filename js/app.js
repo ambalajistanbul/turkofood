@@ -211,6 +211,7 @@
     const html = CATEGORIES_INFO.map(cat => {
       const text = t(cat.key);
       const count = counts[cat.id] || 0;
+      if (cat.id !== 'all' && count === 0) return '';
       const isActive = state.category === cat.id;
 
       return `

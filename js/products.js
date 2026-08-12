@@ -112,7 +112,7 @@ const PRODUCTS_DATA = [
   },
   {
     "id": "prod_6",
-    "category": "spices-oils",
+    "category": "tea",
     "title": {
       "ru": "Турецкий чай Filiz 200г",
       "ro": "Ceai turcesc Filiz 200g",
@@ -1328,7 +1328,7 @@ const PRODUCTS_DATA = [
   },
   {
     "id": "prod_54",
-    "category": "spices-oils",
+    "category": "halva",
     "title": {
       "ru": "Кунжутная халва с рожковой пудрой и фундуком Koska 200гр",
       "ro": "Кунжутная халва с рожковой пудрой и фундуком Koska 200гр",
