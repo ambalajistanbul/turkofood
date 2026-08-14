@@ -616,6 +616,8 @@
 
     if (elements.cartBadge) elements.cartBadge.textContent = totalCount;
     if (elements.mobileCartBadge) elements.mobileCartBadge.textContent = totalCount;
+    const bottomBadge = document.getElementById('mobile-bottom-nav-badge');
+    if (bottomBadge) bottomBadge.textContent = totalCount;
 
     let subtotal = 0;
     state.cart.forEach(item => {
@@ -749,6 +751,14 @@ Vă rog să calculați prețul en-gros personalizat pentru lista selectată de p
   
 
   // Global API Export
+    function focusSearch() {
+    const input = document.getElementById('search-input');
+    if (input) {
+      input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(() => input.focus(), 300);
+    }
+  }
+
   window.TurkofoodApp = {
     init,
     setLanguage,
@@ -760,6 +770,7 @@ Vă rog să calculați prețul en-gros personalizat pentru lista selectată de p
     addToCartWithWeight,
     updateQtyByKey,
     openCartDrawer,
+    focusSearch,
     closeCartDrawer,
     
     triggerTelegramOrder,
