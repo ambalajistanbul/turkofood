@@ -2361,3 +2361,40 @@ img {
     display: inline-flex;
   }
 }
+
+
+
+/* ==========================================================================
+   HAMBURGER MENU BUTTON - STRICT RESPONSIVE DISPLAY
+   ========================================================================== */
+.hamburger-menu-btn {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .hamburger-menu-btn {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 6px;
+    background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%);
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(29, 78, 216, 0.25);
+    white-space: nowrap;
+  }
+  
+  .header-actions {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+  }
+  
+  .cart-btn-text {
+    display: none !important; /* On mobile, show cart icon & badge to give ample space */
+  }
+}
