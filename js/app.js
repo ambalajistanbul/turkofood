@@ -672,25 +672,27 @@
   }
 
   // Format Order Message Text with 100% Guaranteed Non-NaN Numbers & Perfect Bilingual Formatting
-    function buildFormattedOrderText() {
+      function buildFormattedOrderText() {
     const isRu = state.lang === 'ru';
     
     let text = isRu 
-      ? `🏢 ЗАПРОС ОПТОВОГО ПРЕДЛОЖЕНИЯ (B2B WHOLESALE)
+      ? `🏢 ЗАПРОС ПЕРСОНАЛЬНОГО ОПТОВОГО ПРАЙС-ЛИСТА (B2B OFFER REQUEST)
 `
-      : `🏢 SOLICITARE OFERTĂ EN-GROS (B2B WHOLESALE)
+      : `🏢 SOLICITARE OFERTĂ EN-GROS PERSONALIZATĂ (B2B OFFER REQUEST)
 `;
       
     text += isRu
-      ? `Здравствуйте! Прошу рассчитать оптовую стоимость / выслать индивидуальный топтовый прайс-лист для моего бизнеса (HoReCa / Кафе / Ресторан / Магазин).
+      ? `Здравствуйте! Я представитель бизнеса (Кафе / Ресторан / Бар / Магазин / АЗС / Отель).
+Прошу рассчитать индивидуальную оптовую стоимость для выбранного списка товаров:
 
 `
-      : `Bună ziua! Vă rog să calculați prețul en-gros / să-mi trimiteți o ofertă comercială personalizată pentru afacerea mea (HoReCa / Cafenea / Restaurant / Magazin).
+      : `Bună ziua! Sunt reprezentantul unei afaceri (Cafenea / Restaurant / Bar / Magazin / PECO / Hotel).
+Vă rog să calculați prețul en-gros personalizat pentru lista selectată de produse:
 
 `;
 
-    text += isRu ? `📋 Выбранный список товаров:
-` : `📋 Lista de produse selectate:
+    text += isRu ? `📋 Список товаров из каталога:
+` : `📋 Lista de produse din catalog:
 `;
 
     let subtotal = 0;
@@ -720,9 +722,15 @@
 
     text += isRu
       ? `
-⭐ Ожидаю индивидуальное оптовое предложение со скидкой!`
+📦 Дополнительный запрос на импорт редких товаров из Турции:
+(Если вам нужен продукт, которого нет на сайте, напишите его название ниже)
+
+⭐ Ожидаю индивидуальное коммерческое предложение с лучшими ценами!`
       : `
-⭐ Aștept oferta comercială personalizată cu reducere!`;
+📦 Solicitare suplimentară de import produse la comandă din Turcia:
+(Dacă aveți nevoie de un produs care nu se află pe site, scrieți denumirea mai jos)
+
+⭐ Aștept oferta comercială personalizată cu cele mai bune prețuri!`;
 
     return text;
   }
