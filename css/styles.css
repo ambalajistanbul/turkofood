@@ -2230,3 +2230,95 @@ img {
   transform: translateY(-1px);
   box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
 }
+
+
+/* === MOBILE STICKY CATEGORIES BAR & BUTTON === */
+.mobile-cat-menu-btn {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%);
+  color: #FFFFFF;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 12px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(29, 78, 216, 0.25);
+  transition: all 0.2s ease;
+}
+
+.mobile-sticky-categories-bar {
+  display: none;
+  position: sticky;
+  top: 60px;
+  z-index: 99;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid #E2E8F0;
+  box-shadow: 0 4px 15px rgba(15, 23, 42, 0.05);
+  padding: 8px 12px;
+}
+
+.mobile-cat-scroll-track {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+
+.mobile-cat-scroll-track::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-cat-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: #F1F5F9;
+  border: 1px solid #E2E8F0;
+  font-size: 0.83rem;
+  font-weight: 600;
+  color: #334155;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.mobile-cat-chip .chip-count {
+  background: rgba(0, 0, 0, 0.06);
+  font-size: 0.7rem;
+  padding: 1px 6px;
+  border-radius: 10px;
+  color: #64748B;
+}
+
+.mobile-cat-chip.active {
+  background: #1D4ED8;
+  color: #FFFFFF;
+  border-color: #1D4ED8;
+  font-weight: 700;
+  box-shadow: 0 3px 10px rgba(29, 78, 216, 0.3);
+}
+
+.mobile-cat-chip.active .chip-count {
+  background: rgba(255, 255, 255, 0.25);
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .mobile-cat-menu-btn {
+    display: inline-flex;
+  }
+  .mobile-sticky-categories-bar {
+    display: block;
+  }
+}

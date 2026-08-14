@@ -219,7 +219,7 @@
       counts[p.category] = (counts[p.category] || 0) + 1;
     });
 
-    const html = CATEGORIES_INFO.map(cat => {
+    const sidebarHTML = CATEGORIES_INFO.map(cat => {
       const text = t(cat.key);
       const count = counts[cat.id] || 0;
       if (cat.id !== 'all' && count === 0) return '';
@@ -235,13 +235,28 @@
       `;
     }).join('');
 
-    if (elements.sidebarCatList) {
-      elements.sidebarCatList.innerHTML = html;
+    if (elements.categoryList) {
+      elements.categoryList.innerHTML = sidebarHTML;
     }
 
-    const drawerList = document.getElementById('mobile-drawer-cat-list');
-    if (drawerList) {
-      drawerList.innerHTML = html;
+    const mobileTrack = document.getElementById('mobile-cat-scroll-track');
+    if (mobileTrack) {
+      const mobileHTML = CATEGORIES_INFO.map(cat => {
+        const text = t(cat.key);
+        const count = counts[cat.id] || 0;
+        if (cat.id !== 'all' && count === 0) return '';
+        const isActive = state.category === cat.id;
+
+        return `
+          <button class="mobile-cat-chip ${isActive ? 'active' : ''}" 
+                  onclick="TurkofoodApp.selectCategory('${cat.id}')" 
+                  id="mobile-chip-${cat.id}">
+            <span>${cat.icon} ${text}</span>
+            <span class="chip-count">${count}</span>
+          </button>
+        `;
+      }).join('');
+      mobileTrack.innerHTML = mobileHTML;
     }
   }
 
@@ -251,12 +266,14 @@
     renderProducts();
     closeCategoryDrawer();
 
-    // Smoothly scroll to the catalog grid so user immediately sees category products
-    const targetEl = document.getElementById('catalog-section') || document.getElementById('products-grid');
-    if (targetEl) {
-      const topOffset = -100;
-      const y = targetEl.getBoundingClientRect().top + window.pageYOffset + topOffset;
-      window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+    const activeChip = document.getElementById(`mobile-chip-${catId}`);
+    if (activeChip) {
+      activeChip.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    }
+
+    const catalogEl = document.getElementById('catalog');
+    if (catalogEl && window.innerWidth <= 768) {
+      catalogEl.scrollIntoView({ behavior: 'smooth' });
     }
   }
 
