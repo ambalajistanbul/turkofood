@@ -146,48 +146,8 @@
 
   // Initialize Application
   
-    // HERO BANNER SLIDER ENGINE
-  let currentHeroSlide = 0;
-  let heroSlideTimer = null;
-
-  function updateHeroSlideshow() {
-    const slides = document.querySelectorAll('.hero-slide');
-    const dots = document.querySelectorAll('.hero-slide-dots .hero-dot');
-    if (!slides.length) return;
-
-    slides.forEach((slide, idx) => {
-      slide.classList.toggle('active', idx === currentHeroSlide);
-    });
-    dots.forEach((dot, idx) => {
-      dot.classList.toggle('active', idx === currentHeroSlide);
-    });
-  }
-
-  function nextHeroSlide() {
-    const slides = document.querySelectorAll('.hero-slide');
-    if (!slides.length) return;
-    currentHeroSlide = (currentHeroSlide + 1) % slides.length;
-    updateHeroSlideshow();
-  }
-
-  function goToHeroSlide(index) {
-    currentHeroSlide = index;
-    updateHeroSlideshow();
-    restartHeroSlideTimer();
-  }
-
-  function restartHeroSlideTimer() {
-    if (heroSlideTimer) clearInterval(heroSlideTimer);
-    heroSlideTimer = setInterval(() => {
-      nextHeroSlide();
-    }, 4500);
-  }
-
-  window.nextHeroSlide = nextHeroSlide;
-  window.goToHeroSlide = goToHeroSlide;
-
-  function init() {
-    restartHeroSlideTimer();
+    function init() {
+    
     setupLanguage();
     renderCategorySidebar();
     setupEventListeners();
