@@ -245,26 +245,17 @@
     if (drawerList) {
       drawerList.innerHTML = sidebarHTML;
     }
+  }
 
-    // 3. Mobile Sticky Scroll Bar
-    const mobileTrack = document.getElementById('mobile-cat-scroll-track');
-    if (mobileTrack) {
-      const mobileHTML = CATEGORIES_INFO.map(cat => {
-        const text = t(cat.key);
-        const count = counts[cat.id] || 0;
-        if (cat.id !== 'all' && count === 0) return '';
-        const isActive = state.category === cat.id;
+  function selectCategory(catId) {
+    state.category = catId;
+    renderCategorySidebar();
+    renderProducts();
+    closeCategoryDrawer();
 
-        return `
-          <button class="mobile-cat-chip ${isActive ? 'active' : ''}" 
-                  onclick="TurkofoodApp.selectCategory('${cat.id}')" 
-                  id="mobile-chip-${cat.id}">
-            <span>${cat.icon} ${text}</span>
-            <span class="chip-count">${count}</span>
-          </button>
-        `;
-      }).join('');
-      mobileTrack.innerHTML = mobileHTML;
+    const targetEl = document.getElementById('catalog') || document.getElementById('products-grid');
+    if (targetEl && window.innerWidth <= 768) {
+      targetEl.scrollIntoView({ behavior: 'smooth' });
     }
   }
 
