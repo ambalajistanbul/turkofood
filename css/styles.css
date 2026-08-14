@@ -1152,6 +1152,12 @@ img {
    STRICT BREAKPOINTS & ZERO-OVERFLOW MOBILE LAYOUT RULES
    ========================================================================== */
 
+
+
+.hamburger-menu-btn {
+  display: none !important;
+}
+
 @media (max-width: 1024px) {
   .catalog-layout {
     grid-template-columns: 1fr;
@@ -2160,6 +2166,7 @@ img {
 .sourcing-check {
   color: #10B981;
   font-size: 1.2rem;
+}
 
 .sourcing-btn {
   background: linear-gradient(135deg, #2563EB, #1D4ED8) !important;
@@ -2235,90 +2242,23 @@ img {
 /* ==========================================================================
    FLOATING MOBILE BOTTOM NAVIGATION BAR & DRAWER STYLES
    ========================================================================== */
-.mobile-bottom-nav {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-top: 1px solid #E2E8F0;
-  box-shadow: 0 -4px 20px rgba(15, 23, 42, 0.1);
-  padding: 6px 12px;
-  justify-content: space-around;
-  align-items: center;
-}
 
-.mobile-nav-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3px;
-  background: transparent;
-  border: none;
-  color: #475569;
-  font-family: inherit;
-  font-size: 0.72rem;
-  font-weight: 700;
-  cursor: pointer;
-  padding: 4px 8px;
-  border-radius: 12px;
-  transition: all 0.2s ease;
-  text-decoration: none;
-}
 
-.mobile-nav-btn:active {
-  transform: scale(0.92);
-  color: #1D4ED8;
-}
 
-.mobile-nav-btn .nav-icon {
-  font-size: 1.25rem;
-  line-height: 1;
-}
 
-.mobile-nav-btn .nav-badge {
-  position: absolute;
-  top: -4px;
-  right: -8px;
-  background: #1D4ED8;
-  color: #FFFFFF;
-  font-size: 0.65rem;
-  font-weight: 900;
-  padding: 1px 5px;
-  border-radius: 10px;
-  border: 1.5px solid #FFFFFF;
-}
 
-.mobile-nav-btn.nav-telegram-btn {
-  color: #0088CC;
-}
 
-.mobile-cat-menu-btn {
-  display: none;
-  align-items: center;
-  gap: 6px;
-  background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%);
-  color: #FFFFFF;
-  border: none;
-  padding: 8px 14px;
-  border-radius: 20px;
-  font-size: 0.82rem;
-  font-weight: 700;
-  cursor: pointer;
-  box-shadow: 0 3px 10px rgba(29, 78, 216, 0.25);
-}
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
-  .mobile-bottom-nav {
-    display: flex;
-  }
-  .mobile-cat-menu-btn {
-    display: inline-flex;
-  }
+  
+  
   body {
     padding-bottom: 65px;
   }

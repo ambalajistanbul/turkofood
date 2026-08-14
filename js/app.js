@@ -164,10 +164,7 @@
 
         
   // Delivery Zone & Modal Handler
-  function setDeliveryZone(zone) {
-    state.deliveryZone = zone;
-    updateCartUI();
-  }
+  
 
   
 
@@ -246,6 +243,13 @@
       const key = el.getAttribute('data-i18n');
       if (TRANSLATIONS[state.lang] && TRANSLATIONS[state.lang][key]) {
         el.textContent = TRANSLATIONS[state.lang][key];
+      }
+    });
+
+    document.querySelectorAll('[data-i18n-title]').forEach(el => {
+      const key = el.getAttribute('data-i18n-title');
+      if (TRANSLATIONS[state.lang] && TRANSLATIONS[state.lang][key]) {
+        el.setAttribute('title', TRANSLATIONS[state.lang][key]);
       }
     });
 
@@ -787,15 +791,16 @@ Vă rog să calculați prețul en-gros personalizat pentru lista selectată de p
       const prod = PRODUCTS_DATA.find(p => p.id === prodId);
       if (!prod) return;
       
-      const title = isRu ? prod.title : (prod.title_ro || prod.title);
+      const title = prod.title[state.lang] || prod.title.ru;
       const q = Number(item.qty || item.quantity) || 1;
       const uPrice = Number(item.unitPrice) || Number(prod.price) || 0;
       const itemPrice = uPrice * q;
       subtotal += itemPrice;
 
       const label = formatWeightLabel(item.weightLabel || prod.weight);
+      const unitStr = isRu ? 'шт' : 'buc';
 
-      text += `${index + 1}. ${title} (${label}) — ${q} шт x ${uPrice.toFixed(2)} MDL = ${itemPrice.toFixed(2)} MDL\n`;
+      text += `${index + 1}. ${title} (${label}) — ${q} ${unitStr} x ${uPrice.toFixed(2)} MDL = ${itemPrice.toFixed(2)} MDL\n`;
     });
 
     text += isRu 

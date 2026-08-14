@@ -1,6 +1,16 @@
 // Turkofood Language Dictionary (RU & RO)
 const TRANSLATIONS = {
   ru: {
+    "sourcingTitle": "Импортируем любой товар из Турции под заказ",
+    "sourcingSubtitle": "Нужен редкий турецкий бренд, специальная упаковка или оптовая партия соусов, сладостей и бакалеи? Мы доставим прямой поставкой из Стамбула в Кишинев.",
+    "sourcingFeat1": "Прямые поставки с фабрик",
+    "sourcingFeat2": "Официальное таможенное оформление",
+    "sourcingFeat3": "Лучшие цены для HoReCa & Ритейла",
+    "sourcingBtn": "Заказать Импорт в Telegram",
+
+    "selectedWeight": "Выбранный вес:",
+    "chatTelegramTooltip": "Написать в Telegram",
+
     "metaTitle": "Turkofood — Прямые Поставки Турецких Продуктов в Молдову (Кишинев)",
     "metaDescription": "Прямой оптовый и розничный импортер натуральных турецких продуктов в Молдову. Пахлава, турецкий чай, кофе, рахат-лукум, орехи, сухофрукты. Поставки для HoReCa, магазинов, кафе и АЗС.",
     "ogTitle": "Turkofood — Натуральные Турецкие Продукты в Молдове",
@@ -85,6 +95,16 @@ const TRANSLATIONS = {
     "quickView": "Быстрый просмотр"
 },
   ro: {
+    "sourcingTitle": "Importăm orice produs din Turcia la comandă",
+    "sourcingSubtitle": "Ai nevoie de un brand turcesc rar, ambalaj special sau lot en-gros? Livrăm direct din Istanbul la Chișinău.",
+    "sourcingFeat1": "Livrări directe din fabrici",
+    "sourcingFeat2": "Vămuire oficială",
+    "sourcingFeat3": "Cele mai bune prețuri pentru HoReCa",
+    "sourcingBtn": "Comandă Import pe Telegram",
+
+    "selectedWeight": "Greutate selectată:",
+    "chatTelegramTooltip": "Scrie pe Telegram",
+
     "metaTitle": "Turkofood — Import Direct de Produse Turcești în Moldova (Chișinău)",
     "metaDescription": "Importator direct en-gros și cu amănuntul de produse naturale turcești în Moldova. Baclava, ceai turcesc, cafea, rahat-lucum, nuci, fructe uscate. Livrări pentru HoReCa, magazine și cafenele.",
     "ogTitle": "Turkofood — Produse Turcești Naturale în Moldova",
