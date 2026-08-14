@@ -678,10 +678,8 @@
     const isRu = state.lang === 'ru';
     
     let text = isRu 
-      ? `🏢 ЗАПРОС ПЕРСОНАЛЬНОГО ОПТОВОГО ПРАЙС-ЛИСТА (B2B OFFER REQUEST)
-`
-      : `🏢 SOLICITARE OFERTĂ EN-GROS PERSONALIZATĂ (B2B OFFER REQUEST)
-`;
+      ? `🏢 ЗАПРОС ПЕРСОНАЛЬНОГО ОПТОВОГО ПРАЙС-ЛИСТА (B2B OFFER REQUEST)\n`
+      : `🏢 SOLICITARE OFERTĂ EN-GROS PERSONALIZATĂ (B2B OFFER REQUEST)\n`;
       
     text += isRu
       ? `Здравствуйте! Я представитель бизнеса (Кафе / Ресторан / Бар / Магазин / АЗС / Отель).
@@ -693,43 +691,36 @@ Vă rog să calculați prețul en-gros personalizat pentru lista selectată de p
 
 `;
 
-    text += isRu ? `📋 Список товаров из каталога:
-` : `📋 Lista de produse din catalog:
-`;
+    text += isRu ? `📋 Список товаров из каталога:\n` : `📋 Lista de produse din catalog:\n`;
 
     let subtotal = 0;
 
     state.cart.forEach((item, index) => {
-      const prod = PRODUCTS_DATA.find(p => p.id === item.productId);
+      const prodId = item.id || item.productId;
+      const prod = PRODUCTS_DATA.find(p => p.id === prodId);
       if (!prod) return;
       
       const title = isRu ? prod.title : (prod.title_ro || prod.title);
-      const weightObj = prod.weights[item.weightIndex] || prod.weights[0];
-      const itemPrice = weightObj.price * item.quantity;
+      const q = Number(item.qty || item.quantity) || 1;
+      const uPrice = Number(item.unitPrice) || Number(prod.price) || 0;
+      const itemPrice = uPrice * q;
       subtotal += itemPrice;
 
-      const label = formatWeightLabel(weightObj.label);
+      const label = formatWeightLabel(item.weightLabel || prod.weight);
 
-      text += `${index + 1}. ${title} (${label}) — ${item.quantity} шт x ${weightObj.price.toFixed(2)} MDL = ${itemPrice.toFixed(2)} MDL
-`;
+      text += `${index + 1}. ${title} (${label}) — ${q} шт x ${uPrice.toFixed(2)} MDL = ${itemPrice.toFixed(2)} MDL\n`;
     });
 
     text += isRu 
-      ? `
-💰 Ориентировочная сумма по розничному прайсу: ${subtotal.toFixed(2)} MDL
-`
-      : `
-💰 Suma orientativă conform prețului cu amănuntul: ${subtotal.toFixed(2)} MDL
-`;
+      ? `\n💰 Ориентировочная сумма по розничному прайсу: ${subtotal.toFixed(2)} MDL\n`
+      : `\n💰 Suma orientativă conform prețului cu amănuntul: ${subtotal.toFixed(2)} MDL\n`;
 
     text += isRu
-      ? `
-📦 Дополнительный запрос на импорт редких товаров из Турции:
+      ? `\n📦 Дополнительный запрос на импорт редких товаров из Турции:
 (Если вам нужен продукт, которого нет на сайте, напишите его название ниже)
 
 ⭐ Ожидаю индивидуальное коммерческое предложение с лучшими ценами!`
-      : `
-📦 Solicitare suplimentară de import produse la comandă din Turcia:
+      : `\n📦 Solicitare suplimentară de import produse la comandă din Turcia:
 (Dacă aveți nevoie de un produs care nu se află pe site, scrieți denumirea mai jos)
 
 ⭐ Aștept oferta comercială personalizată cu cele mai bune prețuri!`;
@@ -737,7 +728,6 @@ Vă rog să calculați prețul en-gros personalizat pentru lista selectată de p
     return text;
   }
 
-  // Telegram Order Trigger (@akilion)
   function triggerTelegramOrder() {
     if (state.cart.length === 0) {
       alert(t('emptyCart'));
