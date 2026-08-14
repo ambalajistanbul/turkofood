@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/styles.css?v=65">
+  <link rel="stylesheet" href="css/styles.css?v=66">
 
   <!-- Structured Data JSON-LD (Schema.org) for SEO -->
   <script type="application/ld+json">
@@ -94,29 +94,31 @@
   <header class="site-header">
     <div class="container">
       <div class="header-inner">
-        <!-- Logo (Clean URL without # hash) -->
-        <a href="https://turkofood.vercel.app/" class="brand-logo" id="logo-home-link">
+        <!-- 1. Mobile Hamburger Button (Strictly Hidden on Desktop) -->
+        <button id="hamburger-menu-btn" class="hamburger-menu-btn" onclick="TurkofoodApp.openCategoryDrawer()" type="button" aria-label="Menu">
+          <span class="hamburger-icon">☰</span>
+          <span class="hamburger-text" data-i18n="categoriesTitle">Категории</span>
+        </button>
+
+        <!-- 2. Brand Logo -->
+        <div class="brand-logo">
           <div class="logo-badge">🌙</div>
           <div class="logo-text-group">
             <span class="logo-title">TURKOFOOD</span>
             <span class="logo-sub" data-i18n="tagline">НАТУРАЛЬНЫЕ ТУРЕЦКИЕ ПРОДУКТЫ В МОЛДОВЕ</span>
           </div>
-        </a>
+        </div>
 
-        <!-- Search Input -->
+        <!-- 3. Header Search Bar -->
         <div class="header-search">
           <div class="search-input-wrapper">
             <span class="search-icon">🔍</span>
-            <input type="text" id="search-input" class="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Поиск баклавы, чая, лукума, специй...">
+            <input type="text" id="search-input" class="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Поиск товара...">
           </div>
         </div>
 
-        <!-- Header Actions -->
+        <!-- 4. Right Side Cart Actions -->
         <div class="header-actions">
-          <button id="hamburger-menu-btn" class="hamburger-menu-btn" onclick="TurkofoodApp.openCategoryDrawer()" type="button" aria-label="Menu">
-            <span class="hamburger-icon">☰</span>
-            <span class="hamburger-text" data-i18n="categoriesTitle">Категории</span>
-          </button>
           <button id="cart-toggle-btn" class="cart-toggle-btn">
             <span>🛒</span>
             <span class="cart-btn-text" data-i18n="cartTitle">Корзина</span>
@@ -425,9 +427,9 @@
   </footer>
 
   <!-- Application Bundles -->
-  <script src="js/products.js?v=65"></script>
-  <script src="js/translations.js?v=65"></script>
-  <script src="js/app.js?v=65"></script>
+  <script src="js/products.js?v=66"></script>
+  <script src="js/translations.js?v=66"></script>
+  <script src="js/app.js?v=66"></script>
 
 
 

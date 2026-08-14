@@ -2398,3 +2398,58 @@ img {
     display: none !important; /* On mobile, show cart icon & badge to give ample space */
   }
 }
+
+
+
+/* ==========================================================================
+   HAMBURGER MENU BUTTON - STRICT RESPONSIVE DISPLAY & PERFECT SEPARATION
+   ========================================================================== */
+.hamburger-menu-btn {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 8px !important;
+  }
+
+  .hamburger-menu-btn {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 6px;
+    background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 100%);
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(29, 78, 216, 0.25);
+    white-space: nowrap;
+    order: 1 !important;
+  }
+
+  .brand-logo {
+    order: 2 !important;
+  }
+
+  .header-actions {
+    order: 3 !important;
+  }
+
+  .header-search {
+    order: 4 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 6px !important;
+  }
+
+  .cart-btn-text {
+    display: none !important;
+  }
+}
