@@ -1,6 +1,11 @@
 // Turkofood Language Dictionary (RU & RO)
 const TRANSLATIONS = {
   ru: {
+    "metaTitle": "Turkofood — Прямые Поставки Турецких Продуктов в Молдову (Кишинев)",
+    "metaDescription": "Прямой оптовый и розничный импортер натуральных турецких продуктов в Молдову. Пахлава, турецкий чай, кофе, рахат-лукум, орехи, сухофрукты. Поставки для HoReCa, магазинов, кафе и АЗС.",
+    "ogTitle": "Turkofood — Натуральные Турецкие Продукты в Молдове",
+    "ogDescription": "Прямые поставки турецких сладостей, баклавы, чая, кофе и бакалеи от официального импортера в Кишиневе. Оптовый B2B прайс-лист для бизнеса.",
+
     "addressContact": "Молдова, г. Кишинев",
     "tagline": "НАТУРАЛЬНЫЕ ТУРЕЦКИЕ ПРОДУКТЫ В МОЛДОВЕ",
     "logoTagline": "НАТУРАЛЬНЫЕ ТУРЕЦКИЕ ПРОДУКТЫ В МОЛДОВЕ",
@@ -80,6 +85,11 @@ const TRANSLATIONS = {
     "quickView": "Быстрый просмотр"
 },
   ro: {
+    "metaTitle": "Turkofood — Import Direct de Produse Turcești în Moldova (Chișinău)",
+    "metaDescription": "Importator direct en-gros și cu amănuntul de produse naturale turcești în Moldova. Baclava, ceai turcesc, cafea, rahat-lucum, nuci, fructe uscate. Livrări pentru HoReCa, magazine și cafenele.",
+    "ogTitle": "Turkofood — Produse Turcești Naturale în Moldova",
+    "ogDescription": "Livrări directe de dulciuri turcești, baclava, ceai, cafea și băcănie de la importatorul oficial din Chișinău. Listă de prețuri B2B en-gros pentru afaceri.",
+
     "addressContact": "Moldova, mun. Chișinău",
     "tagline": "PRODUSE TURCEȘTI ÎN MOLDOVA",
     "logoTagline": "PRODUSE TURCEȘTI ÎN MOLDOVA",

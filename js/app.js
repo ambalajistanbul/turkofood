@@ -1,6 +1,17 @@
 // Turkofood Ultra-Refined E-Commerce Core Application Logic (V7 Verified)
+// Turkofood Application State & Business Logic
 (function() {
   'use strict';
+
+  const SITE_URL = 'https://turkofood.vercel.app';
+
+  function escapeHTML(str) {
+    if (typeof str !== 'string') return '';
+    return str.replace(/[&<>'"]/g, function(tag) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag;
+    });
+  }
+
 
   // Application State
   const state = {
@@ -147,117 +158,28 @@
   // Initialize Application
   
     function init() {
-    
-    setupLanguage();
-    renderCategorySidebar();
-    setupEventListeners();
-    setupScrollToTop();
-    renderProducts();
-    updateCartUI();
-  }
-
-  // Scroll to top button handling
-  function setupScrollToTop() {
-    if (!elements.scrollToTopBtn) return;
-
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 300) {
-        elements.scrollToTopBtn.classList.add('visible');
+    // 1. URL Query Parameter Check (?lang=ro or ?lang=ru)
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const langParam = urlParams.get('lang');
+      if (langParam === 'ru' || langParam === 'ro') {
+        state.lang = langParam;
       } else {
-        elements.scrollToTopBtn.classList.remove('visible');
+        const savedLang = localStorage.getItem('turkofood_lang');
+        if (savedLang === 'ru' || savedLang === 'ro') {
+          state.lang = savedLang;
+        }
       }
-    });
+    } catch (e) {
+      console.warn('LocalStorage / URL search param access warning:', e);
+    }
 
-    elements.scrollToTopBtn.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-  }
-
-  // Language Setup & Updates
-  function setupLanguage() {
-    updateTranslatableElements();
-    elements.langBtns.forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.lang === state.lang);
-    });
-  }
-
-  function setLanguage(newLang) {
-    if (newLang === state.lang) return;
-    state.lang = newLang;
-    localStorage.setItem('turkofood_lang', newLang);
-    setupLanguage();
+    setupEventListeners();
+    updateHeadMetadata();
+    updateJsonLdSchema();
     renderCategorySidebar();
     renderProducts();
     updateCartUI();
-  }
-
-  function updateTranslatableElements() {
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-      const key = el.getAttribute('data-i18n');
-      if (TRANSLATIONS[state.lang][key]) {
-        el.textContent = TRANSLATIONS[state.lang][key];
-      }
-    });
-
-    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-      const key = el.getAttribute('data-i18n-placeholder');
-      if (TRANSLATIONS[state.lang][key]) {
-        el.placeholder = TRANSLATIONS[state.lang][key];
-      }
-    });
-
-    document.documentElement.lang = state.lang;
-    document.title = state.lang === 'ru' 
-      ? 'Turkofood - Натуральные Турецкие Продукты в Молдове | Прямые Поставки' 
-      : 'Turkofood - Produse Turcești în Moldova | Import Direct';
-  }
-
-  // Category Sidebar Renderer
-  function renderCategorySidebar() {
-    const counts = { 'all': PRODUCTS_DATA.length };
-    PRODUCTS_DATA.forEach(p => {
-      counts[p.category] = (counts[p.category] || 0) + 1;
-    });
-
-    const html = CATEGORIES_INFO.map(cat => {
-      const text = t(cat.key);
-      const count = counts[cat.id] || 0;
-      if (cat.id !== 'all' && count === 0) return '';
-      const isActive = state.category === cat.id;
-
-      return `
-        <li>
-          <button class="sidebar-cat-btn ${isActive ? 'active' : ''}" onclick="TurkofoodApp.selectCategory('${cat.id}')">
-            <span>${cat.icon} ${text}</span>
-            <span class="cat-item-count">${count}</span>
-          </button>
-        </li>
-      `;
-    }).join('');
-
-    if (elements.sidebarCatList) {
-      elements.sidebarCatList.innerHTML = html;
-    }
-
-    const drawerList = document.getElementById('mobile-drawer-cat-list');
-    if (drawerList) {
-      drawerList.innerHTML = html;
-    }
-  }
-
-  function selectCategory(catId) {
-    state.category = catId;
-    renderCategorySidebar();
-    renderProducts();
-    closeCategoryDrawer();
-
-    // Smoothly scroll to the catalog grid so user immediately sees category products
-    const targetEl = document.getElementById('catalog-section') || document.getElementById('products-grid');
-    if (targetEl) {
-      const topOffset = -100;
-      const y = targetEl.getBoundingClientRect().top + window.pageYOffset + topOffset;
-      window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
-    }
   }
 
   function setupEventListeners() {
@@ -428,7 +350,7 @@
           ${prod.badge ? `<span class="card-badge badge-${prod.badge}">${badgeText}</span>` : ''}
           
           <div class="product-image-container">
-            <img src="${prod.image}" alt="${title}" loading="lazy" onerror="this.src='images/product_fallback.jpg'">
+            <img src="${prod.image}" alt="${escapeHTML(title)}" loading="lazy" decoding="async" width="300" height="300" onerror="this.src='images/product_fallback.jpg'">
           </div>
 
           <div class="product-details">
@@ -778,6 +700,16 @@ Vă rog să calculați prețul en-gros personalizat pentru lista selectată de p
     triggerTelegramOrder,
     setDeliveryZone
   };
+
+  
+  // Keyboard Accessibility (Escape Key Listener)
+  window.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      closeModal();
+      closeCartDrawer();
+      closeCategoryDrawer();
+    }
+  });
 
   document.addEventListener('DOMContentLoaded', init);
 })();
