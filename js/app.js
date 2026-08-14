@@ -321,6 +321,21 @@
   }
 
   function setupEventListeners() {
+    const logoLink = document.getElementById('logo-home-link');
+    if (logoLink) {
+      logoLink.addEventListener('click', (e) => {
+        // If clicking on current page, handle SPA reset smoothly
+        if (window.location.pathname === '/' || window.location.pathname === '' || window.location.href.includes('turkofood.vercel.app')) {
+          state.category = 'all';
+          state.searchQuery = '';
+          if (elements.searchInput) elements.searchInput.value = '';
+          renderCategorySidebar();
+          renderProducts();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
+    }
+
     elements.langBtns.forEach(btn => {
       btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
     });

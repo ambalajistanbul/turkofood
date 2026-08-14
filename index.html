@@ -47,7 +47,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/styles.css?v=69">
+  <link rel="stylesheet" href="css/styles.css?v=70">
 
   <!-- Structured Data JSON-LD (Schema.org) for SEO -->
   <script type="application/ld+json">
@@ -85,7 +85,7 @@
           
           <div class="top-bar-item">
             <span>✉️</span>
-            <span>paperistan@gmail.com</span>
+            <a href="mailto:paperistan@gmail.com" style="color: inherit; text-decoration: none; font-weight: 600;">paperistan@gmail.com</a>
           </div>
         </div>
         <div class="lang-switcher">
@@ -106,14 +106,14 @@
           <span class="hamburger-text" data-i18n="categoriesTitle">Категории</span>
         </button>
 
-        <!-- 2. Brand Logo -->
-        <div class="brand-logo">
+        <!-- 2. Brand Logo (Clickable Home Link) -->
+        <a href="https://turkofood.vercel.app/" class="brand-logo" id="logo-home-link" aria-label="Turkofood Homepage" style="text-decoration: none; color: inherit; cursor: pointer;">
           <div class="logo-badge">🌙</div>
           <div class="logo-text-group">
             <span class="logo-title">TURKOFOOD</span>
             <span class="logo-sub" data-i18n="tagline">НАТУРАЛЬНЫЕ ТУРЕЦКИЕ ПРОДУКТЫ В МОЛДОВЕ</span>
           </div>
-        </div>
+        </a>
 
         <!-- 3. Header Search Bar -->
         <div class="header-search">
@@ -412,9 +412,8 @@
           <h4 class="footer-title" data-i18n="contactsTitle">Контакты</h4>
           <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.9rem;">
             <li data-i18n="addressContact">Молдова, г. Кишинев</li>
-            
-            <li>paperistan@gmail.com</li>
-            <li>Telegram: @akilion</li>
+            <li>✉️ <a href="mailto:paperistan@gmail.com" style="color: inherit; text-decoration: underline;">paperistan@gmail.com</a></li>
+            <li>💬 Telegram: <a href="https://t.me/akilion" target="_blank" rel="noopener" style="color: #60A5FA; text-decoration: underline; font-weight: 700;">@akilion</a></li>
           </ul>
         </div>
         <div>
@@ -433,9 +432,9 @@
   </footer>
 
   <!-- Application Bundles -->
-  <script src="js/products.js?v=69"></script>
-  <script src="js/translations.js?v=69"></script>
-  <script src="js/app.js?v=69"></script>
+  <script src="js/products.js?v=70"></script>
+  <script src="js/translations.js?v=70"></script>
+  <script src="js/app.js?v=70"></script>
 
 
 
