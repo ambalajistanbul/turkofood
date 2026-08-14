@@ -1,5 +1,7 @@
 const TRANSLATIONS = {
   ru: {
+    b2bPriceTag: "🏢 Оптом — Спеццена",
+    b2bRetailLabel: "Розничная цена",
     tagline: "НАТУРАЛЬНЫЕ ТУРЕЦКИЕ ПРОДУКТЫ В МОЛДОВЕ",
     // Header & Meta
     logoTagline: "НАТУРАЛЬНЫЕ ТУРЕЦКИЕ ПРОДУКТЫ В МОЛДОВЕ",
@@ -135,6 +137,8 @@ const TRANSLATIONS = {
     Доставка: "Доставка"
   },
   ro: {
+    b2bPriceTag: "🏢 En-Gros — Preț Special",
+    b2bRetailLabel: "Preț cu amănuntul",
     tagline: "PRODUSE TURCEȘTI ÎN MOLDOVA",
     // Header & Meta
     logoTagline: "PRODUSE TURCEȘTI ÎN MOLDOVA",
