@@ -219,7 +219,7 @@
       counts[p.category] = (counts[p.category] || 0) + 1;
     });
 
-    const sidebarHTML = CATEGORIES_INFO.map(cat => {
+    const html = CATEGORIES_INFO.map(cat => {
       const text = t(cat.key);
       const count = counts[cat.id] || 0;
       if (cat.id !== 'all' && count === 0) return '';
@@ -235,15 +235,13 @@
       `;
     }).join('');
 
-    // 1. Desktop Sidebar List
     if (elements.sidebarCatList) {
-      elements.sidebarCatList.innerHTML = sidebarHTML;
+      elements.sidebarCatList.innerHTML = html;
     }
 
-    // 2. Mobile Drawer List
     const drawerList = document.getElementById('mobile-drawer-cat-list');
     if (drawerList) {
-      drawerList.innerHTML = sidebarHTML;
+      drawerList.innerHTML = html;
     }
   }
 
@@ -253,26 +251,12 @@
     renderProducts();
     closeCategoryDrawer();
 
-    const targetEl = document.getElementById('catalog') || document.getElementById('products-grid');
-    if (targetEl && window.innerWidth <= 768) {
-      targetEl.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-
-  function selectCategory(catId) {
-    state.category = catId;
-    renderCategorySidebar();
-    renderProducts();
-    closeCategoryDrawer();
-
-    const activeChip = document.getElementById(`mobile-chip-${catId}`);
-    if (activeChip) {
-      activeChip.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
-    }
-
-    const catalogEl = document.getElementById('catalog');
-    if (catalogEl && window.innerWidth <= 768) {
-      catalogEl.scrollIntoView({ behavior: 'smooth' });
+    // Smoothly scroll to the catalog grid so user immediately sees category products
+    const targetEl = document.getElementById('catalog-section') || document.getElementById('products-grid');
+    if (targetEl) {
+      const topOffset = -100;
+      const y = targetEl.getBoundingClientRect().top + window.pageYOffset + topOffset;
+      window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
     }
   }
 
