@@ -1,5 +1,6 @@
 const TRANSLATIONS = {
   ru: {
+    logoTagline: "НАТУРАЛЬНЫЕ ТУРЕЦКИЕ ПРОДУКТЫ В МОЛДОВЕ",
     Доставка: "Доставка",
     // Header & Meta
     siteTitle: "Turkofood – Оптовые Поставки Турецких Продуктов в Молдове",
@@ -117,6 +118,7 @@ const TRANSLATIONS = {
     Цена: "Цена"
   },
   ro: {
+    logoTagline: "PRODUSE TURCEȘTI ÎN MOLDOVA",
     // Header & Meta
     siteTitle: "Turkofood – Importator En-Gros de Produse Turcești în Moldova",
     siteSubtitle: "Livrări en-gros de baclava proaspătă, rahat-locum, ceai și delicatese pentru HoReCa, restaurante, cafenele și magazine",
