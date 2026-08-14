@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/styles.css?v=62">
+  <link rel="stylesheet" href="css/styles.css?v=63">
 
   <!-- Structured Data JSON-LD (Schema.org) for SEO -->
   <script type="application/ld+json">
@@ -113,9 +113,9 @@
 
         <!-- Header Actions -->
         <div class="header-actions">
-          <button id="mobile-category-menu-btn" class="mobile-cat-menu-btn" onclick="TurkofoodApp.openCategoryDrawer()" type="button" aria-label="Categories">
-            <span>📁</span>
-            <span data-i18n="categoriesTitle">Категории</span>
+          <button id="hamburger-menu-btn" class="hamburger-menu-btn" onclick="TurkofoodApp.openCategoryDrawer()" type="button" aria-label="Menu">
+            <span class="hamburger-icon">☰</span>
+            <span class="hamburger-text" data-i18n="categoriesTitle">Категории</span>
           </button>
           <button id="cart-toggle-btn" class="cart-toggle-btn">
             <span>🛒</span>
@@ -425,34 +425,13 @@
   </footer>
 
   <!-- Application Bundles -->
-  <script src="js/products.js?v=62"></script>
-  <script src="js/translations.js?v=62"></script>
-  <script src="js/app.js?v=62"></script>
+  <script src="js/products.js?v=63"></script>
+  <script src="js/translations.js?v=63"></script>
+  <script src="js/app.js?v=63"></script>
 
 
 
-  <!-- Floating Mobile Bottom Navigation Bar -->
-  <nav class="mobile-bottom-nav" id="mobile-bottom-nav">
-    <button class="mobile-nav-btn" onclick="TurkofoodApp.openCategoryDrawer()" type="button">
-      <span class="nav-icon">📁</span>
-      <span class="nav-label" data-i18n="categoriesTitle">Категории</span>
-    </button>
-    <button class="mobile-nav-btn" onclick="TurkofoodApp.focusSearch()" type="button">
-      <span class="nav-icon">🔍</span>
-      <span class="nav-label" data-i18n="searchPlaceholder">Поиск</span>
-    </button>
-    <button class="mobile-nav-btn" onclick="TurkofoodApp.openCartDrawer()" type="button">
-      <span class="nav-icon" style="position: relative;">
-        🛒
-        <span class="nav-badge" id="mobile-bottom-nav-badge">0</span>
-      </span>
-      <span class="nav-label" data-i18n="cartTitle">Корзина</span>
-    </button>
-    <a href="https://t.me/akilion" target="_blank" class="mobile-nav-btn nav-telegram-btn">
-      <span class="nav-icon">✈️</span>
-      <span class="nav-label">Telegram</span>
-    </a>
-  </nav>
+  
 
 </body>
 </html>
