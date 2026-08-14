@@ -235,10 +235,18 @@
       `;
     }).join('');
 
-    if (elements.categoryList) {
-      elements.categoryList.innerHTML = sidebarHTML;
+    // 1. Desktop Sidebar List
+    if (elements.sidebarCatList) {
+      elements.sidebarCatList.innerHTML = sidebarHTML;
     }
 
+    // 2. Mobile Drawer List
+    const drawerList = document.getElementById('mobile-drawer-cat-list');
+    if (drawerList) {
+      drawerList.innerHTML = sidebarHTML;
+    }
+
+    // 3. Mobile Sticky Scroll Bar
     const mobileTrack = document.getElementById('mobile-cat-scroll-track');
     if (mobileTrack) {
       const mobileHTML = CATEGORIES_INFO.map(cat => {
