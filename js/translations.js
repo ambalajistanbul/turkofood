@@ -1,89 +1,102 @@
-// Turkofood Bilingual Translation Dictionary (RU / RO)
 const TRANSLATIONS = {
-    // Delivery Terms & Calculation Translations
-    deliverySectionTitle: {
-      ru: '🚚 Условия Доставки',
-      ro: '🚚 Condiții de Livrare',
-      en: '🚚 Delivery Terms'
-    },
-    deliveryChisinauTitle: {
-      ru: 'Доставка по муниципию Кишинёв',
-      ro: 'Livrare în municipiul Chișinău',
-      en: 'Chisinau Municipality Delivery'
-    },
-    deliveryChisinauDesc: {
-      ru: 'Осуществляется в течение 3 часов с 9:00 до 17:00. БЕСПЛАТНО от 700 MDL. При заказе на меньшую сумму — 80 MDL.',
-      ro: 'Efectuată în 3 ore, între 09:00 - 17:00. GRATUIT de la 700 MDL. La comenzi mai mici — 80 MDL.',
-      en: 'Delivered within 3 hours (9:00 - 17:00). FREE for orders over 700 MDL. Under 700 MDL — 80 MDL fee.'
-    },
-    deliveryMoldovaTitle: {
-      ru: 'Доставка по Республике Молдова',
-      ro: 'Livrare pe teritoriul Republicii Moldova',
-      en: 'Republic of Moldova Delivery'
-    },
-    deliveryMoldovaDesc: {
-      ru: 'Осуществляется в течение 8-12 часов с 9:00 до 16:00. БЕСПЛАТНО от 1200 MDL. При заказе на меньшую сумму — 120 MDL.',
-      ro: 'Efectuată în 8-12 ore, între 09:00 - 16:00. GRATUIT de la 1200 MDL. La comenzi mai mici — 120 MDL.',
-      en: 'Delivered within 8-12 hours (9:00 - 16:00). FREE for orders over 1200 MDL. Under 1200 MDL — 120 MDL fee.'
-    },
-    deliveryDaysNotice: {
-      ru: 'В воскресные дни и в дни государственных праздников доставка не осуществляется.',
-      ro: 'În zilele de duminică și sărbători legale nu se efectuează livrări.',
-      en: 'No deliveries on Sundays and official public holidays.'
-    },
-    deliveryAddressNotice: {
-      ru: 'Вы можете выбрать любой адрес — домой или в офис. 1 адрес на заказ.',
-      ro: 'Puteți alege orice adresă — acasă sau la birou. O singură adresă per comandă.',
-      en: 'Choose any address — home or office. One address per order.'
-    },
-    deliveryInspectionNotice: {
-      ru: 'При получении проверьте целостность упаковки и кассовый чек в присутствии курьера.',
-      ro: 'La primire, verificați integritatea ambalajului și bonul fiscal în prezența curierului.',
-      en: 'Please check package integrity and receipt upon arrival in presence of courier.'
-    },
-    freeShippingProgress: {
-      ru: 'Добавьте еще {amount} MDL для бесплатной доставки по {zone}!',
-      ro: 'Mai adăugați {amount} MDL pentru livrare gratuită în {zone}!',
-      en: 'Add {amount} MDL more for free delivery to {zone}!'
-    },
-    freeShippingUnlocked: {
-      ru: '🎉 Поздравляем! У вас бесплатная доставка!',
-      ro: '🎉 Felicitări! Aveți livrare gratuită!',
-      en: '🎉 Congratulations! You have unlocked free delivery!'
-    },
-    selectDeliveryZone: {
-      ru: 'Выберите зону доставки:',
-      ro: 'Selectați zona de livrare:',
-      en: 'Select delivery zone:'
-    },
-    zoneChisinau: {
-      ru: 'Кишинёв (Бесплатно от 700 MDL)',
-      ro: 'Chișinău (Gratuit de la 700 MDL)',
-      en: 'Chisinau (Free over 700 MDL)'
-    },
-    zoneMoldova: {
-      ru: 'Республика Молдова (Бесплатно от 1200 MDL)',
-      ro: 'Republica Moldova (Gratuit de la 1200 MDL)',
-      en: 'Republic of Moldova (Free over 1200 MDL)'
-    },
-    deliveryFeeLabel: {
-      ru: 'Доставка:',
-      ro: 'Cost livrare:',
-      en: 'Delivery Fee:'
-    },
-    freeDeliveryText: {
-      ru: 'БЕСПЛАТНО',
-      ro: 'GRATUIT',
-      en: 'FREE'
-    },
-    fullDeliveryRulesBtn: {
-      ru: 'Подробные правила доставки',
-      ro: 'Reguli detaliate de livrare',
-      en: 'Full Delivery Policy'
-    },
+ru: {
+    // Header & Meta
+    siteTitle: "Turkofood – Оптовые и Розница Поставки Турецких Продуктов в Молдове",
+    siteSubtitle: "Оптовые поставки свежей баклавы, лукума, чая и деликатесов для HoReCa, ресторанов, кафе и магазинов",
+    topBarAnnouncement: "🏢 Прямые Оптовые Поставки для HoReCa, Ресторанов, Кафе и Магазинов по всей Молдове",
+    telegramContact: "@akilion",
 
-  ru: {
+    // Hero Section
+    heroBadge: "🏢 Оптовые Поставки & Розница из Турции",
+    heroTitle: "Настоящие Турецкие Деликатесы для Вашего Бизнеса и Дома",
+    heroSubtitle: "Свежая баклава, рахат-лукум, чай Çaykur, орехи и специи напрямую от производителей. Специальные условия и гибкие оптовые цены для кафе, ресторанов, баров и магазинов.",
+    heroCatalogBtn: "Смотреть Каталог ⚡",
+    heroWholesaleBtn: "Оптовое Предложение B2B 📑",
 
+    // B2B Wholesale Banner
+    b2bBannerTitle: "🏢 Оптовые Поставки для HoReCa, Кафе & Магазинов",
+    b2bBannerDesc: "Вы владелец ресторана, кафе, бара или магазина? Мы предлагаем гибкие оптовые цены и индивидуальные условия поставки для Вашего бизнеса.",
+    b2bFeature1Title: "Скидки до 35% для B2B",
+    b2bFeature1Desc: "Специальный оптовый прайс-лист при заказе партий для кафе и магазинов.",
+    b2bFeature2Title: "Прямой Импорт из Турции",
+    b2bFeature2Desc: "Регулярные поставки каждые 7 дней прямо со складов производителей.",
+    b2bFeature3Title: "Индивидуальное Предложение",
+    b2bFeature3Desc: "Добавьте товары в корзину и получите индивидуальный оптовый расчет в Telegram.",
+    b2bFeature4Title: "Оперативная Доставка",
+    b2bFeature4Desc: "Доставка курьером по Кишиневу за 3 часа и по всей Молдове.",
+
+    // Features
+    feat1Title: "Прямой Импорт",
+    feat1Desc: "100% аутентичные турецкие бренды высочайшего качества",
+    feat2Title: "Всегда Свежее",
+    feat2Desc: "Регулярные прямые поставки из Турции каждые 7 дней",
+    feat3Title: "Быстрая Доставка",
+    feat3Desc: "Доставка курьером по Кишиневу и почтой по всей Молдове",
+
+    // Categories
+    sidebarTitle: "Категории Товаров",
+    allCategories: "Все Товары",
+    catBaklava: "Баклава & Кадаиф",
+    catRahatLukurn: "Рахат-Лукум",
+    catNuts: "Орехи & Семечки",
+    catDriedFruits: "Сухофрукты",
+    catTea: "Турецкий Чай Çaykur",
+    catCoffee: "Турецкий Кофе",
+    catHalva: "Халва & Батончики",
+    catPastesJams: "Пасты & Джемы",
+    catDragees: "Драже & Сладости",
+    catSpicesOils: "Специи & Масла",
+    catCanned: "Консервация",
+    catCookware: "Посуда & Аксессуары",
+
+    // Controls
+    searchPlaceholder: "Поиск баклавы, чая, лукума, специй...",
+    sortDefault: "По умолчанию",
+    sortPriceAsc: "Сначала дешевле",
+    sortPriceDesc: "Сначала дороже",
+    sortName: "По названию",
+    itemsFound: "найдено товаров",
+    quickViewBtn: "Быстрый просмотр",
+    addToCart: "В корзину",
+    selectWeightPrompt: "Выберите вес / упаковку:",
+
+    // Modal
+    originLabel: "Происхождение:",
+    originTurkey: "Турция (100% Оригинал)",
+    qualityLabel: "Качество:",
+    qualityPremium: "Премиум / Свежий Импорт",
+    packagingLabel: "Упаковка:",
+    packagingStandard: "Заводская Упаковка",
+    clickSelectWeight: "Выберите вес / gramaj:",
+
+    // Cart Drawer
+    cartTitle: "Ваша Корзина",
+    cartSubtotalLabel: "Итого (розничная цена):",
+    b2bNotice: "💡 Для оптовых покупателей (HoReCa, кафе, магазины) действует индивидуальный прайс-лист со скидками. Оформите запрос через Telegram!",
+    b2bOrderBtn: "🏢 Запросить Оптовый Прайс в Telegram (@akilion)",
+    emptyCart: "Ваша корзина пуста",
+    remove: "Удалить",
+
+    // Delivery Section
+    deliverySectionTitle: "🚚 Условия Доставки по Кишиневу и Молдове",
+    deliveryChisinauTitle: "Доставка по муниципию Кишинёв",
+    deliveryChisinauText: "Осуществляется в течение 3 часов после подтверждения заказа нашими операторами. Доставка производится с 9:00 до 17:00 и является БЕСПЛАТНОЙ при заказе от 700 MDL. При заказах на меньшую сумму стоимость доставки составляет 80 MDL.",
+    deliveryMoldovaTitle: "Доставка по Республике Молдова",
+    deliveryMoldovaText: "Осуществляется в течение 8-12 часов с 9:00 до 16:00. БЕСПЛАТНО при заказе от 1200 MDL. При заказах на меньшую сумму стоимость доставки составляет 120 MDL.",
+    deliveryNote1: "📅 В воскресные дни и в дни государственных праздников доставка не осуществляется.",
+    deliveryNote2: "📍 Вы можете выбрать любой адрес — домой, в офис, кафе или ресторан. 1 адрес на заказ.",
+    deliveryNote3: "🔍 При получении проверьте целостность упаковки и кассовый чек в присутствии курьера.",
+
+    // Footer
+    footerDesc: "Turkofood — Главный поставщик оригинальных турецких продуктов питания и деликатесов в Молдове. Оптовые и розничные поставки для HoReCa, ресторанов, кафе и розничных покупателей.",
+    footerQuickLinks: "Быстрые ссылки",
+    footerContacts: "Контакты & Заказ",
+    footerHours: "Часы работы",
+    workingHours: "Пн - Вс: 09:00 - 20:00",
+    addressContact: "Молдова, г. Кишинев",
+    copyright: "© 2026 Turkofood (turkofood.vercel.app). Все права защищены.",
+
+    // Aliases
     Greutate: "Вес",
     Preț: "Цена",
     livrare: "Доставка",
@@ -94,126 +107,137 @@ const TRANSLATIONS = {
     Ambalaj: "Упаковка",
     greutatea: "вес",
     Ambalajul: "Упаковку",
+    Доставка: "Livrare"
+  
+    Greutate: "Вес",
+    Preț: "Цена",
+    livrare: "Доставка",
+    Calitate: "Качество",
+    Sortare: "Сортировка",
+    Origine: "Происхождение",
+    Total: "Итого",
+    Ambalaj: "Упаковка",
+    greutatea: "вес",
+    Ambalajul: "Упаковку",
+    ambalajul: "упаковку",
+    веса: "веса",
+    Упаковку: "Упаковку",
+    Вес: "Вес",
+    Сортировка: "Сортировка",
+    доставки: "доставки",
+    Цена: "Цена",
 
+  },
 
-    // Delivery Section Keys
-    deliverySectionTitle: "🚚 Условия Доставки",
-    fullDeliveryRulesBtn: "Подробные правила доставки",
-    deliveryChisinauTitle: "Доставка по муниципию Кишинёв",
-    deliveryChisinauDesc: "Осуществляется в течение 3 часов с 9:00 до 17:00. БЕСПЛАТНО от 700 MDL. При заказе до 700 MDL — стоимость доставки 80 MDL.",
-    deliveryMoldovaTitle: "Доставка по Республике Молдова",
-    deliveryMoldovaDesc: "Осуществляется в течение 8-12 часов с 9:00 до 16:00. БЕСПЛАТНО от 1200 MDL. При заказе до 1200 MDL — стоимость доставки 120 MDL.",
-    deliveryDaysNotice: "В воскресные дни и в дни государственных праздников доставка не осуществляется.",
-    deliveryAddressNotice: "Вы можете выбрать любой адрес — домой или в офис. 1 адрес на заказ.",
-    deliveryInspectionNotice: "При получении проверьте целостность упаковки и кассовый чек в присутствии курьера.",
-    selectDeliveryZone: "Выберите зону доставки:",
-    zoneChisinau: "Кишинёв (Бесплатно от 700 MDL)",
-    zoneMoldova: "Республика Молдова (Бесплатно от 1200 MDL)",
-    deliveryFeeLabel: "Доставка:",
-    freeDeliveryText: "БЕСПЛАТНО",
+  ro: {
+    // Header & Meta
+    siteTitle: "Turkofood – Importator En-Gros și Cu Amănuntul de Produse Turcești în Moldova",
+    siteSubtitle: "Livrări en-gros de baclava proaspătă, rahat-locum, ceai și delicatese pentru HoReCa, restaurante, cafenele și magazine",
+    topBarAnnouncement: "🏢 Livrări Directe En-Gros pentru HoReCa, Restaurante, Cafenele și Magazine în toată Moldova",
+    telegramContact: "@akilion",
 
-    // Header & Navigation
-    storeName: "TURKOFOOD",
-    tagline: "Натуральные турецкие продукты в Молдове",
-    navHome: "Главная",
-    navCatalog: "Каталог",
-    navCategories: "Категории",
-    navAbout: "О нас",
-    navContact: "Контакты",
-    searchPlaceholder: "Поиск баклавы, чая, лукума, специй...",
-    cartTitle: "Корзина",
-    emptyCart: "Ваша корзина пуста",
-    checkoutBtn: "Оформить заказ",
-    whatsappOrder: "Заказать через WhatsApp",
-    telegramOrder: "Заказать через Telegram",
-    mobileFilterBtn: "Категории и Фильтры",
-    
-    // Hero Banner
-    heroBadge: "100% ПРЯМЫЕ ПОСТАВКИ ИЗ ТУРЦИИ",
-    heroTitle: "Вкус Настоящей Турции у Вас Дома",
-    heroSubtitle: "Свежая баклава, рахат-лукум, ароматный чай, отборные орехи, специи и восточные сладости с доставкой по Кишиневу и всей Молдове.",
-    heroCtaPrimary: "Смотреть Каталог",
-    heroCtaSecondary: "Спецпредложения",
-    
-    // Feature Highlights
-    feat1Title: "Прямой Импорт",
-    feat1Desc: "100% аутентичные турецкие бренды высочайшего качества",
-    feat2Title: "Всегда Свежее",
-    feat2Desc: "Регулярные прямые поставки из Турции каждые 7 дней",
-    feat3Title: "Быстрая Доставка",
-    feat3Desc: "Доставка курьером по Кишиневу и почтой по всей Молдове",
-    feat4Title: "Гарантия Вкуса",
-    feat4Desc: "Натуральные ингредиенты без искусственных добавок",
+    // Hero Section
+    heroBadge: "🏢 Livrări Directe En-Gros & Cu Amănuntul din Turcia",
+    heroTitle: "Delicatese Turcești Autentice pentru Afacerea și Casa Dumneavoastră",
+    heroSubtitle: "Baclava proaspătă, rahat-locum, ceai Çaykur, nuci și condimente direct de la producători. Condiții speciale și prețuri flexibile en-gros pentru cafenele, restaurante, baruri și magazine.",
+    heroCatalogBtn: "Vezi Catalogul ⚡",
+    heroWholesaleBtn: "Ofertă En-Gros B2B 📑",
 
-    // Categories (Sidebar & Drawer)
-    categoriesTitle: "Категории Товаров",
-    allCategories: "Все Товары",
-    catBaklava: "Баклава & Кадаиф",
-    catRahatLukurn: "Рахат-Лукум",
-    catNuts: "Орехи & Семечки",
-    catDriedFruits: "Сухофрукты",
-    catTea: "Турецкий Чай",
-    catCoffee: "Турецкий Кофе",
-    catHalva: "Халва & Батончики",
-    catPastesJams: "Пасты & Джемы",
-    catDragees: "Драже & Сладости",
-    catSpicesOils: "Специи & Масла",
-    catCanned: "Консервы & Соусы",
-    catCookware: "Турецкая Посуда",
+    // B2B Wholesale Banner
+    b2bBannerTitle: "🏢 Livrări En-Gros pentru HoReCa, Cafenele & Magazine",
+    b2bBannerDesc: "Sunteți proprietarul unui restaurant, cafenea, bar sau magazin? Oferim prețuri flexibile en-gros și condiții individuale de livrare pentru afacerea dumneavoastră.",
+    b2bFeature1Title: "Reduceri de până la 35% B2B",
+    b2bFeature1Desc: "Listă de prețuri en-gros specială pentru comenzi de grup destinate cafenelelor și magazinelor.",
+    b2bFeature2Title: "Import Direct din Turcia",
+    b2bFeature2Desc: "Livrări regulate la fiecare 7 zile direct din depozitele producătorilor.",
+    b2bFeature3Title: "Ofertă Personalizată",
+    b2bFeature3Desc: "Adăugați produsele în coș și primiți un calcul individual en-gros pe Telegram.",
+    b2bFeature4Title: "Livrare Rapidă",
+    b2bFeature4Desc: "Livrare prin curier în Chișinău în 3 ore și în toată Moldova.",
 
-    // Catalog & Sorting
-    catalogTitle: "Наш Каталог",
-    catalogSubtitle: "Выберите лучшие турецкие деликатесы",
-    sortLabel: "Сортировка:",
-    sortDefault: "По умолчанию",
-    sortPriceAsc: "Сначала дешевле",
-    sortPriceDesc: "Сначала дороже",
-    sortTitle: "По названию",
-    itemsFound: "товаров",
-    noProductsFound: "Товары не найдены",
+    // Features
+    feat1Title: "Import Direct",
+    feat1Desc: "Branduri turcești 100% autentice de cea mai înaltă calitate",
+    feat2Title: "MEREU PROASPĂT",
+    feat2Desc: "Livrări directe regulate din Turcia la fiecare 7 zile",
+    feat3Title: "LIVRARE RAPIDĂ",
+    feat3Desc: "Livrare prin curier în Chișinău și prin poștă în toată Moldova",
 
-    // Badges & Weight Selector
-    badgePopular: "Хит",
-    badgeNew: "Новинка",
-    badgeBestseller: "Бестселлер",
-    badgeSale: "Акция",
-    addToCart: "В корзину",
-    addedToCart: "Добавлено в корзину!",
-    quickView: "Подробнее",
-    weightSelect: "Выберите Вес / Упаковку:",
-    pricePerUnit: "Цена:",
-    inStockStatus: "В наличии",
-    weightLabel: "Вес:",
+    // Categories
+    sidebarTitle: "Categorii Produse",
+    allCategories: "Toate Produsele",
+    catBaklava: "Baclava & Cadaiif",
+    catRahatLukurn: "Rahat-Locum",
+    catNuts: "Nuci & Semințe",
+    catDriedFruits: "Fructe Uscate",
+    catTea: "Ceai Turcesc Çaykur",
+    catCoffee: "Cafa Turcească",
+    catHalva: "Halva & Batoane",
+    catPastesJams: "Paste & Gemuri",
+    catDragees: "Drajeuri & Dulciuri",
+    catSpicesOils: "Condimente & Uleiuri",
+    catCanned: "Conserve",
+    catCookware: "Vase & Accesorii",
 
-    // Quick View / Product Detail Modal
-    modalClose: "Закрыть",
-    originLabel: "Происхождение:",
-    originValue: "Турция (100% оригинал)",
-    qualityLabel: "Качество:",
-    qualityValue: "Премиум класс",
-    selectWeightPrompt: "Кликните для выбора веса:",
+    // Controls
+    searchPlaceholder: "Căutare baclava, ceai, rahat, condimente...",
+    sortDefault: "Implicit",
+    sortPriceAsc: "Mai ieftin",
+    sortPriceDesc: "Mai scump",
+    sortName: "După nume",
+    itemsFound: "produse găsite",
+    quickViewBtn: "Vizualizare rapidă",
+    addToCart: "În coș",
+    selectWeightPrompt: "Selectați greutatea / ambalajul:",
+
+    // Modal
+    originLabel: "Origine:",
+    originTurkey: "Turcia (100% Original)",
+    qualityLabel: "Calitate:",
+    qualityPremium: "Premium / Import Proaspăt",
+    packagingLabel: "Ambalaj:",
+    packagingStandard: "Ambalaj de Fabrică",
+    clickSelectWeight: "Selectați greutatea / gramaj:",
 
     // Cart Drawer
-    cartSubtotal: "Итого:",
-    cartDeliveryNote: "Доставка рассчитывается при подтверждении",
-    clearCart: "Очистить",
-    selectedWeight: "Упаковка:",
+    cartTitle: "Coșul Tău",
+    cartSubtotalLabel: "Total (preț cu amănuntul):",
+    b2bNotice: "💡 Pentru cumpărătorii en-gros (HoReCa, cafenele, magazine) se aplică o listă de prețuri individuală cu reduceri. Trimiteți solicitarea prin Telegram!",
+    b2bOrderBtn: "🏢 Solicită Ofertă En-Gros pe Telegram (@akilion)",
+    emptyCart: "Coșul tău este gol",
+    remove: "Șterge",
 
-    // Floating Quick Chat Tooltips
-    chatWhatsAppTooltip: "Написать в WhatsApp",
-    chatTelegramTooltip: "Написать в Telegram",
+    // Delivery Section
+    deliverySectionTitle: "🚚 Condiții de Livrare în Chișinău și Moldova",
+    deliveryChisinauTitle: "Livrare în municipiul Chișinău",
+    deliveryChisinauText: "Se efectuează în termen de 3 ore de la confirmarea comenzii de către operatorii noștri. Livrarea se face de la 9:00 la 17:00 și este GRATUITĂ la comenzi de peste 700 MDL. Pentru comenzi de o valoare mai mică, costul livrării este de 80 MDL.",
+    deliveryMoldovaTitle: "Livrare în Republica Moldova",
+    deliveryMoldovaText: "Se efectuează în termen de 8-12 ore de la 9:00 la 16:00. GRATUIT la comenzi de peste 1200 MDL. Pentru comenzi de o valoare mai mică, costul livrării este de 120 MDL.",
+    deliveryNote1: "📅 În zilele de duminică și în sărbătorile legale nu se efectuează livrări.",
+    deliveryNote2: "📍 Puteți alege orice adresă — acasă, la birou, cafenea sau restaurant. 1 adresă per comandă.",
+    deliveryNote3: "🔍 La primire verificați integritatea ambalajului și bonul fiscal în prezența curierului.",
 
     // Footer
-    footerDesc: "Turkofood — Главный поставщик оригинальных турецких продуктов питания в Молдове. Самый широкий выбор баклавы, лукума, чая, кофе и турецких деликатесов.",
-    quickLinks: "Быстрые ссылки",
-    contactsTitle: "Контакты",
-    workingHoursTitle: "Часы работы",
-    workingHours: "Пн - Вс: 09:00 - 20:00",
-    phoneContact: "+373 67 353 798",
-    addressContact: "Молдова, г. Кишинев",
-    copyright: "© 2026 Turkofood (turkofood.vercel.app). Все права защищены."
-  },
-  ro: {
+    footerDesc: "Turkofood — Principalul furnizor de produse alimentare turcești originale și delicatese în Moldova. Livrări en-gros și cu amănuntul pentru HoReCa, restaurante, cafenele și cumpărători individuali.",
+    footerQuickLinks: "Linkuri rapide",
+    footerContacts: "Contacte & Comenzi",
+    footerHours: "Program de lucru",
+    workingHours: "Lu - Du: 09:00 - 20:00",
+    addressContact: "Moldova, or. Chișinău",
+    copyright: "© 2026 Turkofood (turkofood.vercel.app). Toate drepturile rezervate.",
+
+    // Aliases
+    Вес: "Greutate",
+    Сортировка: "Sortare",
+    доставки: "livrare",
+    Цена: "Preț",
+    Происхождение: "Origine",
+    Упаковка: "Ambalaj",
+    Качество: "Calitate",
+    веса: "greutatea",
+    Упаковку: "Ambalaj",
+    Доставка: "Livrare"
+  }
 
     Вес: "Greutate",
     Сортировка: "Sortare",
@@ -223,126 +247,16 @@ const TRANSLATIONS = {
     Упаковка: "Ambalaj",
     Качество: "Calitate",
     веса: "greutatea",
-    Итого: "Total",
-    Упаковку: "Ambalaj",
+    Упаковку: "Ambalajul",
     Доставка: "Livrare",
+    упаковку: "ambalajul",
+    Sortare: "Sortare",
+    Greutate: "Greutate",
+    livrare: "livrare",
+    Preț: "Preț",
+    Total: "Total",
+    Ambalajul: "Ambalajul",
+    greutatea: "greutatea",
 
-
-    // Delivery Section Keys
-    deliverySectionTitle: "🚚 Condiții de Livrare",
-    fullDeliveryRulesBtn: "Reguli detaliate de livrare",
-    deliveryChisinauTitle: "Livrare în municipiul Chișinău",
-    deliveryChisinauDesc: "Efectuată în 3 ore, între 09:00 - 17:00. GRATUIT de la 700 MDL. La comenzi mai mici de 700 MDL — cost livrare 80 MDL.",
-    deliveryMoldovaTitle: "Livrare pe teritoriul Republicii Moldova",
-    deliveryMoldovaDesc: "Efectuată în 8-12 ore, între 09:00 - 16:00. GRATUIT de la 1200 MDL. La comenzi mai mici de 1200 MDL — cost livrare 120 MDL.",
-    deliveryDaysNotice: "În zilele de duminică și sărbători legale nu se efectuează livrări.",
-    deliveryAddressNotice: "Puteți alege orice adresă — acasă sau la birou. O singură adresă per comandă.",
-    deliveryInspectionNotice: "La primire, verificați integritatea ambalajului și bonul fiscal în prezența curierului.",
-    selectDeliveryZone: "Selectați zona de livrare:",
-    zoneChisinau: "Chișinău (Gratuit de la 700 MDL)",
-    zoneMoldova: "Republica Moldova (Gratuit de la 1200 MDL)",
-    deliveryFeeLabel: "Cost livrare:",
-    freeDeliveryText: "GRATUIT",
-
-    // Header & Navigation
-    storeName: "TURKOFOOD",
-    tagline: "Produse turcești naturale în Moldova",
-    navHome: "Acasă",
-    navCatalog: "Catalog",
-    navCategories: "Categorii",
-    navAbout: "Despre Noi",
-    navContact: "Contacte",
-    searchPlaceholder: "Caută baclava, ceai, rahat, condimente...",
-    cartTitle: "Coșul Meu",
-    emptyCart: "Coșul tău este gol",
-    checkoutBtn: "Finalizează Comanda",
-    whatsappOrder: "Comandă prin WhatsApp",
-    telegramOrder: "Comandă prin Telegram",
-    mobileFilterBtn: "Categorii și Filtre",
-
-    // Hero Banner
-    heroBadge: "100% IMPORT DIRECT DIN TURCIA",
-    heroTitle: "Gustul Turciei Autentice la Tine Acasă",
-    heroSubtitle: "Baclava proaspătă, rahat lokum, ceai aromat, alune selecte, condimente și dulciuri orientale cu livrare în Chișinău și toată Moldova.",
-    heroCtaPrimary: "Vezi Catalogul",
-    heroCtaSecondary: "Oferte Speciale",
-
-    // Feature Highlights
-    feat1Title: "Import Direct",
-    feat1Desc: "Branduri turcești 100% autentice de cea mai înaltă calitate",
-    feat2Title: "Mereu Proaspăt",
-    feat2Desc: "Livrări directe regulate din Turcia la fiecare 7 zile",
-    feat3Title: "Livrare Rapidă",
-    feat3Desc: "Livrare prin curier în Chișinău și prin poștă în toată Moldova",
-    feat4Title: "Garanția Gustului",
-    feat4Desc: "Ingrediente naturale fără aditivi artificiali",
-
-    // Categories (Sidebar & Drawer)
-    categoriesTitle: "Categoriile Produselor",
-    allCategories: "Toate Produsele",
-    catBaklava: "Baclava & Kadaif",
-    catRahatLukurn: "Rahat Lokum",
-    catNuts: "Alune & Nucifere",
-    catDriedFruits: "Fructe Uscate",
-    catTea: "Ceai Turcesc",
-    catCoffee: "Cafea Turcească",
-    catHalva: "Halva & Batoane",
-    catPastesJams: "Paste & Gemuri",
-    catDragees: "Drajeuri & Dulciuri",
-    catSpicesOils: "Condimente & Uleiuri",
-    catCanned: "Conserve & Sosuri",
-    catCookware: "Veselă Turcească",
-
-    // Catalog & Sorting
-    catalogTitle: "Catalogul Nostru",
-    catalogSubtitle: "Alege cele mai bune delicii turcești",
-    sortLabel: "Sortare:",
-    sortDefault: "Implicit",
-    sortPriceAsc: "Preț crescător",
-    sortPriceDesc: "Preț descrescător",
-    sortTitle: "După nume",
-    itemsFound: "produse găsite",
-    noProductsFound: "Nu au fost găsite produse",
-
-    // Badges & Weight Selector
-    badgePopular: "Popular",
-    badgeNew: "Nou",
-    badgeBestseller: "Bestseller",
-    badgeSale: "Ofertă",
-    addToCart: "Adaugă în coș",
-    addedToCart: "Adăugat în coș!",
-    quickView: "Detalii",
-    weightSelect: "Alege Greutatea / Ambalajul:",
-    pricePerUnit: "Preț:",
-    inStockStatus: "În stoc",
-    weightLabel: "Greutate:",
-
-    // Quick View / Product Detail Modal
-    modalClose: "Închide",
-    originLabel: "Origine:",
-    originValue: "Turcia (100% original)",
-    qualityLabel: "Calitate:",
-    qualityValue: "Clasă Premium",
-    selectWeightPrompt: "Apasă pentru a alege greutatea:",
-
-    // Cart Drawer
-    cartSubtotal: "Total:",
-    cartDeliveryNote: "Livrarea se calculează la confirmare",
-    clearCart: "Golește",
-    selectedWeight: "Ambalaj:",
-
-    // Floating Quick Chat Tooltips
-    chatWhatsAppTooltip: "Scrie pe WhatsApp",
-    chatTelegramTooltip: "Scrie pe Telegram",
-
-    // Footer
-    footerDesc: "Turkofood — Principalul furnizor de produse alimentare turcești originale în Moldova. Cea mai vastă selecție de baclava, rahat, ceai, cafea și delicii orientale.",
-    quickLinks: "Linkuri Rapide",
-    contactsTitle: "Contacte",
-    workingHoursTitle: "Program de lucru",
-    workingHours: "Lu - Du: 09:00 - 20:00",
-    phoneContact: "+373 67 353 798",
-    addressContact: "Moldova, or. Chișinău",
-    copyright: "© 2026 Turkofood (turkofood.vercel.app). Toate drepturile rezervate."
   }
 };

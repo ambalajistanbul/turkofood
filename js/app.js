@@ -674,31 +674,58 @@
   }
 
   // Format Order Message Text with 100% Guaranteed Non-NaN Numbers & Perfect Bilingual Formatting
-  function buildFormattedOrderText() {
-    let text = state.lang === 'ru'
-      ? `Здравствуйте! Я хочу оформить заказ в магазине Turkofood (turkofood.vercel.app):\n\n`
-      : `Bună ziua! Doresc să plasez o comandă pe Turkofood (turkofood.vercel.app):\n\n`;
+    function buildFormattedOrderText() {
+    const isRu = state.lang === 'ru';
+    
+    let text = isRu 
+      ? `🏢 ЗАПРОС ОПТОВОГО ПРЕДЛОЖЕНИЯ (B2B WHOLESALE)
+`
+      : `🏢 SOLICITARE OFERTĂ EN-GROS (B2B WHOLESALE)
+`;
+      
+    text += isRu
+      ? `Здравствуйте! Прошу рассчитать оптовую стоимость / выслать индивидуальный топтовый прайс-лист для моего бизнеса (HoReCa / Кафе / Ресторан / Магазин).
 
-    let total = 0;
-    state.cart.forEach((item, i) => {
-      const prod = PRODUCTS_DATA.find(p => p.id === item.id);
-      if (prod) {
-        const uPrice = Number(item.unitPrice) || Number(prod.price) || 0;
-        const q = Number(item.qty) || 1;
-        const itemSum = uPrice * q;
-        total += itemSum;
-        const weightLabel = formatWeightLabel(item.weightLabel);
-        const unitSuffix = state.lang === 'ru' ? 'шт.' : 'buc.';
+`
+      : `Bună ziua! Vă rog să calculați prețul en-gros / să-mi trimiteți o ofertă comercială personalizată pentru afacerea mea (HoReCa / Cafenea / Restaurant / Magazin).
 
-        text += `${i + 1}. ${prod.title[state.lang]} (${weightLabel}) — ${q} ${unitSuffix} (${itemSum.toFixed(2)} MDL)\n`;
-      }
+`;
+
+    text += isRu ? `📋 Выбранный список товаров:
+` : `📋 Lista de produse selectate:
+`;
+
+    let subtotal = 0;
+
+    state.cart.forEach((item, index) => {
+      const prod = PRODUCTS_DATA.find(p => p.id === item.productId);
+      if (!prod) return;
+      
+      const title = isRu ? prod.title : (prod.title_ro || prod.title);
+      const weightObj = prod.weights[item.weightIndex] || prod.weights[0];
+      const itemPrice = weightObj.price * item.quantity;
+      subtotal += itemPrice;
+
+      const label = formatWeightLabel(weightObj.label);
+
+      text += `${index + 1}. ${title} (${label}) — ${item.quantity} шт x ${weightObj.price.toFixed(2)} MDL = ${itemPrice.toFixed(2)} MDL
+`;
     });
 
-    const totalLabel = state.lang === 'ru' ? 'Итого к оплате' : 'Total de plată';
-    const deliveryNote = state.lang === 'ru' ? 'Доставка по Кишиневу / Молдове.' : 'Livrare în Chișinău / Moldova.';
+    text += isRu 
+      ? `
+💰 Ориентировочная сумма по розничному прайсу: ${subtotal.toFixed(2)} MDL
+`
+      : `
+💰 Suma orientativă conform prețului cu amănuntul: ${subtotal.toFixed(2)} MDL
+`;
 
-    text += `\n${totalLabel} / Total: *${total.toFixed(2)} MDL*`;
-    text += `\n${deliveryNote}`;
+    text += isRu
+      ? `
+⭐ Ожидаю индивидуальное оптовое предложение со скидкой!`
+      : `
+⭐ Aștept oferta comercială personalizată cu reducere!`;
+
     return text;
   }
 

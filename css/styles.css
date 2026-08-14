@@ -1911,3 +1911,170 @@ img {
   background: #FFFFFF !important;
   border-top: 1.5px solid #E2E8F0;
 }
+
+
+/* === B2B WHOLESALE BANNER & SECTION STYLING === */
+.wholesale-section {
+  padding: 60px 0;
+  background: linear-gradient(180deg, #F8FAFC 0%, #EFF6FF 100%);
+}
+
+.wholesale-card {
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 48px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+  border: 1.5px solid #DBEAFE;
+}
+
+.wholesale-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 40px auto;
+}
+
+.wholesale-header h2 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #0F172A;
+  margin: 14px 0;
+}
+
+.wholesale-header p {
+  color: #475569;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.b2b-features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.b2b-feature-box {
+  background: #F8FAFC;
+  border-radius: 18px;
+  padding: 28px 24px;
+  border: 1px solid #E2E8F0;
+  transition: all 0.25s ease;
+}
+
+.b2b-feature-box:hover {
+  background: #FFFFFF;
+  transform: translateY(-4px);
+  border-color: #1D4ED8;
+  box-shadow: 0 12px 30px rgba(29, 78, 216, 0.12);
+}
+
+.b2b-icon {
+  font-size: 2.2rem;
+  margin-bottom: 14px;
+}
+
+.b2b-feature-box h4 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 10px;
+}
+
+.b2b-feature-box p {
+  font-size: 0.92rem;
+  color: #64748B;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.b2b-action-row {
+  text-align: center;
+}
+
+.b2b-telegram-btn {
+  background: linear-gradient(135deg, #0088cc, #006699) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  padding: 18px 36px !important;
+  border-radius: 16px !important;
+  box-shadow: 0 12px 30px rgba(0, 136, 204, 0.35) !important;
+}
+
+.b2b-telegram-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(0, 136, 204, 0.45) !important;
+}
+
+/* === B2B CART DRAWER STYLING === */
+.b2b-cart-notice {
+  background: #EFF6FF;
+  border: 1.5px solid #BFDBFE;
+  border-radius: 14px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+}
+
+.b2b-cart-notice p {
+  color: #1E40AF;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.b2b-cart-btn {
+  width: 100% !important;
+  justify-content: center !important;
+  background: linear-gradient(135deg, #0088cc, #006699) !important;
+  border-color: #0088cc !important;
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  padding: 16px 20px !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 24px rgba(0, 136, 204, 0.3) !important;
+}
+
+.b2b-cart-btn:hover {
+  background: #006699 !important;
+  transform: translateY(-2px);
+}
+
+.top-bar-tg-link {
+  color: #60A5FA !important;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.top-bar-tg-link:hover {
+  color: #93C5FD !important;
+  text-decoration: underline;
+}
+
+.tg-dock-text {
+  font-size: 0.88rem;
+  font-weight: 800;
+  margin-left: 6px;
+}
+
+@media (max-width: 1024px) {
+  .b2b-features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .b2b-features-grid {
+    grid-template-columns: 1fr;
+  }
+  .wholesale-card {
+    padding: 28px 20px;
+  }
+  .wholesale-header h2 {
+    font-size: 1.6rem;
+  }
+}
