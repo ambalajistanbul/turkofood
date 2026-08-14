@@ -1,29 +1,30 @@
 const TRANSLATIONS = {
-ru: {
+  ru: {
+    Доставка: "Доставка",
     // Header & Meta
-    siteTitle: "Turkofood – Оптовые и Розница Поставки Турецких Продуктов в Молдове",
+    siteTitle: "Turkofood – Оптовые Поставки Турецких Продуктов в Молдове",
     siteSubtitle: "Оптовые поставки свежей баклавы, лукума, чая и деликатесов для HoReCa, ресторанов, кафе и магазинов",
     topBarAnnouncement: "🏢 Прямые Оптовые Поставки для HoReCa, Ресторанов, Кафе и Магазинов по всей Молдове",
     telegramContact: "@akilion",
 
     // Hero Section
-    heroBadge: "🏢 Оптовые Поставки & Розница из Турции",
+    heroBadge: "🏢 Эксклюзивные Оптовые Поставки из Турции",
     heroTitle: "Настоящие Турецкие Деликатесы для Вашего Бизнеса и Дома",
-    heroSubtitle: "Свежая баклава, рахат-лукум, чай Çaykur, орехи и специи напрямую от производителей. Специальные условия и гибкие оптовые цены для кафе, ресторанов, баров и магазинов.",
+    heroSubtitle: "Свежая баклава, рахат-лукум, чай Çaykur, орехи и специи напрямую от производителей. Специальные закрытые условия и индивидуальные оптовые цены для кафе, ресторанов, баров и магазинов.",
     heroCatalogBtn: "Смотреть Каталог ⚡",
     heroWholesaleBtn: "Оптовое Предложение B2B 📑",
 
     // B2B Wholesale Banner
-    b2bBannerTitle: "🏢 Оптовые Поставки для HoReCa, Кафе & Магазинов",
-    b2bBannerDesc: "Вы владелец ресторана, кафе, бара или магазина? Мы предлагаем гибкие оптовые цены и индивидуальные условия поставки для Вашего бизнеса.",
-    b2bFeature1Title: "Скидки до 35% для B2B",
-    b2bFeature1Desc: "Специальный оптовый прайс-лист при заказе партий для кафе и магазинов.",
+    b2bBannerTitle: "🏢 Специальные Оптовые Условия для HoReCa, Кафе & Магазинов",
+    b2bBannerDesc: "Вы владелец ресторана, кафе, бара или магазина? Получите эксклюзивные оптовые расценки и персональные условия поставки напрямую от импортера.",
+    b2bFeature1Title: "Спец-Цены для HoReCa & Ритейла",
+    b2bFeature1Desc: "Персональные оптовые расценки в зависимости от объема. Чем больше партия — тем выгоднее предложение.",
     b2bFeature2Title: "Прямой Импорт из Турции",
     b2bFeature2Desc: "Регулярные поставки каждые 7 дней прямо со складов производителей.",
-    b2bFeature3Title: "Индивидуальное Предложение",
-    b2bFeature3Desc: "Добавьте товары в корзину и получите индивидуальный оптовый расчет в Telegram.",
-    b2bFeature4Title: "Оперативная Доставка",
-    b2bFeature4Desc: "Доставка курьером по Кишиневу за 3 часа и по всей Молдове.",
+    b2bFeature3Title: "Персональный Прайс в Telegram",
+    b2bFeature3Desc: "Сформируйте список товаров в корзине и мгновенно получите эксклюзивный оптовый расчет в Telegram.",
+    b2bFeature4Title: "Быстрая Доставка по Молдове",
+    b2bFeature4Desc: "Оперативная курьерская доставка по Кишиневу за 3 часа и по всей Молдове.",
 
     // Features
     feat1Title: "Прямой Импорт",
@@ -71,8 +72,8 @@ ru: {
 
     // Cart Drawer
     cartTitle: "Ваша Корзина",
-    cartSubtotalLabel: "Итого (розничная цена):",
-    b2bNotice: "💡 Для оптовых покупателей (HoReCa, кафе, магазины) действует индивидуальный прайс-лист со скидками. Оформите запрос через Telegram!",
+    cartSubtotalLabel: "Итого (ориентир по рознице):",
+    b2bNotice: "💡 Для оптовых клиентов (HoReCa, кафе, рестораны, магазины) действуют специальные закрытые цены! Добавьте товары в корзину и нажмите кнопку ниже, чтобы получить индивидуальный расчет со спец-скидкой.",
     b2bOrderBtn: "🏢 Запросить Оптовый Прайс в Telegram (@akilion)",
     emptyCart: "Ваша корзина пуста",
     remove: "Удалить",
@@ -88,7 +89,7 @@ ru: {
     deliveryNote3: "🔍 При получении проверьте целостность упаковки и кассовый чек в присутствии курьера.",
 
     // Footer
-    footerDesc: "Turkofood — Главный поставщик оригинальных турецких продуктов питания и деликатесов в Молдове. Оптовые и розничные поставки для HoReCa, ресторанов, кафе и розничных покупателей.",
+    footerDesc: "Turkofood — Главный поставщик оригинальных турецких продуктов питания и деликатесов в Молдове. Оптовые поставки для HoReCa, ресторанов, кафе и магазинов.",
     footerQuickLinks: "Быстрые ссылки",
     footerContacts: "Контакты & Заказ",
     footerHours: "Часы работы",
@@ -107,53 +108,39 @@ ru: {
     Ambalaj: "Упаковка",
     greutatea: "вес",
     Ambalajul: "Упаковку",
-    Доставка: "Livrare"
-  
-    Greutate: "Вес",
-    Preț: "Цена",
-    livrare: "Доставка",
-    Calitate: "Качество",
-    Sortare: "Сортировка",
-    Origine: "Происхождение",
-    Total: "Итого",
-    Ambalaj: "Упаковка",
-    greutatea: "вес",
-    Ambalajul: "Упаковку",
     ambalajul: "упаковку",
     веса: "веса",
     Упаковку: "Упаковку",
     Вес: "Вес",
     Сортировка: "Сортировка",
     доставки: "доставки",
-    Цена: "Цена",
-
+    Цена: "Цена"
   },
-
   ro: {
     // Header & Meta
-    siteTitle: "Turkofood – Importator En-Gros și Cu Amănuntul de Produse Turcești în Moldova",
+    siteTitle: "Turkofood – Importator En-Gros de Produse Turcești în Moldova",
     siteSubtitle: "Livrări en-gros de baclava proaspătă, rahat-locum, ceai și delicatese pentru HoReCa, restaurante, cafenele și magazine",
     topBarAnnouncement: "🏢 Livrări Directe En-Gros pentru HoReCa, Restaurante, Cafenele și Magazine în toată Moldova",
     telegramContact: "@akilion",
 
     // Hero Section
-    heroBadge: "🏢 Livrări Directe En-Gros & Cu Amănuntul din Turcia",
-    heroTitle: "Delicatese Turcești Autentice pentru Afacerea și Casa Dumneavoastră",
-    heroSubtitle: "Baclava proaspătă, rahat-locum, ceai Çaykur, nuci și condimente direct de la producători. Condiții speciale și prețuri flexibile en-gros pentru cafenele, restaurante, baruri și magazine.",
+    heroBadge: "🏢 Livrări Exclusive En-Gros din Turcia",
+    heroTitle: "Delicatese Turcești Autentice pentru Afacerea Dumneavoastră",
+    heroSubtitle: "Baclava proaspătă, rahat-locum, ceai Çaykur, nuci și condimente direct de la producători. Condiții speciale confidențiale și prețuri en-gros individuale pentru cafenele, restaurante, baruri și magazine.",
     heroCatalogBtn: "Vezi Catalogul ⚡",
     heroWholesaleBtn: "Ofertă En-Gros B2B 📑",
 
     // B2B Wholesale Banner
-    b2bBannerTitle: "🏢 Livrări En-Gros pentru HoReCa, Cafenele & Magazine",
-    b2bBannerDesc: "Sunteți proprietarul unui restaurant, cafenea, bar sau magazin? Oferim prețuri flexibile en-gros și condiții individuale de livrare pentru afacerea dumneavoastră.",
-    b2bFeature1Title: "Reduceri de până la 35% B2B",
-    b2bFeature1Desc: "Listă de prețuri en-gros specială pentru comenzi de grup destinate cafenelelor și magazinelor.",
+    b2bBannerTitle: "🏢 Condiții Speciale En-Gros Pentru HoReCa, Cafenele & Magazine",
+    b2bBannerDesc: "Sunteți proprietarul unui restaurant, cafenea, bar sau magazin? Obțineți prețuri exclusive en-gros și condiții individuale de livrare direct de la importator.",
+    b2bFeature1Title: "Prețuri Speciale HoReCa & Retail",
+    b2bFeature1Desc: "Prețuri individuale en-gros în funcție de volum. Cu cât comanda este mai mare — cu atât oferta este mai avantajoasă.",
     b2bFeature2Title: "Import Direct din Turcia",
     b2bFeature2Desc: "Livrări regulate la fiecare 7 zile direct din depozitele producătorilor.",
-    b2bFeature3Title: "Ofertă Personalizată",
-    b2bFeature3Desc: "Adăugați produsele în coș și primiți un calcul individual en-gros pe Telegram.",
-    b2bFeature4Title: "Livrare Rapidă",
-    b2bFeature4Desc: "Livrare prin curier în Chișinău în 3 ore și în toată Moldova.",
+    b2bFeature3Title: "Ofertă Personalizată pe Telegram",
+    b2bFeature3Desc: "Selectați produsele în coș și primiți instantaneu un calcul en-gros exclusiv pe Telegram.",
+    b2bFeature4Title: "Livrare Rapidă în Moldova",
+    b2bFeature4Desc: "Livrare operativă prin curier în Chișinău în 3 ore și în toată Moldova.",
 
     // Features
     feat1Title: "Import Direct",
@@ -201,8 +188,8 @@ ru: {
 
     // Cart Drawer
     cartTitle: "Coșul Tău",
-    cartSubtotalLabel: "Total (preț cu amănuntul):",
-    b2bNotice: "💡 Pentru cumpărătorii en-gros (HoReCa, cafenele, magazine) se aplică o listă de prețuri individuală cu reduceri. Trimiteți solicitarea prin Telegram!",
+    cartSubtotalLabel: "Total (orientativ cu amănuntul):",
+    b2bNotice: "💡 Pentru clienții en-gros (HoReCa, cafenele, restaurante, magazine) se aplică prețuri speciale confidențiale! Adăugați produsele în coș și apăsați butonul de mai jos pentru a primi calculul individual.",
     b2bOrderBtn: "🏢 Solicită Ofertă En-Gros pe Telegram (@akilion)",
     emptyCart: "Coșul tău este gol",
     remove: "Șterge",
@@ -218,7 +205,7 @@ ru: {
     deliveryNote3: "🔍 La primire verificați integritatea ambalajului și bonul fiscal în prezența curierului.",
 
     // Footer
-    footerDesc: "Turkofood — Principalul furnizor de produse alimentare turcești originale și delicatese în Moldova. Livrări en-gros și cu amănuntul pentru HoReCa, restaurante, cafenele și cumpărători individuali.",
+    footerDesc: "Turkofood — Principalul furnizor de produse alimentare turcești originale și delicatese în Moldova. Livrări en-gros pentru HoReCa, restaurante, cafenele și magazine.",
     footerQuickLinks: "Linkuri rapide",
     footerContacts: "Contacte & Comenzi",
     footerHours: "Program de lucru",
@@ -227,18 +214,6 @@ ru: {
     copyright: "© 2026 Turkofood (turkofood.vercel.app). Toate drepturile rezervate.",
 
     // Aliases
-    Вес: "Greutate",
-    Сортировка: "Sortare",
-    доставки: "livrare",
-    Цена: "Preț",
-    Происхождение: "Origine",
-    Упаковка: "Ambalaj",
-    Качество: "Calitate",
-    веса: "greutatea",
-    Упаковку: "Ambalaj",
-    Доставка: "Livrare"
-  }
-
     Вес: "Greutate",
     Сортировка: "Sortare",
     доставки: "livrare",
@@ -256,7 +231,6 @@ ru: {
     Preț: "Preț",
     Total: "Total",
     Ambalajul: "Ambalajul",
-    greutatea: "greutatea",
-
+    greutatea: "greutatea"
   }
 };
