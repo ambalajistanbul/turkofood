@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/styles.css?v=50">
+  <link rel="stylesheet" href="css/styles.css?v=51">
 
   <!-- Structured Data JSON-LD (Schema.org) for SEO -->
   <script type="application/ld+json">
@@ -154,50 +154,22 @@
             <a href="#catalog" class="btn-secondary" data-i18n="heroCtaSecondary">Спецпредложения</a>
           </div>
         </div>
-                <div class="hero-slideshow-container">
-          <div class="hero-slideshow" id="hero-slideshow">
-            <div class="slides-track" id="slides-track">
-              <!-- Slide 1 -->
-              <div class="hero-slide active">
-                <img src="images/hero_banner.jpg" alt="Turkofood Gourmet Showcase" class="slide-bg">
-                <div class="slide-caption">
-                  <span class="slide-badge" data-i18n="slide1Badge">🏢 ПРЯМОЙ ОПТОВЫЙ ДЕПОЗИТ В КИШИНЕВЕ</span>
-                  <h3 class="slide-title" data-i18n="slide1Title">Прямые Оптовые Поставки из Турции для Вашего Заведения</h3>
-                  <p class="slide-desc" data-i18n="slide1Desc">Специальные оптовые условия для Кафе, Ресторанов, Баров, Магазинов и АЗС.</p>
-                </div>
-              </div>
-
-              <!-- Slide 2 -->
-              <div class="hero-slide">
-                <img src="images/exact_card/card_img_121.jpg" alt="Çaykur Tea Showcase" class="slide-bg">
-                <div class="slide-caption">
-                  <span class="slide-badge" data-i18n="slide2Badge">🫖 ОФИЦИАЛЬНЫЙ ТУРЕЦКИЙ ЧАЙ ÇAYKUR</span>
-                  <h3 class="slide-title" data-i18n="slide2Title">Настоящий Турецкий Чай Çaykur для Ресторанов и Хорека</h3>
-                  <p class="slide-desc" data-i18n="slide2Desc">Самый популярный чай в Турции с быстрой доставкой по Кишиневу и Молдове.</p>
-                </div>
-              </div>
-
-              <!-- Slide 3 -->
-              <div class="hero-slide">
-                <img src="images/exact_card/card_img_21.jpg" alt="Koska Jams Showcase" class="slide-bg">
-                <div class="slide-caption">
-                  <span class="slide-badge" data-i18n="slide3Badge">🥮 СВЕЖАЯ БАКЛАВА & РАХАТ-ЛОКУМ KOSKA</span>
-                  <h3 class="slide-title" data-i18n="slide3Title">Свежайшая Баклава и Лукум Прямо с Заводов Стамбула</h3>
-                  <p class="slide-desc" data-i18n="slide3Desc">Регулярные поставки сладостей в герметичной упаковке.</p>
-                </div>
-              </div>
+                <div class="hero-banner-frame">
+          <div class="hero-slides-wrapper">
+            <div class="hero-slide active">
+              <img src="images/hero_banner.jpg" alt="Turkofood Gourmet Showcase" class="hero-slide-img">
             </div>
-
-            <!-- Controls -->
-            <button class="slide-control prev" onclick="prevHeroSlide()" type="button" aria-label="Previous Slide">❮</button>
-            <button class="slide-control next" onclick="nextHeroSlide()" type="button" aria-label="Next Slide">❯</button>
-
-            <!-- Dots -->
-            <div class="slide-indicators">
-              <span class="indicator active" onclick="goToHeroSlide(0)"></span>
-              <span class="indicator" onclick="goToHeroSlide(1)"></span>
-              <span class="indicator" onclick="goToHeroSlide(2)"></span>
+            <div class="hero-slide">
+              <img src="images/exact_card/card_img_6.jpg" alt="Çaykur Tea Showcase" class="hero-slide-img">
             </div>
+            <div class="hero-slide">
+              <img src="images/exact_card/card_img_21.jpg" alt="Koska Jams Showcase" class="hero-slide-img">
+            </div>
+          </div>
+          <div class="hero-slide-dots">
+            <span class="hero-dot active" onclick="goToHeroSlide(0)"></span>
+            <span class="hero-dot" onclick="goToHeroSlide(1)"></span>
+            <span class="hero-dot" onclick="goToHeroSlide(2)"></span>
           </div>
         </div>
       </div>
@@ -464,9 +436,9 @@
   </footer>
 
   <!-- Application Bundles -->
-  <script src="js/products.js?v=50"></script>
-  <script src="js/translations.js?v=50"></script>
-  <script src="js/app.js?v=50"></script>
+  <script src="js/products.js?v=51"></script>
+  <script src="js/translations.js?v=51"></script>
+  <script src="js/app.js?v=51"></script>
 
 
 </body>

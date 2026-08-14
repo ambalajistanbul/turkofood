@@ -146,13 +146,13 @@
 
   // Initialize Application
   
-  // HERO SLIDESHOW ENGINE
+    // HERO BANNER SLIDER ENGINE
   let currentHeroSlide = 0;
   let heroSlideTimer = null;
 
   function updateHeroSlideshow() {
     const slides = document.querySelectorAll('.hero-slide');
-    const dots = document.querySelectorAll('.slide-indicators .indicator');
+    const dots = document.querySelectorAll('.hero-slide-dots .hero-dot');
     if (!slides.length) return;
 
     slides.forEach((slide, idx) => {
@@ -168,15 +168,6 @@
     if (!slides.length) return;
     currentHeroSlide = (currentHeroSlide + 1) % slides.length;
     updateHeroSlideshow();
-    restartHeroSlideTimer();
-  }
-
-  function prevHeroSlide() {
-    const slides = document.querySelectorAll('.hero-slide');
-    if (!slides.length) return;
-    currentHeroSlide = (currentHeroSlide - 1 + slides.length) % slides.length;
-    updateHeroSlideshow();
-    restartHeroSlideTimer();
   }
 
   function goToHeroSlide(index) {
@@ -189,14 +180,11 @@
     if (heroSlideTimer) clearInterval(heroSlideTimer);
     heroSlideTimer = setInterval(() => {
       nextHeroSlide();
-    }, 5000);
+    }, 4500);
   }
 
-  // Expose slideshow globally
   window.nextHeroSlide = nextHeroSlide;
-  window.prevHeroSlide = prevHeroSlide;
   window.goToHeroSlide = goToHeroSlide;
-
 
   function init() {
     restartHeroSlideTimer();
