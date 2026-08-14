@@ -4,6 +4,39 @@
 
   const SITE_URL = 'https://turkofood.vercel.app';
 
+  // Focus Trap & Accessibility Helper Functions (A11Y)
+  let lastFocusedElement = null;
+  let activeFocusContainer = null;
+
+  function trapFocus(containerEl) {
+    if (!containerEl) return;
+    lastFocusedElement = document.activeElement;
+    activeFocusContainer = containerEl;
+
+    setTimeout(() => {
+      const focusables = getFocusableElements(containerEl);
+      if (focusables.length > 0) {
+        focusables[0].focus();
+      }
+    }, 50);
+  }
+
+  function releaseFocus() {
+    activeFocusContainer = null;
+    if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
+      lastFocusedElement.focus();
+    }
+    lastFocusedElement = null;
+  }
+
+  function getFocusableElements(containerEl) {
+    if (!containerEl) return [];
+    return Array.from(containerEl.querySelectorAll(
+      'button:not([disabled]), [href]:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    )).filter(el => el.offsetWidth > 0 || el.offsetHeight > 0 || el === document.activeElement);
+  }
+
+
   function escapeHTML(str) {
     if (typeof str !== 'string') return '';
     return str.replace(/[&<>'"]/g, function(tag) {
@@ -235,6 +268,8 @@
     const ogDesc = t('ogDescription');
     const ogDescEl = document.getElementById('og-description');
     if (ogDescEl && ogDesc) ogDescEl.setAttribute('content', ogDesc);
+    const ogLocaleEl = document.getElementById('og-locale');
+    if (ogLocaleEl) ogLocaleEl.setAttribute('content', state.lang === 'ru' ? 'ru_MD' : 'ro_MD');
   }
 
   // Category Sidebar Renderer
@@ -347,14 +382,20 @@
     const backdrop = document.getElementById('category-drawer-backdrop') || elements.categoryDrawerBackdrop;
     const drawer = document.getElementById('category-drawer') || elements.categoryDrawer;
     if (backdrop) backdrop.classList.add('active');
-    if (drawer) drawer.classList.add('active');
+    if (drawer) {
+      drawer.classList.add('active');
+      trapFocus(drawer);
+    }
   }
 
   function closeCategoryDrawer() {
     const backdrop = document.getElementById('category-drawer-backdrop') || elements.categoryDrawerBackdrop;
     const drawer = document.getElementById('category-drawer') || elements.categoryDrawer;
     if (backdrop) backdrop.classList.remove('active');
-    if (drawer) drawer.classList.remove('active');
+    if (drawer) {
+      drawer.classList.remove('active');
+      releaseFocus();
+    }
   }
 
   // Filter & Sort Logic
@@ -440,7 +481,7 @@
     }
 
     elements.productsGrid.innerHTML = products.map(prod => {
-      const title = prod.title[state.lang];
+      const title = escapeHTML(prod.title[state.lang] || prod.title['ru']);
       const badgeText = prod.badge ? t(`badge${prod.badge.charAt(0).toUpperCase() + prod.badge.slice(1)}`) : '';
       
       const selWeightIdx = state.selectedWeights[prod.id] || 0;
@@ -504,13 +545,14 @@
 
     updateModalUI();
     elements.modalBackdrop.classList.add('active');
+    trapFocus(document.getElementById('quickview-modal') || elements.modalBackdrop);
   }
 
   function updateModalUI() {
     const prod = state.activeModalProduct;
     if (!prod) return;
 
-    const title = prod.title[state.lang];
+    const title = escapeHTML(prod.title[state.lang] || prod.title['ru']);
     const desc = prod.description[state.lang];
     const selWeightObj = prod.weights[state.activeModalWeightIdx] || prod.weights[0];
     const formattedLabel = formatWeightLabel(selWeightObj.label);
@@ -570,6 +612,7 @@
   function closeModal() {
     if (elements.modalBackdrop) {
       elements.modalBackdrop.classList.remove('active');
+      releaseFocus();
     }
   }
 
@@ -625,6 +668,7 @@
     if (elements.cartDrawerBackdrop && elements.cartDrawer) {
       elements.cartDrawerBackdrop.classList.add('active');
       elements.cartDrawer.classList.add('active');
+      trapFocus(elements.cartDrawer);
     }
   }
 
@@ -632,6 +676,7 @@
     if (elements.cartDrawerBackdrop && elements.cartDrawer) {
       elements.cartDrawerBackdrop.classList.remove('active');
       elements.cartDrawer.classList.remove('active');
+      releaseFocus();
     }
   }
 
@@ -679,7 +724,7 @@
       const uPrice = Number(cartItem.unitPrice) || Number(prod.price) || 0;
       const q = Number(cartItem.qty) || 1;
       const itemTotal = uPrice * q;
-      const title = prod.title[state.lang];
+      const title = escapeHTML(prod.title[state.lang] || prod.title['ru']);
       const weightLabel = formatWeightLabel(cartItem.weightLabel);
 
       return `
@@ -809,6 +854,27 @@ Vă rog să calculați prețul en-gros personalizat pentru lista selectată de p
       closeModal();
       closeCartDrawer();
       closeCategoryDrawer();
+      return;
+    }
+
+    if (e.key === 'Tab' && activeFocusContainer) {
+      const focusables = getFocusableElements(activeFocusContainer);
+      if (focusables.length === 0) return;
+
+      const firstEl = focusables[0];
+      const lastEl = focusables[focusables.length - 1];
+
+      if (e.shiftKey) {
+        if (document.activeElement === firstEl || !activeFocusContainer.contains(document.activeElement)) {
+          e.preventDefault();
+          lastEl.focus();
+        }
+      } else {
+        if (document.activeElement === lastEl || !activeFocusContainer.contains(document.activeElement)) {
+          e.preventDefault();
+          firstEl.focus();
+        }
+      }
     }
   });
 
