@@ -449,7 +449,7 @@
 
             <div class="product-footer">
               <div class="product-price-wrapper">
-                <div class="product-price-box"><span class="product-price">${currentPrice.toFixed(2)} MDL</span><span class="b2b-price-tag">${t('b2bPriceTag')}</span></div>
+                <span class="product-price">${currentPrice.toFixed(2)} MDL</span><div class="b2b-pill-row"><span class="b2b-price-pill">${t('b2bPriceTag')}</span></div>
               </div>
               <button class="add-cart-btn" 
                       onclick="event.stopPropagation(); TurkofoodApp.addToCartWithWeight('${prod.id}', ${selWeightIdx})" 

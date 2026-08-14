@@ -2188,27 +2188,45 @@ img {
 }
 
 
-/* === B2B PRICE BADGE STYLING === */
-.product-price-box {
+/* === ULTRA-MODERN B2B PRICE PILL STYLING === */
+.product-price-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 2px;
+  gap: 4px;
 }
 
-.b2b-price-tag {
+.product-price {
+  font-size: 1.3rem !important;
+  font-weight: 800 !important;
+  color: #1D4ED8 !important;
+  line-height: 1.2 !important;
+}
+
+.b2b-pill-row {
+  margin-top: 2px;
+}
+
+.b2b-price-pill {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  background: #EFF6FF;
+  gap: 5px;
+  background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
   border: 1px solid #BFDBFE;
-  color: #1D4ED8;
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 3px 8px;
-  border-radius: 12px;
-  margin-top: 2px;
-  white-space: nowrap;
+  color: #1E40AF;
+  font-size: 0.73rem;
+  font-weight: 750;
+  padding: 3px 10px;
+  border-radius: 20px;
   letter-spacing: 0.01em;
-  box-shadow: 0 1px 3px rgba(29, 78, 216, 0.08);
+  box-shadow: 0 2px 5px rgba(29, 78, 216, 0.06);
+  transition: all 0.2s ease;
+}
+
+.b2b-price-pill:hover {
+  background: #1D4ED8;
+  color: #FFFFFF;
+  border-color: #1D4ED8;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
 }
