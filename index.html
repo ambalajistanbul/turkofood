@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/styles.css?v=63">
+  <link rel="stylesheet" href="css/styles.css?v=64">
 
   <!-- Structured Data JSON-LD (Schema.org) for SEO -->
   <script type="application/ld+json">
@@ -250,11 +250,11 @@
   </section>
 
   <!-- Mobile Category Filter Drawer / Modal -->
-  <div id="category-drawer-backdrop" class="cart-drawer-backdrop"></div>
+  <div id="category-drawer-backdrop" class="cart-drawer-backdrop" onclick="TurkofoodApp.closeCategoryDrawer()"></div>
   <aside id="category-drawer" class="cart-drawer" style="max-width: 380px;">
     <div class="cart-header">
       <h3 style="font-size: 1.2rem;" data-i18n="categoriesTitle">Категории Товаров</h3>
-      <button id="category-drawer-close" style="font-size: 1.5rem; color: var(--text-muted);">&times;</button>
+      <button id="category-drawer-close" onclick="TurkofoodApp.closeCategoryDrawer()" style="font-size: 1.5rem; color: var(--text-muted);">&times;</button>
     </div>
     <div style="padding: 16px; overflow-y: auto;">
       <ul id="mobile-drawer-cat-list" class="sidebar-category-list">
@@ -425,9 +425,9 @@
   </footer>
 
   <!-- Application Bundles -->
-  <script src="js/products.js?v=63"></script>
-  <script src="js/translations.js?v=63"></script>
-  <script src="js/app.js?v=63"></script>
+  <script src="js/products.js?v=64"></script>
+  <script src="js/translations.js?v=64"></script>
+  <script src="js/app.js?v=64"></script>
 
 
 

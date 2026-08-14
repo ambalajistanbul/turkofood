@@ -319,17 +319,17 @@
   }
 
   function openCategoryDrawer() {
-    if (elements.categoryDrawerBackdrop && elements.categoryDrawer) {
-      elements.categoryDrawerBackdrop.classList.add('active');
-      elements.categoryDrawer.classList.add('active');
-    }
+    const backdrop = document.getElementById('category-drawer-backdrop') || elements.categoryDrawerBackdrop;
+    const drawer = document.getElementById('category-drawer') || elements.categoryDrawer;
+    if (backdrop) backdrop.classList.add('active');
+    if (drawer) drawer.classList.add('active');
   }
 
   function closeCategoryDrawer() {
-    if (elements.categoryDrawerBackdrop && elements.categoryDrawer) {
-      elements.categoryDrawerBackdrop.classList.remove('active');
-      elements.categoryDrawer.classList.remove('active');
-    }
+    const backdrop = document.getElementById('category-drawer-backdrop') || elements.categoryDrawerBackdrop;
+    const drawer = document.getElementById('category-drawer') || elements.categoryDrawer;
+    if (backdrop) backdrop.classList.remove('active');
+    if (drawer) drawer.classList.remove('active');
   }
 
   // Filter & Sort Logic
@@ -763,6 +763,8 @@ Vă rog să calculați prețul en-gros personalizat pentru lista selectată de p
     init,
     setLanguage,
     selectCategory,
+    openCategoryDrawer,
+    closeCategoryDrawer,
     selectCardWeight,
     setModalWeight,
     openQuickView,
