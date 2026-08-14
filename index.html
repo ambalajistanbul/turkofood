@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/styles.css?v=39">
+  <link rel="stylesheet" href="css/styles.css?v=40">
 
   <!-- Structured Data JSON-LD (Schema.org) for SEO -->
   <script type="application/ld+json">
@@ -76,10 +76,7 @@
             <span>📍</span>
             <span data-i18n="addressContact">Молдова, г. Кишинев</span>
           </div>
-          <div class="top-bar-item">
-            <span>📞</span>
-            <span data-i18n="phoneContact">+373 67 353 798</span>
-          </div>
+          
           <div class="top-bar-item">
             <span>✉️</span>
             <span>paperistan@gmail.com</span>
@@ -282,7 +279,7 @@
     </div>
   </div>
 
-  <!-- Shopping Cart Slide-over Drawer with Dual WhatsApp & Telegram Checkout Buttons -->
+  <!-- Shopping Cart Drawer -->
   <div id="cart-drawer-backdrop" class="cart-drawer-backdrop"></div>
   <aside id="cart-drawer" class="cart-drawer">
     <div class="cart-header">
@@ -300,10 +297,7 @@
       <p style="font-size: 0.8rem; color: var(--text-muted); text-align: center;" data-i18n="cartDeliveryNote">Доставка рассчитывается при подтверждении</p>
       
       <!-- Dual Messenger Direct Order Buttons -->
-      <button id="whatsapp-checkout-btn" class="btn-whatsapp-checkout">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 001.333 4.993L2 22l5.233-1.237a9.96 9.96 0 004.779 1.221h.005c5.505 0 9.988-4.478 9.989-9.984 0-2.669-1.038-5.176-2.925-7.062A9.925 9.925 0 0012.012 2zm5.86 14.288c-.247.697-1.444 1.333-1.993 1.385-.506.049-1.164.225-3.824-.872-3.4-1.401-5.59-4.88-5.76-5.105-.17-.225-1.378-1.832-1.378-3.493 0-1.661.868-2.478 1.177-2.815.309-.337.675-.422.9-.422.225 0 .45.003.647.011.209.008.49-.079.766.584.282.675.961 2.348 1.045 2.518.085.169.141.366.028.591-.113.225-.169.366-.338.563-.169.197-.356.441-.508.591-.169.169-.346.353-.148.694.197.337.876 1.446 1.88 2.341 1.29 1.151 2.378 1.508 2.716 1.677.338.169.535.141.733-.085.197-.225.845-.986 1.07-1.324.225-.337.45-.281.761-.169.309.113 1.968.928 2.306 1.097.338.169.563.253.647.394.084.141.084.817-.163 1.514z"/></svg>
-        <span data-i18n="whatsappOrder">Заказать через WhatsApp</span>
-      </button>
+      
 
       <button id="telegram-checkout-btn" class="btn-telegram-checkout">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
@@ -323,11 +317,7 @@
 
   <!-- Persistent Floating Quick Action Dock (RIGHT SIDE) -->
   <div class="floating-action-dock">
-    <!-- WhatsApp Floating Bubble -->
-    <a href="https://wa.me/37367353798" target="_blank" rel="noopener" class="dock-btn btn-wa-bubble" title="WhatsApp Chat" data-i18n-title="chatWhatsAppTooltip" aria-label="WhatsApp Chat">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 001.333 4.993L2 22l5.233-1.237a9.96 9.96 0 004.779 1.221h.005c5.505 0 9.988-4.478 9.989-9.984 0-2.669-1.038-5.176-2.925-7.062A9.925 9.925 0 0012.012 2zm5.86 14.288c-.247.697-1.444 1.333-1.993 1.385-.506.049-1.164.225-3.824-.872-3.4-1.401-5.59-4.88-5.76-5.105-.17-.225-1.378-1.832-1.378-3.493 0-1.661.868-2.478 1.177-2.815.309-.337.675-.422.9-.422.225 0 .45.003.647.011.209.008.49-.079.766.584.282.675.961 2.348 1.045 2.518.085.169.141.366.028.591-.113.225-.169.366-.338.563-.169.197-.356.441-.508.591-.169.169-.346.353-.148.694.197.337.876 1.446 1.88 2.341 1.29 1.151 2.378 1.508 2.716 1.677.338.169.535.141.733-.085.197-.225.845-.986 1.07-1.324.225-.337.45-.281.761-.169.309.113 1.968.928 2.306 1.097.338.169.563.253.647.394.084.141.084.817-.163 1.514z"/></svg>
-      <span class="pulse-ring"></span>
-    </a>
+    
 
     <!-- Telegram Floating Bubble -->
     <a href="https://t.me/akilion" target="_blank" rel="noopener" class="dock-btn btn-tg-bubble" title="Telegram Chat" data-i18n-title="chatTelegramTooltip" aria-label="Telegram Chat">
@@ -400,7 +390,7 @@
           <h4 class="footer-title" data-i18n="contactsTitle">Контакты</h4>
           <ul style="list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 0.9rem;">
             <li data-i18n="addressContact">Молдова, г. Кишинев</li>
-            <li data-i18n="phoneContact">+373 67 353 798</li>
+            
             <li>paperistan@gmail.com</li>
             <li>Telegram: @akilion</li>
           </ul>
@@ -421,9 +411,9 @@
   </footer>
 
   <!-- Application Bundles -->
-  <script src="js/products.js?v=39"></script>
-  <script src="js/translations.js?v=39"></script>
-  <script src="js/app.js?v=39"></script>
+  <script src="js/products.js?v=40"></script>
+  <script src="js/translations.js?v=40"></script>
+  <script src="js/app.js?v=40"></script>
 
 
 </body>

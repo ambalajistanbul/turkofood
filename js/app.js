@@ -51,7 +51,7 @@
     scrollToTopBtn: document.getElementById('scroll-to-top'),
 
     // WhatsApp & Telegram Checkout Buttons
-    whatsappCheckoutBtn: document.getElementById('whatsapp-checkout-btn'),
+    
     telegramCheckoutBtn: document.getElementById('telegram-checkout-btn')
   };
 
@@ -309,9 +309,7 @@
       });
     }
 
-    if (elements.whatsappCheckoutBtn) {
-      elements.whatsappCheckoutBtn.addEventListener('click', triggerWhatsAppOrder);
-    }
+    
 
     if (elements.telegramCheckoutBtn) {
       elements.telegramCheckoutBtn.addEventListener('click', triggerTelegramOrder);
@@ -729,18 +727,6 @@
     return text;
   }
 
-  // WhatsApp Order Trigger (+373 67 353 798)
-  function triggerWhatsAppOrder() {
-    if (state.cart.length === 0) {
-      alert(t('emptyCart'));
-      return;
-    }
-    const phone = '37367353798';
-    const text = buildFormattedOrderText();
-    const url = `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
-    window.open(url, '_blank');
-  }
-
   // Telegram Order Trigger (@akilion)
   function triggerTelegramOrder() {
     if (state.cart.length === 0) {
@@ -775,7 +761,7 @@
     updateQtyByKey,
     openCartDrawer,
     closeCartDrawer,
-    triggerWhatsAppOrder,
+    
     triggerTelegramOrder,
     setDeliveryZone
   };
