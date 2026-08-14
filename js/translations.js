@@ -41,7 +41,7 @@ const TRANSLATIONS = {
     catRahatLukurn: "Рахат-Лукум",
     catNuts: "Орехи & Семечки",
     catDriedFruits: "Сухофрукты",
-    catTea: "Турецкий Чай Çaykur",
+    catTea: "🫖 Ceai Turcesc",
     catCoffee: "Турецкий Кофе",
     catHalva: "Халва & Батончики",
     catPastesJams: "Пасты & Джемы",
