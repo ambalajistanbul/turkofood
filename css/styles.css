@@ -46,22 +46,24 @@
   padding: 0;
 }
 
-html, body {
+html {
   width: 100%;
   max-width: 100%;
   overflow-x: clip;
   position: relative;
   scroll-behavior: smooth;
   font-size: 16px;
+  background-color: #0F172A !important;
 }
 
 body {
   font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background-color: var(--light-bg);
   color: var(--text-main);
+  background-color: #F8FAFC;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  padding-bottom: 75px;
+  padding-bottom: 0 !important;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2392,4 +2394,15 @@ img {
   .cart-btn-text {
     display: none !important;
   }
+}
+
+
+/* Fix Bottom White Gap under Dark Footer */
+html {
+  background-color: #0F172A !important;
+}
+
+.site-footer {
+  background: #0F172A !important;
+  padding-bottom: 40px !important;
 }
