@@ -1,6 +1,9 @@
 // Turkofood Language Dictionary (RU & RO)
 const TRANSLATIONS = {
   ru: {
+    "cartSubtitle": "Оптовые и розничные заказы с доставкой по Молдове",
+    "checkoutTelegram": "Оформить Заказ в Telegram",
+
     "sourcingTitle": "Импортируем любой товар из Турции под заказ",
     "sourcingSubtitle": "Нужен редкий турецкий бренд, специальная упаковка или оптовая партия соусов, сладостей и бакалеи? Мы доставим прямой поставкой из Стамбула в Кишинев.",
     "sourcingFeat1": "Прямые поставки с фабрик",
@@ -19,7 +22,7 @@ const TRANSLATIONS = {
     "addressContact": "Молдова, г. Кишинев",
     "tagline": "НАТУРАЛЬНЫЕ ТУРЕЦКИЕ ПРОДУКТЫ В МОЛДОВЕ",
     "logoTagline": "НАТУРАЛЬНЫЕ ТУРЕЦКИЕ ПРОДУКТЫ В МОЛДОВЕ",
-    "cartTitle": "Корзина Оптового Запроса",
+    "cartTitle": "Корзина Заказов",
     "heroBadge": "🏬 ГЛАВНЫЙ ОПТОВЫЙ ИМПОРТЕР ТУРЕЦКИХ ПРОДУКТОВ В МОЛДОВЕ",
     "heroTitle": "Прямые Оптовые Поставки из Турции для Вашего Бизнеса и Заведения",
     "heroSubtitle": "Оптовый склад-депозит в Кишинёве. Поставляем оригинальную турецкую баклаву, рахат-лукум, чай Çaykur, пасты Koska, специи и кофе для кафе, ресторанов, баров, магазинов, АЗС и отелей по персональным закрытым оптовым ценам.",
@@ -95,6 +98,9 @@ const TRANSLATIONS = {
     "quickView": "Быстрый просмотр"
 },
   ro: {
+    "cartSubtitle": "Comenzi en-gros și cu amănuntul cu livrare în Moldova",
+    "checkoutTelegram": "Trimite Comanda pe Telegram",
+
     "sourcingTitle": "Importăm orice produs din Turcia la comandă",
     "sourcingSubtitle": "Ai nevoie de un brand turcesc rar, ambalaj special sau lot en-gros? Livrăm direct din Istanbul la Chișinău.",
     "sourcingFeat1": "Livrări directe din fabrici",
@@ -113,7 +119,7 @@ const TRANSLATIONS = {
     "addressContact": "Moldova, mun. Chișinău",
     "tagline": "PRODUSE TURCEȘTI ÎN MOLDOVA",
     "logoTagline": "PRODUSE TURCEȘTI ÎN MOLDOVA",
-    "cartTitle": "Coș Solicitare En-Gros",
+    "cartTitle": "Coș de Cumpărături",
     "heroBadge": "🏬 PRINCIPALUL IMPORTATOR EN-GROS DE PRODUSE TURCEȘTI ÎN MOLDOVA",
     "heroTitle": "Livrări Directe En-Gros din Turcia pentru Afacerea și Localul Dumneavoastră",
     "heroSubtitle": "Depozit en-gros în Chișinău. Furnizăm baclava turcească originală, rahat-locum, ceai Çaykur, paste de susan Koska, condimente și cafea pentru cafenele, restaurante, baruri, magazine, benzinării și hoteluri la prețuri en-gros confidențiale.",

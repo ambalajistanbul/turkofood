@@ -769,16 +769,14 @@
     const isRu = state.lang === 'ru';
     
     let text = isRu 
-      ? `🏢 ЗАПРОС ПЕРСОНАЛЬНОГО ОПТОВОГО ПРАЙС-ЛИСТА (B2B OFFER REQUEST)\n`
-      : `🏢 SOLICITARE OFERTĂ EN-GROS PERSONALIZATĂ (B2B OFFER REQUEST)\n`;
+      ? `🛒 ЗАКАЗ ТОВАРОВ — TURKOFOOD (ОПТ И РОЗНИЦА)\n`
+      : `🛒 COMANDĂ PRODUSE — TURKOFOOD (EN-GROS ȘI CU AMĂNUNTUL)\n`;
       
     text += isRu
-      ? `Здравствуйте! Я представитель бизнеса (Кафе / Ресторан / Бар / Магазин / АЗС / Отель).
-Прошу рассчитать индивидуальную оптовую стоимость для выбранного списка товаров:
+      ? `Здравствуйте! Хочу оформить заказ (или получить спеццену для бизнеса) на выбранные товары:
 
 `
-      : `Bună ziua! Sunt reprezentantul unei afaceri (Cafenea / Restaurant / Bar / Magazin / PECO / Hotel).
-Vă rog să calculați prețul en-gros personalizat pentru lista selectată de produse:
+      : `Bună ziua! Doresc să plasez o comandă (sau să primesc ofertă specială pentru afaceri) pentru produsele selectate:
 
 `;
 

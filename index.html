@@ -47,7 +47,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/styles.css?v=71">
+  <link rel="stylesheet" href="css/styles.css?v=72">
 
   <!-- Structured Data JSON-LD (Schema.org) for SEO -->
   <script type="application/ld+json">
@@ -304,9 +304,12 @@
   <!-- Shopping Cart Drawer -->
   <div id="cart-drawer-backdrop" class="cart-drawer-backdrop"></div>
   <aside id="cart-drawer" class="cart-drawer" role="dialog" aria-modal="true" aria-label="Корзина">
-    <div class="cart-header">
-      <h3 style="font-size: 1.3rem;" data-i18n="cartTitle">Корзина</h3>
-      <button id="cart-close-btn" style="font-size: 1.5rem; color: var(--text-muted);">&times;</button>
+    <div class="cart-header" style="display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 12px; border-bottom: 1px solid var(--border-light);">
+      <div>
+        <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--text-main);" data-i18n="cartTitle">Корзина Заказов</h3>
+        <p style="font-size: 0.78rem; color: #64748B; margin-top: 3px;" data-i18n="cartSubtitle">Оптовые и розничные заказы с доставкой по Молдове</p>
+      </div>
+      <button id="cart-close-btn" style="font-size: 1.5rem; color: var(--text-muted); background: none; border: none; cursor: pointer; padding: 0 4px;">&times;</button>
     </div>
     <div id="cart-items-list" class="cart-items-list">
       <!-- Injected via app.js -->
@@ -461,9 +464,9 @@
   </footer>
 
   <!-- Application Bundles -->
-  <script src="js/products.js?v=71"></script>
-  <script src="js/translations.js?v=71"></script>
-  <script src="js/app.js?v=71"></script>
+  <script src="js/products.js?v=72"></script>
+  <script src="js/translations.js?v=72"></script>
+  <script src="js/app.js?v=72"></script>
 
 
 
